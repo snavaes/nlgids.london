@@ -3,5 +3,5 @@ SOURCES=$(patsubst %.md,%.html,$(wildcard *.md))
 all: $(SOURCES)
 
 %.html: %.md
-	pandoc -t html $< > $@
+	pandoc -t html $< > inc/$@
 
