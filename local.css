@@ -3,8 +3,6 @@
     left: 5%;
     padding-bottom: 10%;
     position: absolute;
-    color: white;
     font-weight: bold;
     font-size: xx-large;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
