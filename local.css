@@ -8,7 +8,6 @@
 .header-image {
     background: url('img/london-skyline-isolated.png') no-repeat center center;
     background-size: cover;
-/*    padding-bottom: 10%; */
     margin-bottom: 0.5%;
 }
 
@@ -20,3 +19,11 @@
 .header-content {
     font-size: xx-large;
 }
+
+/*
+body {
+    background: url('img/london-skyline.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 0.5%;
+}
+*/
