@@ -4,3 +4,10 @@
     position: absolute;
     font-size: x-large;
 }
+
+.header-image {
+    background: url('img/london-skyline-isolated.png') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 10%;
+    margin-bottom: 0.5%;
+}
