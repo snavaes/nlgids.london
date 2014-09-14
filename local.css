@@ -1,7 +1,6 @@
 .post-content {
-    top: 5%;
-    left: 5%;
+    top: 70px;
+    left: 10%;
     position: absolute;
-    font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
 }
