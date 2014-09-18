@@ -5,10 +5,17 @@
     font-weight: bold;
 }
 
+.in-content {
+    top: 7px;
+    position: absolute;
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .header-image {
     background: url('img/london-skyline-isolated.png') no-repeat center center;
     background-size: cover;
-    margin-bottom: 0.5%;
+    margin-bottom: 2%;
 }
 
 .header-content {
@@ -17,6 +24,11 @@
 
 .footer-buffer {
     margin-top: 1%;
+}
+
+.text-buffer {
+    margin-right: 0%;
+    padding-right: 0%;
 }
 
 hr {
@@ -43,5 +55,5 @@ a.sluglink {
 
 .full {
     background: seashell;
-    background: grey;
+    width: 100%;
 }
