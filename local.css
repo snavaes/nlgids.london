@@ -1,8 +1,8 @@
 .post-content {
-    top: 70px;
-    left: 10%;
+    top: 7px;
     position: absolute;
     font-size: x-large;
+    font-weight: bold;
 }
 
 .header-image {
@@ -17,4 +17,31 @@
 
 .footer-buffer {
     margin-top: 1%;
+}
+
+hr {
+    border-color: black;
+}
+
+.slug {
+    background: grey;
+    background: seashell;
+    min-height: 9em;
+}
+
+a.sluglink:link    { color: black; }
+a.sluglink:visited { color: black; }
+a.sluglink:hover   { color: black; text-decoration: underline; }
+a.sluglink:active  { color: black; }
+a.sluglink {
+    background-color: transparent;
+}
+
+.sluglink {
+    margin-left: 5em;
+}
+
+.full {
+    background: seashell;
+    background: grey;
 }
