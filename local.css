@@ -26,9 +26,14 @@
     margin-top: 1%;
 }
 
-.text-buffer {
+.no-gutter-right {
     margin-right: 0%;
     padding-right: 0%;
+}
+
+.no-gutter-left {
+    margin-left: 0%;
+    padding-left: 0%;
 }
 
 hr {
@@ -38,6 +43,7 @@ hr {
 .slug {
     background: grey;
     background: seashell;
+    width: 300px;
     min-height: 9em;
 }
 
@@ -56,4 +62,5 @@ a.sluglink {
 .full {
     background: seashell;
     width: 100%;
+    min-height: 400px;
 }
