@@ -72,7 +72,7 @@ a.sluglink {
 }
 
 .social {
-    max-width: 50%;
+    max-width: 48px;
 }
 
 .full {
@@ -87,6 +87,11 @@ body.en :lang(nl) {
 
 body.nl :lang(en) {
     display: none;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    line-height: 1.8;
 }
 
 hr {
