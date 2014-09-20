@@ -20,6 +20,9 @@
 
 .header-content {
     font-size: xx-large;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+
 }
 
 .footer-buffer {
@@ -68,5 +71,5 @@ a.sluglink {
 .full {
     background: seashell;
     width: 100%;
-    min-height: 400px;
+    max-height: 400px;
 }
