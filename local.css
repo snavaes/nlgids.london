@@ -42,6 +42,8 @@
 .flag {
     padding: 0;
     margin: 0;
+    background: transparent;
+    border: 0;
 }
 
 .text-padding {
@@ -67,6 +69,10 @@ a.sluglink {
 
 .sluglink {
     margin-left: 5em;
+}
+
+.social {
+    width: 50%;
 }
 
 .full {
