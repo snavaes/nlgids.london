@@ -5,5 +5,6 @@ echte Londenaar.
 </div>
 
 <div lang="en">
-I'm in London.
+Early 2013 I moved to London with my husband and daughter. This presented an enormous
+opportunity to explore the city and get it to know like a real Londoner.
 </div>
