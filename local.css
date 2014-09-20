@@ -5,13 +5,6 @@
     font-weight: bold;
 }
 
-.in-content {
-    top: 7px;
-    position: absolute;
-    font-size: x-large;
-    font-weight: bold;
-}
-
 .header-image {
     background: url('img/london-skyline-isolated.png') no-repeat center center;
     background-size: cover;
@@ -53,7 +46,6 @@
 }
 
 .slug {
-    background: grey;
     background: seashell;
     max-width: 300px;
     min-height: 9em;
@@ -63,15 +55,25 @@ a.sluglink:link    { color: black; }
 a.sluglink:visited { color: black; }
 a.sluglink:hover   { color: black; text-decoration: underline; }
 a.sluglink:active  { color: black; }
-a.sluglink {
-    background-color: transparent;
-}
-
+a.sluglink { background-color: transparent; }
 .sluglink {
     margin-left: 5em;
 }
 
+.nav {
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+}
+a.nav:link    { color: black; }
+a.nav:visited { color: black; }
+a.nav:hover   { color: black; text-decoration: underline; }
+a.nav:active  { color: black; }
+
 .social {
+    padding-top: 10px;
+    padding-bottom: 10px;
     max-width: 48px;
 }
 
