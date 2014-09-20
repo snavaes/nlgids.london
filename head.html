@@ -1,14 +1,19 @@
-<body onload="document.body.className='nl'">
+<body onload="
+langcookie=document.cookie;
+if (langcookie == '') { document.body.className='nl' };
+if (langcookie == 'lang=nl') { document.body.className='nl' };
+if (langcookie == 'lang=en') { document.body.className='en' };
+">
 <div class="row">
 
 <div class="col-sm-1">
-<button class="flag" onclick="document.body.className='en'">
+<button class="flag" onclick="document.body.className='en';document.cookie='lang=en'; ">
 <img src="img/United-Kingdom.png" class="img-responsive" alt="Engelse vlag">
 </button>
 </div>
 
 <div class="col-sm-1">
-<button class="flag" onclick="document.body.className='nl'">
+<button class="flag" onclick="document.body.className='nl';document.cookie='lang=nl'; ">
 <img src="img/Netherlands.png" class="img-responsive" alt="Nederlandse vlag">
 </button>
 </div>
