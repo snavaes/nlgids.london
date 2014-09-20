@@ -5,3 +5,6 @@ all: $(SOURCES)
 %.html: %.md
 	pandoc -t html $< > ../inc/$@
 
+.PHONY clean:
+	rm ../inc/*
+
