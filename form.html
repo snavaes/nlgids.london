@@ -13,69 +13,45 @@
       </div>
       <div class="modal-body">
 
-          <form role="form">
+          <form class="form-horizontal">
 <fieldset>
 
-<!-- Select Basic -->
-<div class="form-group">
-  <label for="selectbasic">Tour</label>
-  <div class="controls">
-    <select id="selectbasic" name="selectbasic" class="input-xlarge">
-      <option>Tour one</option>
-      <option>Tour two</option>
-    </select>
-  </div>
-</div>
+        <div class="form-group">
+            <label for="inputEmail" class="control-label col-xs-2">Email</label>
+            <div class="col-xs-10">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword" class="control-label col-xs-2">Password</label>
+            <div class="col-xs-10">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-2 col-xs-10">
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+            </div>
+        </div>
 
-<!-- Date -->
-<input id="date" name="date" class="datepicker" data-provide="datepicker">
+        <div class="form-group">
+            <label for="inputTour" class="control-label col-xs-2">Tour</label>
+            <div class="col-xs-10">
+                <select id="inputTour" name="selectTour" class="form-control">
+                    <option>Tour one</option>
+                    <option>Tour two</option>
+                </select>
+             </div>
+        </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="control-label" for="name">Naam</label>
-  <div class="controls">
-    <input id="name" name="name" type="text" placeholder="Vul hier je naam in" class="input-xlarge" required="">
-  </div>
-</div>
 
-<!-- Multiple Radios (inline) -->
-<div class="form-group">
-  <label class="control-label" for="persons">Aantal Personen</label>
-  <div class="controls">
-    <label class="radio inline" for="persons-0">
-      <input type="radio" name="persons" id="persons-0" value="1" checked="checked">
-      1
-    </label>
-    <label class="radio inline" for="persons-1">
-      <input type="radio" name="persons" id="persons-1" value="2">
-      2
-    </label>
-    <label class="radio inline" for="persons-2">
-      <input type="radio" name="persons" id="persons-2" value="3">
-      3
-    </label>
-    <label class="radio inline" for="persons-3">
-      <input type="radio" name="persons" id="persons-3" value="4">
-      4
-    </label>
-    <label class="radio inline" for="persons-4">
-      <input type="radio" name="persons" id="persons-4" value="5">
-      5
-    </label>
-    <label class="radio inline" for="persons-5">
-      <input type="radio" name="persons" id="persons-5" value="6">
-      6
-    </label>
-  </div>
-</div>
-
-<!-- Textarea -->
-<div class="form-group">
-  <label class="control-label" for="bericht">Bericht</label>
-  <div class="controls">
-    <textarea id="bericht" name="bericht">Eventuele extra opmerkingen.</textarea>
-  </div>
-</div>
+        <div class="form-group">
+            <div class="col-xs-offset-2 col-xs-10">
+                <button type="submit" class="btn btn-primary">Boek nu</button>
+            </div>
+        </div>
 
 </fieldset>
 </form>
@@ -83,7 +59,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
-        <button type="button" class="btn btn-primary">Boeken</button>
       </div>
     </div>
   </div>
