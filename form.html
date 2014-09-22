@@ -1,0 +1,90 @@
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      Boek nu
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Boek een Tour</h4>
+      </div>
+      <div class="modal-body">
+
+          <form role="form">
+<fieldset>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label for="selectbasic">Tour</label>
+  <div class="controls">
+    <select id="selectbasic" name="selectbasic" class="input-xlarge">
+      <option>Tour one</option>
+      <option>Tour two</option>
+    </select>
+  </div>
+</div>
+
+<!-- Date -->
+<input id="date" name="date" class="datepicker" data-provide="datepicker">
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="control-label" for="name">Naam</label>
+  <div class="controls">
+    <input id="name" name="name" type="text" placeholder="Vul hier je naam in" class="input-xlarge" required="">
+  </div>
+</div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="control-label" for="persons">Aantal Personen</label>
+  <div class="controls">
+    <label class="radio inline" for="persons-0">
+      <input type="radio" name="persons" id="persons-0" value="1" checked="checked">
+      1
+    </label>
+    <label class="radio inline" for="persons-1">
+      <input type="radio" name="persons" id="persons-1" value="2">
+      2
+    </label>
+    <label class="radio inline" for="persons-2">
+      <input type="radio" name="persons" id="persons-2" value="3">
+      3
+    </label>
+    <label class="radio inline" for="persons-3">
+      <input type="radio" name="persons" id="persons-3" value="4">
+      4
+    </label>
+    <label class="radio inline" for="persons-4">
+      <input type="radio" name="persons" id="persons-4" value="5">
+      5
+    </label>
+    <label class="radio inline" for="persons-5">
+      <input type="radio" name="persons" id="persons-5" value="6">
+      6
+    </label>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="control-label" for="bericht">Bericht</label>
+  <div class="controls">
+    <textarea id="bericht" name="bericht">Eventuele extra opmerkingen.</textarea>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+        <button type="button" class="btn btn-primary">Boeken</button>
+      </div>
+    </div>
+  </div>
+</div>
