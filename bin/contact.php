@@ -27,7 +27,14 @@ Er is een nieuwe boeking gemaild, met de volgende details:
 * Naam:  $name ($email)
 * Datum: $date
 
+Het volgende bericht is achter gelaten:
+
+===================================================
 $message
+===================================================
+
+Met vriendelijke groet,
+NLgids mailer
 EOF;
 $headers = "From: miek@miek.nl\n";
 $headers .= "Reply-To: $email";	
