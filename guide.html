@@ -4,13 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NLgids London/gids</title>
+
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Local -->
     <link href="local.css" rel="stylesheet">
+    <link href="datepicker/css/datepicker.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NLgids London</title>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,36 +26,95 @@
   </head>
   <body>
     <div class="container-fluid">
+
       <div class="row">
         <div class="col-sm-12 header-image">
             <!--#include virtual="head.html" -->
         </div>
+      </div> <!-- row -->
+
+
       <div class="row" style="width:98%;margin-left:1%">
-        <div class="col-sm-3">
-                   <hr/>
-                   <a class="nav" href="index.html">Home</a>
-                   <a class="nav" href="index.html">Guide</a>
-                   <a class="nav" href="index.html">Tour</a>
-                   <a class="nav" href="index.html">Tips</a>
-                   <hr/>
-        </div>
+
+        <div class="col-sm-3 well">
+                <a href="tours.html">
+                    <img src="img/ans.png" class="img-responsive" alt="Foto van de Gids Ans Vaessen">
+                </a>
+                     <a class="btn btn-default btn-lg post-content" style="role="button" lang="nl" href="guide.html">Gids</a>
+                <div class="caption">
+                <!--#include virtual="inc/guide.html" -->
+            </div>
+        </div> <!-- 3 -->
+        <div class="clearfix"/>
+
         <div class="col-sm-6">
-            <div class="full text-padding">
-            <!--#include virtual="inc/guide.html" -->
-            </div>
+
+            <div class="well">
+              <a name="tour-notendop"></a>
+            <div class="row container-fluid">
+                <div class="col-sm-2 pull-left gutter">
+                    <img class="img-responsive" width="200px" height="200px" src="img/tour-city-notendop.png" alt="London in een notendop">
+                </div>
+                <div class="col-sm-8"> 
+                    <h1>City of London in een Notendop</h1>
+                </div> <!-- 8 -->
+            </div> <!-- row -->
+
+            <div class="row container-fluid">
+                <div class="col-sm-8">
+<p lang="nl">
+De City is vaak een vergeten onderdeel in een trip aan Londen. De City niet alleen het finaciele hart van de stad is maar ook van het oude Londen.
+<em>De square mile</em> is waar de Romeinen Londinium stichten, waar de Saxen woonde en waar nu de bankiers zitten.
+</p>
+                </div> <!-- col-sm-8 -->
+                 <div style="height:4em" class="col-sm-4">
+                        <button class="btn btn-primary btn-lg pull-right announce" data-id="N/A Contact"
+                            data-toggle="modal" data-target="#myModal">Neem contact op</button>
+                 </div> <!-- col-sm-4 -->
+             </div> <!-- row -->
+         </div> <!-- well -->
+
+
+        </div> <!-- col-sm-6 -->
+
+        <div class="col-sm-1">
         </div>
-        <div class="col-sm-3">
-            <img src="img/ans.png" class="img-responsive" alt="Foto van de gids Ans Vaessen">
-            </div>
-        </div>
+
+        <div class="col-sm-2">
+                <!--#include virtual="navbar.html" -->
+        </div> <!-- 3 -->
+        <div class="clearfix"/>
+
+
       <!-- Footer -->
-        <div class="col-sm-12">
+      <div class="col-sm-12">
             <!--#include virtual="foot.html" -->
-        </div>
-    </div>
+      </div>
+
+      </div> <!-- row -->
+
+
+    </div> <!-- class="container-fluid" -->
+
+
+    <!--#include virtual="form.html" -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact.js"></script>
+
+
+<script type="text/javascript">
+    $('#inputDate').datepicker({
+    todayBtn: "linked",
+    autoclose: true,
+    todayHighlight: true
+    });
+</script>
   </body>
 </html>
