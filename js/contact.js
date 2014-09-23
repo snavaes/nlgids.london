@@ -16,6 +16,8 @@ $(function() {
        // get values from FORM
        var name = $("input#inputName").val();
        var email = $("input#inputEmail").val();
+       var tour = $("input#inputTour").val();
+       var date = $("input#inputDate").val();
        var message = $("textarea#inputMessage").val();
         var firstName = name; // For Success/Failure Message
            // Check for white space in name for Success/Fail message
@@ -25,7 +27,7 @@ $(function() {
 	 $.ajax({
                 url: "../bin/contact.php",
             	type: "POST",
-            	data: {inputName: name, inputEmail: email, inputMessage: message},
+            	data: {inputName: name, inputEmail: email, inputDate: date, inputTour: tour, inputMessage: message},
             	cache: false,
             	success: function() {
             	// Success message
@@ -33,7 +35,7 @@ $(function() {
             	   $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             		.append( "</button>");
             	  $('#success > .alert-success')
-            		.append("<strong>Your message has been sent. </strong>" + message);
+            		.append("<strong>Boeking is met succes verzonden. </strong>");
  		  $('#success > .alert-success')
  			.append('</div>');
 

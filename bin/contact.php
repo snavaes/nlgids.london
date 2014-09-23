@@ -10,15 +10,26 @@ if(empty($_POST['inputName'])  		||
    }
 
 $name = $_POST['inputName'];
+$date = $_POST['inputData'];
 $email = $_POST['inputEmail'];
+$tour = $_POST['inputTour'];
 $message = $_POST['inputMessage'];
 
+
 // create email body and send it	
-$subject= "Contact form submitted by:  $name";
-$body = "You have received a new message. \n\n".
-				  " Here are the details:\n \nName: $name \n ".
-				  "Email: $email\n Message \n $message";
-$headers = "From: contacts@myprogrammingblog.com\n";
+$subject= "[NLgids] Boeking voor \"$tour\" van $name";
+$body = <<<EOF
+Hallo Ans,
+
+Er is een nieuwe boeking gemaild, met de volgende details:
+    
+* Tour:  $tour
+* Naam:  $name ($email)
+* Datum: $date
+
+$message
+EOF;
+$headers = "From: miek@miek.nl\n";
 $headers .= "Reply-To: $email";	
 mail("miek@miek.nl",$subject,$body,$headers);
 mail("ans@nlgids.london",$subject,$body,$headers);
