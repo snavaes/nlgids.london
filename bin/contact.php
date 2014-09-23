@@ -21,6 +21,6 @@ $email_body = "You have received a new message. \n\n".
 				  "Email: $email\n Message \n $message";
 $headers = "From: contacts@myprogrammingblog.com\n";
 $headers .= "Reply-To: $email";	
-#mail($to,$email_subject,$email_body,$headers);
+mail($to,$email_subject,$email_body,$headers);
 return true;			
 ?>
