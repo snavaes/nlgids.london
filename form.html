@@ -13,14 +13,15 @@
         <div class="form-group">
             <label for="inputName" class="control-label col-xs-2">Naam</label>
             <div class="col-xs-10">
-                <input type="text" name="inputName" class="form-control" id="inputName" placeholder="Naam">
+                <input type="text" required name="inputName" class="form-control" id="inputName" placeholder="Naam">
             </div>
         </div>
 
         <div class="form-group">
             <label for="inputSize" class="control-label col-xs-2">Aantal</label>
             <div class="col-xs-10">
-                <input type="text" name="inputSize" class="form-control" id="inputSize"
+                <input type="number" name="inputSize" class="form-control" id="inputSize"
+                data-validation-number-message="Das geen nummer"
                 placeholder="Aantal personen dat deel neemt">
             </div>
         </div>
@@ -28,7 +29,10 @@
         <div class="form-group">
             <label for="inputEmail" class="control-label col-xs-2">Email</label>
             <div class="col-xs-10">
-                <input type="email" name="inputEmail" class="form-control" id="inputEmail" placeholder="Email">
+                <input type="email" name="inputEmail" required
+                data-validation-email-message="Das geen email"
+                data-validation-required-message="Vul aub een email adres in"
+                class="form-control" id="inputEmail" placeholder="Email">
             </div>
         </div>
 

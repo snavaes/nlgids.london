@@ -1,7 +1,6 @@
 /*
   Jquery Validation using jqBootstrapValidation
-   example is taken from jqBootstrapValidation docs
-  */
+*/
 $(function() {
 
  $("input,textarea").jqBootstrapValidation(
@@ -48,7 +47,7 @@ $(function() {
  		 $('#success').html("<div class='alert alert-danger'>");
             	$('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             	 .append( "</button>");
-            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+", er lijkt iets mis te gaan...</strong> Kunt u een directe mail sturen naar <a href='mailto:ans@nlgids.londdon?Subject=[NLgids] reservering'>ans@nlgids.london</a> ? Sorry voor het ongemak!");
+            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+", er lijkt iets mis te gaan...</strong> Kunt u een directe mail sturen naar <a href='mailto:ans@nlgids.london?Subject=[NLgids] reservering'>ans@nlgids.london</a> ? Sorry voor het ongemak!");
  	        $('#success > .alert-danger').append('</div>');
  		//clear all fields
  		$('#contactForm').trigger("reset");
@@ -67,7 +66,7 @@ $(function() {
   });
 
 
-/*When clicking on Full hide fail/success boxes */
+/* When clicking on Full hide fail/success boxes */
 $('#myModal').on('hidden.bs.modal', function () {
      $('#success').html('');
 });
@@ -75,6 +74,5 @@ $('#myModal').on('hidden.bs.modal', function () {
 $(document).ready(function(){
       $(".announce").click(function(){ // Click to only happen on announce links
           $("#inputTour").val($(this).data('id'));
-/*$('#myModal').modal('show'); */
       });
 });
