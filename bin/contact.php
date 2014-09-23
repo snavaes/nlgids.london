@@ -10,7 +10,7 @@ if(empty($_POST['inputName'])  		||
    }
 
 $name = $_POST['inputName'];
-$date = $_POST['inputData'];
+$date = $_POST['inputDate'];
 $email = $_POST['inputEmail'];
 $tour = $_POST['inputTour'];
 $message = $_POST['inputMessage'];
