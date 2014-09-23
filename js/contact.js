@@ -23,7 +23,7 @@ $(function() {
 	   firstName = name.split(' ').slice(0, -1).join(' ');
          }
 	 $.ajax({
-                url: "bin/contact.php",
+                url: "../bin/contact.php",
             	type: "POST",
             	data: {inputName: name, inputEmail: email, inputMessage: message},
             	cache: false,
@@ -67,4 +67,11 @@ $(function() {
 /*When clicking on Full hide fail/success boxes */
 $('#myModal').on('hidden.bs.modal', function () {
      $('#success').html('');
+});
+
+$(document).ready(function(){
+      $(".announce").click(function(){ // Click to only happen on announce links
+          $("#inputTour").val($(this).data('id'));
+/*$('#myModal').modal('show'); */
+      });
 });

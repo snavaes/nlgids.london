@@ -14,13 +14,13 @@ $email = $_POST['inputEmail'];
 $message = $_POST['inputMessage'];
 
 // create email body and send it	
-$email_subject = "Contact form submitted by:  $name";
-$email_body = "You have received a new message. \n\n".
+$subject= "Contact form submitted by:  $name";
+$body = "You have received a new message. \n\n".
 				  " Here are the details:\n \nName: $name \n ".
 				  "Email: $email\n Message \n $message";
 $headers = "From: contacts@myprogrammingblog.com\n";
 $headers .= "Reply-To: $email";	
-mail("miek@miek.nl",$email_subject,$email_body,$headers);
-mail("ans@nlgids.london",$email_subject,$email_body,$headers);
+mail("miek@miek.nl",$subject,$body,$headers);
+mail("ans@nlgids.london",$subject,$body,$headers);
 return true;			
 ?>
