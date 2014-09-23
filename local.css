@@ -38,24 +38,8 @@
 .social {
     padding-top: 10px;
     padding-bottom: 10px;
-    max-width: 48px;
-}
-
-body.en :lang(nl) {
-    display: none;
-}
-
-body.nl :lang(en) {
-    display: none;
-}
-
-body {
-    font-family: 'PT Serif', serif;
-    line-height: 1.8;
-}
-
-hr {
-    border-color: black;
+    padding-right: 10px;
+    max-width: 64px;
 }
 
 /* make sidebar nav vertical */ 
@@ -82,4 +66,21 @@ hr {
 
 .datepicker {
     z-index:1151 !important;
+}
+
+body.en :lang(nl) {
+    display: none;
+}
+
+body.nl :lang(en) {
+    display: none;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    line-height: 1.8;
+}
+
+hr {
+    border-color: black;
 }
