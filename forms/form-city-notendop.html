@@ -1,0 +1,64 @@
+<!-- Modal -->
+<div class="modal fade" id="tourNotendop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Boek een Tour</h4>
+      </div>
+      <div class="modal-body">
+
+          <form class="form-horizontal" id="contactForm">
+<fieldset>
+        <div class="form-group">
+            <label for="inputName" class="control-label col-xs-2">Name</label>
+            <div class="col-xs-10">
+                <input type="text" name="inputName" class="form-control" id="inputName" placeholder="Name">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputDate" class="control-label col-xs-2">Datum</label>
+            <div class="col-xs-10">
+                <input type="text" data-date-format="dd/mm/yyyy" class="datepicker form-control" data-provide="datepicker" id="inputDate" placeholder="Datum">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputEmail" class="control-label col-xs-2">Email</label>
+            <div class="col-xs-10">
+                <input type="email" name="inputEmail" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputTour" class="control-label col-xs-2">Tour</label>
+            <div class="col-xs-10">
+                <input type="text" name="inputTour" class="form-control" readonly id="inputTour" value="City of London in een Notendop">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputMessage" class="control-label col-xs-2">Bericht</label>
+            <div class="col-xs-10">
+                <textarea class="form-control" id="inputMessage" placeholder="Extra vragen/opmerkingen" rows="3"></textarea>
+            </div>
+        </div>
+
+        <div id="success"></div>
+        <div class="form-group">
+            <div class="col-xs-offset-2 col-xs-10">
+                <button type="submit" class="btn btn-primary">Boek nu</button>
+            </div>
+        </div>
+
+</fieldset>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+      </div>
+    </div>
+  </div>
+</div>
