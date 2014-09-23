@@ -11,6 +11,7 @@ if(empty($_POST['inputName'])  		||
 
 $name = $_POST['inputName'];
 $date = $_POST['inputDate'];
+$size = $_POST['inputSize'];
 $email = $_POST['inputEmail'];
 $tour = $_POST['inputTour'];
 $message = $_POST['inputMessage'];
@@ -23,9 +24,10 @@ Hallo Ans,
 
 Er is een nieuwe boeking gemaild, met de volgende details:
     
-* Tour:  $tour
-* Naam:  $name ($email)
-* Datum: $date
+* Tour:     $tour
+* Personen: $size
+* Naam:     $name ($email)
+* Datum:    $date
 
 Het volgende bericht is achter gelaten:
 
@@ -36,9 +38,13 @@ $message
 Met vriendelijke groet,
 NLgids mailer
 EOF;
-$headers = "From: miek@miek.nl\n";
-$headers .= "Reply-To: $email";	
-mail("miek@miek.nl",$subject,$body,$headers);
-mail("ans@nlgids.london",$subject,$body,$headers);
+$headers = "From: nlgids@nlgids.london\n";
+$headers .= "Reply-To: $email\n";	
+if ( ! mail("miek@miek.nl",$subject,$body,$headers) ) {
+    return false;
+}
+if ( ! mail("ans@nlgids.london",$subject,$body,$headers) ) {
+    return false;
+}
 return true;			
 ?>

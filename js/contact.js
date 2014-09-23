@@ -16,6 +16,7 @@ $(function() {
        // get values from FORM
        var name = $("input#inputName").val();
        var email = $("input#inputEmail").val();
+       var size = $("input#inputSize").val();
        var tour = $("input#inputTour").val();
        var date = $("input#inputDate").val();
        var message = $("textarea#inputMessage").val();
@@ -27,7 +28,7 @@ $(function() {
 	 $.ajax({
                 url: "../bin/contact.php",
             	type: "POST",
-            	data: {inputName: name, inputEmail: email, inputDate: date, inputTour: tour, inputMessage: message},
+            	data: {inputName: name, inputEmail: email, inputSize: size, inputDate: date, inputTour: tour, inputMessage: message},
             	cache: false,
             	success: function() {
             	// Success message
@@ -47,7 +48,7 @@ $(function() {
  		 $('#success').html("<div class='alert alert-danger'>");
             	$('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             	 .append( "</button>");
-            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+" it seems that my mail server is not responding...</strong> Could you please email me directly to <a href='mailto:me@example.com?Subject=Message_Me from myprogrammingblog.com'>me@example.com</a> ? Sorry for the inconvenience!");
+            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+", er lijkt iets mis te gaan...</strong> Kunt u een directe mail sturen naar <a href='mailto:ans@nlgids.londdon?Subject=[NLgids] reservering'>ans@nlgids.london</a> ? Sorry voor het ongemak!");
  	        $('#success > .alert-danger').append('</div>');
  		//clear all fields
  		$('#contactForm').trigger("reset");
