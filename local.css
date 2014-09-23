@@ -1,5 +1,6 @@
 .post-content {
-    top: 7px;
+    top: 3em;
+    left: 1em;
     position: absolute;
     font-size: x-large;
     font-weight: bold;
@@ -27,16 +28,6 @@
     margin-bottom: 1em;
 }
 
-.no-gutter-right {
-    margin-right: 0%;
-    padding-right: 0%;
-}
-
-.no-gutter-left {
-    margin-left: 0%;
-    padding-left: 0%;
-}
-
 .flag {
     padding: 0;
     margin: 0;
@@ -44,48 +35,10 @@
     border: 0;
 }
 
-.text-padding {
-    padding-top: 0.5%;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
-.slug {
-    background: seashell;
-    max-width: 300px;
-    min-height: 9em;
-}
-
-a.sluglink:link    { color: black; }
-a.sluglink:visited { color: black; }
-a.sluglink:hover   { color: black; text-decoration: underline; }
-a.sluglink:active  { color: black; }
-a.sluglink { background-color: transparent; }
-.sluglink {
-    margin-left: 5em;
-}
-
-.nav {
-    font-size: x-large;
-    font-weight: bold;
-    color: black;
-    text-align: right;
-}
-a.nav:link    { color: black; }
-a.nav:visited { color: black; }
-a.nav:hover   { color: black; text-decoration: underline; }
-a.nav:active  { color: black; }
-
 .social {
     padding-top: 10px;
     padding-bottom: 10px;
     max-width: 48px;
-}
-
-.full {
-    background: seashell;
-    width: 100%;
-    max-height: 400px;
 }
 
 body.en :lang(nl) {
@@ -127,6 +80,6 @@ hr {
   }
 }
 
-.datepicker{
+.datepicker {
     z-index:1151 !important;
 }
