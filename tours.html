@@ -24,7 +24,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body
+onload="
+langcookie=document.cookie;
+if (langcookie == '') { document.body.className='nl' };
+if (langcookie == 'lang=nl') { document.body.className='nl' };
+if (langcookie == 'lang=en') { document.body.className='en' };
+">
     <div class="container-fluid">
 
       <div class="row header-image">
