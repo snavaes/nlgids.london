@@ -11,11 +11,13 @@
           <form class="form-horizontal" id="bookForm">
 <fieldset>
         <div class="form-group">
-            <label for="inputName" class="control-label col-xs-2">Naam</label>
+            <label lang="nl" for="inputName" class="control-label col-xs-2">Naam</label>
+            <label lang="en" for="inputName" class="control-label col-xs-2">Name</label>
             <div class="col-xs-10">
-                <input type="text" required name="inputName" class="form-control" id="inputName" placeholder="Naam"
-                oninvalid="this.setCustomValidity('Vul een waarde in.')"
-                >
+                <input lang="nl" type="text" required name="inputName" class="form-control" id="inputName" placeholder="Naam"
+                 oninvalid="this.setCustomValidity('Vul hier uw naam in.')" >
+                <input lang="en" type="text" required name="inputName" class="form-control" id="inputName" placeholder="Naam"
+                 oninvalid="this.setCustomValidity('Please fill out this field with your name.')" >
             </div>
         </div>
 
