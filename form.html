@@ -4,7 +4,8 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Boek een Tour</h4>
+        <h4 lang="nl" class="modal-title" id="myModalLabel">Boek een Tour</h4>
+        <h4 lang="en" class="modal-title" id="myModalLabel">Book a Tour</h4>
       </div>
       <div class="modal-body">
 
@@ -14,34 +15,28 @@
             <label lang="nl" for="inputName" class="control-label col-xs-2">Naam</label>
             <label lang="en" for="inputName" class="control-label col-xs-2">Name</label>
             <div class="col-xs-10">
-                <input lang="nl" type="text" required name="inputName" class="form-control" id="inputName" placeholder="Naam"
-                 oninvalid="this.setCustomValidity('Vul hier uw naam in.')" >
-                <input lang="en" type="text" required name="inputName" class="form-control" id="inputName" placeholder="Naam"
-                 oninvalid="this.setCustomValidity('Please fill out this field with your name.')" >
+                <input type="text" required name="inputName" class="form-control" id="inputName" placeholder="Naam">
             </div>
         </div>
 
         <div class="form-group">
-            <label for="inputSize" class="control-label col-xs-2">Aantal</label>
+            <label lang="nl" for="inputSize" class="control-label col-xs-2">Aantal</label>
+            <label lang="en" for="inputSize" class="control-label col-xs-2">Number</label>
             <div class="col-xs-10">
-                <input type="number" name="inputSize" class="form-control" id="inputSize"
-                data-validation-number-message="Das geen nummer"
-                placeholder="Aantal personen dat deel neemt">
+                <input type="number" name="inputSize" class="form-control" id="inputSize" placeholder="Aantal personen dat deel neemt">
             </div>
         </div>
 
         <div class="form-group">
             <label for="inputEmail" class="control-label col-xs-2">Email</label>
             <div class="col-xs-10">
-                <input type="email" name="inputEmail" required
-                data-validation-email-message="Das geen email"
-                data-validation-required-message="Vul aub een email adres in"
-                class="form-control" id="inputEmail" placeholder="Email">
+                <input type="email" name="inputEmail" required class="form-control" id="inputEmail" placeholder="Email">
             </div>
         </div>
 
         <div class="form-group">
-            <label for="inputDate" class="control-label col-xs-2">Datum</label>
+            <label lang="nl" for="inputDate" class="control-label col-xs-2">Datum</label>
+            <label lang="en" for="inputDate" class="control-label col-xs-2">Date</label>
             <div class="col-xs-10">
                 <input type="text" data-date-format="  dd/mm/yyyy" class="datepicker form-control" data-provide="datepicker"
                 id="inputDate" placeholder="  Datum">
@@ -56,7 +51,8 @@
         </div>
 
         <div class="form-group">
-            <label for="inputMessage" class="control-label col-xs-2">Bericht</label>
+            <label lang="nl" for="inputMessage" class="control-label col-xs-2">Bericht</label>
+            <label lang="en" for="inputMessage" class="control-label col-xs-2">Message</label>
             <div class="col-xs-10">
                 <textarea class="form-control" id="inputMessage" placeholder="Extra vragen/opmerkingen" rows="3"></textarea>
             </div>
@@ -65,7 +61,8 @@
         <div id="success"></div>
         <div class="form-group">
             <div class="col-xs-offset-2 col-xs-10">
-                <button type="submit" class="btn btn-primary">Boek nu</button>
+                <button lang="nl" type="submit" class="btn btn-primary">Boek nu</button>
+                <button lang="en" type="submit" class="btn btn-primary">Book now</button>
             </div>
         </div>
 
@@ -74,8 +71,26 @@
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+        <button lang="nl" type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+        <button lang="en" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+function validate(input) {
+    //logically decide and set custom validation message
+    if (input.value == "20" || input.value == "30") {
+        // set custom validation message
+        input.setCustomValidity('Your Age (' + input.value + ') is in a transition phase.');
+    } else {
+        // reset the validation message - makes it valid for checkValidity function
+        input.setCustomValidity('');
+    }
+    document.getElementById('validateMsg').innerHTML = 'Validation Message: "' + input.validationMessage + '"';
+    document.getElementById('validity').innerHTML = 'checkValidity function output: "' + input.checkValidity() + '"';
+}
+
+
+</script>
