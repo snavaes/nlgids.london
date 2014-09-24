@@ -28,6 +28,10 @@
     margin-bottom: 1em;
 }
 
+.shadow {
+    box-shadow: 10px 5px 15px rgba(0,0,0,.5);
+}
+
 .flag {
     padding: 0;
     margin: 0;
