@@ -31,9 +31,9 @@ Er is een nieuwe boeking gemaild, met de volgende details:
 
 Het volgende bericht is achter gelaten:
 
-===================================================
+=======================
 $message
-===================================================
+=======================
 
 Met vriendelijke groet,
 NLgids mailer
