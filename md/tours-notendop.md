@@ -7,5 +7,5 @@ bankiers zitten.
 In een wandeling van een uur ontmoeten we Romeinen, koningen, koninginnen,
 gilden, gevangenissen en nog veel meer.
 
-prijs £ 35-00
+prijs £35
 </div>
