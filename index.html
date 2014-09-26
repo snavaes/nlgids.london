@@ -30,15 +30,18 @@ if (langcookie == '') { document.body.className='nl' };
 if (langcookie == 'lang=nl') { document.body.className='nl' };
 if (langcookie == 'lang=en') { document.body.className='en' };
 ">
+    <!--#include virtual="navbar.html" -->
     <div class="container-fluid">
+
       <div class="row header-image">
         <div class="col-sm-12">
             <!--#include virtual="head.html" -->
         </div>
       </div>
-      <div class="row">
 
-        <div class="col-sm-3 well gutter">
+      <div class="row" style="width:99%">
+        <div class="col-sm-1 hidden-xs hidden-sm"></div>
+        <div class="col-sm-3 well">
                 <a href="tours.html">
                     <img src="img/st-pauls.png" class="img-responsive center-block" alt="Foto van St. Pauls">
                 </a>
@@ -79,10 +82,6 @@ if (langcookie == 'lang=en') { document.body.className='en' };
 
         <div class="sol-sm-1"></div>
         <!-- because of the gutter above we lack space here -->
-
-        <div class="col-sm-2">
-                <!--#include virtual="navbar.html" -->
-        </div> <!-- 2 -->
 
       <!-- Footer -->
         <div class="col-sm-12">
