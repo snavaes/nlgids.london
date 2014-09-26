@@ -43,20 +43,23 @@ a.header-link { background-color: transparent; }
 }
 
 .flag {
-    padding: 0;
-    margin: 0;
     background: transparent;
+    max-width: 64px;
     border: 0;
 }
 
 .social {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
     max-width: 64px;
     background: transparent;
     border: 0;
 }
+/*
+a.social:hover {
+    text-decoration: none;
+    background-color: transparant;
+    color: transparant;
+}
+*/
 
 .datepicker {
     z-index:1151 !important;
@@ -66,31 +69,16 @@ a.header-link { background-color: transparent; }
 .navbar-custom {
     background-color: #2e2e2e;
     font-weight:700;
-    text-transform:uppercase;
+    text-transform: uppercase;
     color: white;
     padding-left: 2%;
     padding-right: 2%;
-    height: 80px;
 }
 
 .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
     background-color: #000;
     color: white;
 }
-
-/*
-.navbar-custom  .navbar-nav>li>a {
-        color: #ddd;
-}
-
-.navbar-custom .dropdown-menu{
-        right:0;
-}
-.navbar-custom .navbar-nav>.dropdown>a .caret {
-        border-top-color: #999;
-        border-bottom-color: #999;
-}
-*/
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
