@@ -71,7 +71,7 @@ body.nl :lang(en) {
 body {
     font-family: 'PT Serif', serif;
     line-height: 1.8;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 @media screen and (max-width: 768px) {
