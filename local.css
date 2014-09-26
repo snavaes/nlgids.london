@@ -60,6 +60,54 @@ a.header-link { background-color: transparent; }
     z-index:1151 !important;
 }
 
+/* customize nav style */
+.navbar-custom {
+    background-color: #2e2e2e;
+    font-weight:700;
+    text-transform:uppercase;
+    border-width:0;
+    color: white;
+}
+
+.navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
+    background-color: #000;
+    color: white;
+}
+
+/*
+.navbar-custom  .navbar-nav>li>a {
+        color: #ddd;
+}
+
+.navbar-custom .dropdown-menu{
+        right:0;
+}
+.navbar-custom .navbar-nav>.dropdown>a .caret {
+        border-top-color: #999;
+        border-bottom-color: #999;
+}
+*/
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.divider {
+        height:100px;
+}
+
+.panel {
+        border-width:0;
+}
+
 body.en :lang(nl) {
     display: none;
 }
