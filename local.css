@@ -29,6 +29,10 @@ a.header-link { background-color: transparent; }
     margin-top: 1%;
 }
 
+.gutter-left {
+    margin-left: 1em;
+}
+
 .gutter {
     margin-right: 1em;
     margin-bottom: 1em;
@@ -53,6 +57,7 @@ a.header-link { background-color: transparent; }
 }
 
 /* make sidebar nav vertical */ 
+/*
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;

@@ -1,5 +1,5 @@
     <div class="sidebar-nav">
-      <div class="navbar navbar-default" role="navigation">
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sidebar-navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -13,11 +13,20 @@
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
             <li class="nav-divider"></li>
-            <li><a href="tours.html">Tours </a></li>
-            <li><a href="tours.html#tour-notendop"><span class="glyphicon glyphicon-star"></span> City Tour Notendop</a></li>
-            <li><a href="tours.html#tour-city"><span class="glyphicon glyphicon-star"></span> City Tour</a></li>
-            <li><a href="tours.html#tour-bike"><span class="glyphicon glyphicon-star"></span> Fiets Tour</a></li>
-            <li><a href="tours.html#tour-kids"><span class="glyphicon glyphicon-star"></span> Kids Tour</a></li>
+
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Boek nu<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="tours.html#tour-notendop"><span class="glyphicon glyphicon-star"></span> City Tour Notendop</a></li>
+                <li><a href="tours.html#tour-city"><span class="glyphicon glyphicon-star"></span> City Tour</a></li>
+                <li><a href="tours.html#tour-bike"><span class="glyphicon glyphicon-star"></span> Fiets Tour</a></li>
+                <li><a href="tours.html#tour-kids"><span class="glyphicon glyphicon-star"></span> Kids Tour</a></li>
+
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Tour op maat</a></li>
+              </ul>
+            </li>
             <li><a href="tips.html">Tips </a></li>
             <li><a lang="nl" href="guide.html">Gids</a></li>
             <li><a lang="en" href="guide.html">Guide</a></li>
