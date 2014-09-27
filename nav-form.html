@@ -10,6 +10,7 @@
       <div class="modal-body">
 
           <form class="form-horizontal" id="bookForm">
+        <input type="hidden" name="formType" value="booking">
 <fieldset>
         <div class="form-group">
             <label lang="nl" for="inputName" class="control-label col-xs-3">Naam</label>
@@ -46,14 +47,15 @@
         <div class="form-group">
           <label class="control-label col-xs-3" for="inputTour">Tour</label>
             <div class="col-xs-8">
-            <select id="intputTour" name="inputTour" class="form-control">
+            <select lang="nl" id="intputTour" name="inputTour" class="form-control">
                 <!-- fix values here -->
               <option lang="nl" value="1">Mini City Tour</option>
               <option lang="nl" value="2">Grand City Tour</option>
               <option lang="nl" value="3">Fiets Tour Londen</option>
               <option lang="nl" value="4">Fiets Tour Secret Londen</option>
               <option lang="nl" value="5">Tour Op Maat</option>
-
+            </select>
+            <select lang="en" id="intputTour" name="inputTour" class="form-control">
               <option lang="en" value="1">Mini City Tour</option>
               <option lang="en" value="2">Grand City Tour</option>
               <option lang="en" value="3">Bike Tour London</option>
@@ -104,6 +106,5 @@ function validate(input) {
     document.getElementById('validateMsg').innerHTML = 'Validation Message: "' + input.validationMessage + '"';
     document.getElementById('validity').innerHTML = 'checkValidity function output: "' + input.checkValidity() + '"';
 }
-
 
 </script>

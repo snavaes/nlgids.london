@@ -71,8 +71,18 @@ $('#myModal').on('hidden.bs.modal', function () {
      $('#success').html('');
 });
 
+$('#myNav').on('hidden.bs.modal', function () {
+     $('#success').html('');
+});
+
+$('#myContact').on('hidden.bs.modal', function () {
+     $('#success').html('');
+});
+
+
 $(document).ready(function(){
       $(".announce").click(function(){ // Click to only happen on announce links
           $("#inputTour").val($(this).data('id'));
       });
+      $('#inputDate').attr('placeholder', "  text changed- hulk");
 });
