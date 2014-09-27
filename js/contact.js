@@ -19,7 +19,7 @@ $(function() {
        var tour = $("input#inputTour").val();
        var date = $("input#inputDate").val();
        var message = $("textarea#inputMessage").val();
-       var formtype = %("input#formType").val();
+       var formtype = $("input#formType").val();
 
        var firstName = name; // For Success/Failure Message
            // Check for white space in name for Success/Fail message
@@ -88,8 +88,7 @@ $('#myModal').on('shown.bs.modal', function () {
       $('#inputMessage').attr('placeholder', placeholder("Extra vragen/opmerkingen"));
 });
 
-$('#myNav').on('show.bs.modal', function () {
-    alert('lape');
+$('#myNav').on('shown.bs.modal', function () {
       $('#inputDate').attr('placeholder', placeholder("  Datum"));
       $('#inputSize').attr('placeholder', placeholder("Aantal personen"));
       $('#inputName').attr('placeholder', placeholder("Naam"));
