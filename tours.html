@@ -58,45 +58,60 @@ if (langcookie == 'lang=en') { document.body.className='en' };
 
         <div class="col-sm-7">
 
-            <div class="well">
-              <a name="tour-notendop"></a>
-            <div class="row container-fluid">
-                <div class="col-sm-1 pull-left gutter">
-                    <img class="img-responsive shadow" style="min-width:100px;min-height:100px" src="img/tour-city-notendop.png" alt="London in een notendop">
+         <div class="well">
+
+              <a name="tour-mini-city"></a>
+             <div class="row container-fluid">
+
+                <div class="col-sm-2 pull-left gutter">
+                    <img class="img-responsive shadow" style="min-width:100px;min-height:100px" src="img/tour-mini-city.png" alt="Shot of the City of London">
                 </div>
-                <div class="col-sm-10 pull-right"> 
-                    <h1 lang="nl">City of London in een Notendop</h1>
-                    <h1 lang="en">City of London in a Noetendop</h1>
+                <div class="col-sm-8 pull-right"> 
+                    <h1 lang="nl">Mini City Tour</h1>
+                    <h1 lang="en">Mini City Tour</h1>
                 </div> <!-- 8 -->
+
             </div> <!-- row -->
 
-            <div class="row container-fluid">
+             <div class="row container-fluid">
+
                 <div class="col-sm-8">
-                    <!--#include virtual="inc/tours-notendop.html" -->
-                </div> <!-- col-sm-8 -->
-                 <div style="height:4em" class="col-sm-4">
-                        <button lang="nl" class="btn btn-primary btn-lg pull-right announce" data-id="City in een Notendop" data-toggle="modal" data-target="#myModal">Boek nu</button>
-                        <button lang="en" class="btn btn-primary btn-lg pull-right announce" data-id="City in een Notendop" data-toggle="modal" data-target="#myModal">Book now</button>
+                    <!--#include virtual="inc/tours-mini-city.html" -->
+                        <br/>
+                        <button lang="nl" class="btn btn-primary btn-lg pull-left announce" data-id="Mini City Tour" data-toggle="modal" data-target="#myModal">Boek nu</button>
+                        <button lang="en" class="btn btn-primary btn-lg pull-left announce" data-id="Mini City Tour" data-toggle="modal" data-target="#myModal">Book now</button>
                         <br/>
                         <br/>
-                        <p class="pull-right">
-                        Prijs 2
+                        <p class="pull-left">
+                        <ul class="none">
+                            <li lang="nl">Prijs: £50
+                            <li lang="nl">Duur: 1 uur
+                            <li lang="en">Price: £50
+                            <li lang="en">Duration: 1 hour
+                        </ul>
                         </p>
-                 </div> <!-- col-sm-4 -->
-             </div> <!-- row -->
+                </div> <!-- col-sm-8 -->
+                 <div class="col-sm-4">
+                     <div class="pull-right">
+                    <!--#include virtual="inc/tours-mini-city-list.html" -->
+                 </div>
+                    </div> <!-- col-sm-4 -->
+                </div> <!-- row -->
+
          </div> <!-- well -->
 
 
           <div class="well">
-              <a name="tour-city"></a>
+
+              <a name="tour-grand-city"></a>
              <div class="row container-fluid">
 
                 <div class="col-sm-2 pull-left gutter">
-                    <img class="img-responsive shadow" style="min-width:100px;min-height:100px" src="img/tour-grand-city.png" alt="London">
+                    <img class="img-responsive shadow" style="min-width:100px;min-height:100px" src="img/tour-grand-city.png" alt="Shot of the City of London">
                 </div>
                 <div class="col-sm-8 pull-right"> 
-                    <h1 lang="nl">City of London</h1>
-                    <h1 lang="en">City of London</h1>
+                    <h1 lang="nl">Grand City Tour</h1>
+                    <h1 lang="en">Grand City Tour</h1>
                 </div> <!-- 8 -->
 
             </div> <!-- row -->
@@ -104,22 +119,24 @@ if (langcookie == 'lang=en') { document.body.className='en' };
              <div class="row container-fluid">
 
                 <div class="col-sm-8">
-                    <!--#include virtual="inc/tours-city.html" -->
+                    <!--#include virtual="inc/tours-grand-city.html" -->
                         <br/>
-                        <button lang="nl" class="btn btn-primary btn-lg pull-left announce" data-id="City of London" data-toggle="modal" data-target="#myModal">Boek nu</button>
-                        <button lang="en" class="btn btn-primary btn-lg pull-left announce" data-id="City of London" data-toggle="modal" data-target="#myModal">Book now</button>
+                        <button lang="nl" class="btn btn-primary btn-lg pull-left announce" data-id="Grand City Tour" data-toggle="modal" data-target="#myModal">Boek nu</button>
+                        <button lang="en" class="btn btn-primary btn-lg pull-left announce" data-id="Grand City Tour" data-toggle="modal" data-target="#myModal">Book now</button>
                         <br/>
                         <br/>
                         <p class="pull-left">
                         <ul class="none">
                             <li lang="nl">Prijs: £50
                             <li lang="nl">Duur: 2 uur
+                            <li lang="en">Price: £50
+                            <li lang="en">Duration: 2 hours
                         </ul>
                         </p>
                 </div> <!-- col-sm-8 -->
                  <div class="col-sm-4">
                      <div class="pull-right">
-                    <!--#include virtual="inc/tours-city-list.html" -->
+                    <!--#include virtual="inc/tours-grand-city-list.html" -->
                  </div>
                     </div> <!-- col-sm-4 -->
                 </div> <!-- row -->
