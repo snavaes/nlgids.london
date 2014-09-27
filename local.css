@@ -68,10 +68,10 @@ a.social:hover {
 
 .navbar-custom {
 font-size:      1.5em;
+
 /*
     background-color: #2e2e2e;
     font-weight:700;
-    text-transform: uppercase;
     color: white;
     padding-left: 2%;
     padding-right: 2%;
@@ -115,11 +115,10 @@ body.modal-open {
     overflow: hidden;
 }
 
-
 body {
     font-family: 'PT Serif', serif;
     line-height: 1.8;
-    padding-top: 80px;
+    padding-top: 40px;
     background: url('img/union-jack.jpg') no-repeat center center;
     background-size: 100% 140%;
 }

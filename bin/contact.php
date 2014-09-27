@@ -19,7 +19,8 @@ $type = $_POST['formType'];
 
 switch ($type) {
 case "":
-case "booking":
+case "bookingNav":
+case "bookingTour":
     $subject= "[NLgids] Boeking voor \"$tour\" van $name";
     $body = <<<EOF
 Hallo Ans,
