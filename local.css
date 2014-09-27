@@ -67,16 +67,19 @@ a.social:hover {
     z-index:1151 !important;
 }
 
-/* customize nav style
 .navbar-custom {
+font-size:      1.5em;
+/*
     background-color: #2e2e2e;
     font-weight:700;
     text-transform: uppercase;
     color: white;
     padding-left: 2%;
     padding-right: 2%;
+*/
 }
 
+/*
 .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
     background-color: #000;
     color: white;
