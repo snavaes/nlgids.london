@@ -19,7 +19,9 @@ $(function() {
        var tour = $("input#inputTour").val();
        var date = $("input#inputDate").val();
        var message = $("textarea#inputMessage").val();
-        var firstName = name; // For Success/Failure Message
+       var formtype = %("input#formType").val();
+
+       var firstName = name; // For Success/Failure Message
            // Check for white space in name for Success/Fail message
         if (firstName.indexOf(' ') >= 0) {
 	   firstName = name.split(' ').slice(0, -1).join(' ');
@@ -27,7 +29,7 @@ $(function() {
 	 $.ajax({
                 url: "../bin/contact.php",
             	type: "POST",
-            	data: {inputName: name, inputEmail: email, inputSize: size, inputDate: date, inputTour: tour, inputMessage: message},
+            	data: {formType: formtype, inputName: name, inputEmail: email, inputSize: size, inputDate: date, inputTour: tour, inputMessage: message},
             	cache: false,
             	success: function() {
             	// Success message
@@ -79,10 +81,49 @@ $('#myContact').on('hidden.bs.modal', function () {
      $('#success').html('');
 });
 
+$('#myModal').on('shown.bs.modal', function () {
+      $('#inputDate').attr('placeholder', placeholder("  Datum"));
+      $('#inputSize').attr('placeholder', placeholder("Aantal personen"));
+      $('#inputName').attr('placeholder', placeholder("Naam"));
+      $('#inputMessage').attr('placeholder', placeholder("Extra vragen/opmerkingen"));
+});
 
-$(document).ready(function(){
-      $(".announce").click(function(){ // Click to only happen on announce links
+$('#myNav').on('show.bs.modal', function () {
+    alert('lape');
+      $('#inputDate').attr('placeholder', placeholder("  Datum"));
+      $('#inputSize').attr('placeholder', placeholder("Aantal personen"));
+      $('#inputName').attr('placeholder', placeholder("Naam"));
+      $('#inputMessage').attr('placeholder', placeholder("Extra vragen/opmerkingen"));
+});
+
+$('#myContact').on('shown.bs.modal', function () {
+      $('#inputDate').attr('placeholder', placeholder("  Datum"));
+      $('#inputSize').attr('placeholder', placeholder("Aantal personen"));
+      $('#inputName').attr('placeholder', placeholder("Naam"));
+      $('#inputMessage').attr('placeholder', placeholder("Extra vragen/opmerkingen"));
+});
+
+function placeholder(text) {
+    langcookie=document.cookie;
+    if ( langcookie == '' || langcookie == 'lang=nl' ) {
+        return text;
+    }
+    switch (text) {
+    case "Naam":
+        return "Name";
+    case "Aantal personen":
+        return "Number of persons";
+    case "Extra vragen/opmerkingen":
+        return "Questions/remarks";
+    case "  Datum":
+        return "  Date"; // Two spaces for silly lining
+    default:
+        return "No translation";
+    }
+}
+
+$(document).ready(function() {
+      $(".announce").click(function() { // Click to only happen on announce links
           $("#inputTour").val($(this).data('id'));
       });
-      $('#inputDate').attr('placeholder', "  text changed- hulk");
 });
