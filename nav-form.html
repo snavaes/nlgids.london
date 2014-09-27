@@ -1,11 +1,11 @@
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myNav" tabindex="-1" role="dialog" aria-labelledby="myNavLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 lang="nl" class="modal-title" id="myModalLabel">Boek een Tour</h4>
-        <h4 lang="en" class="modal-title" id="myModalLabel">Book a Tour</h4>
+        <h4 lang="nl" class="modal-title" id="myNavLabel">Boek een Tour</h4>
+        <h4 lang="en" class="modal-title" id="myNavLabel">Book a Tour</h4>
       </div>
       <div class="modal-body">
 
@@ -44,10 +44,23 @@
         </div>
 
         <div class="form-group">
-            <label for="inputTour" class="control-label col-xs-2">Tour</label>
+          <label class="control-label col-xs-2" for="inputTour">Tour</label>
             <div class="col-xs-8">
-                <input type="text" name="inputTour" class="form-control" readonly id="inputTour">
-            </div>
+            <select id="intputTour" name="inputTour" class="form-control">
+                <!-- fix values here -->
+              <option lang="nl" value="1">Mini City Tour</option>
+              <option lang="nl" value="2">Grand City Tour</option>
+              <option lang="nl" value="3">Fiets Tour Londen</option>
+              <option lang="nl" value="4">Fiets Tour Secret Londen</option>
+              <option lang="nl" value="5">Tour Op Maat</option>
+
+              <option lang="en" value="1">Mini City Tour</option>
+              <option lang="en" value="2">Grand City Tour</option>
+              <option lang="en" value="3">Bike Tour London</option>
+              <option lang="en" value="4">Bike Tour Secret London</option>
+              <option lang="en" value="5">Tailer Made Tour</option>
+            </select>
+          </div>
         </div>
 
         <div class="form-group">

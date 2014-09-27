@@ -24,10 +24,10 @@ Hallo Ans,
 
 Er is een nieuwe boeking gemaild, met de volgende details:
     
-* Tour:     $tour
+* Tour: $tour
+* Naam: $name ($email)
+* Datum: $date
 * Personen: $size
-* Naam:     $name ($email)
-* Datum:    $date
 
 Het volgende bericht is achter gelaten:
 
