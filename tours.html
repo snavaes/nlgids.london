@@ -144,31 +144,51 @@ if (langcookie == 'lang=en') { document.body.className='en' };
             </div> <!-- well -->
 
 
+
             <div class="well">
-                <a name="tour-bike"></a>
-            <div class="row container-fluid">
+
+              <a name="tour-bike"></a>
+             <div class="row container-fluid">
 
                 <div class="col-sm-2 pull-left gutter">
-                    <img class="img-responsive shadow" style="min-width:100px;min-height:100px" src="img/tour-fiets.png" alt="Fiets">
+                    <img class="img-responsive shadow" style="min-width:100px;min-height:100px" src="img/tour-bike.png" alt="Shot of Bikes in London">
                 </div>
                 <div class="col-sm-8 pull-right"> 
-                    <h1 lang="nl">Fiets Tour</h1>
-                    <h1 lang="en">Bike Tour</h1>
+                    <h1 lang="nl">Fiets Tour London</h1>
+                    <h1 lang="en">Bike Tour London</h1>
+                </div> <!-- 8 -->
+
+            </div> <!-- row -->
+
+             <div class="row container-fluid">
+
+                <div class="col-sm-8">
+                    <!--#include virtual="inc/tours-bike.html" -->
+                        <br/>
+                        <button lang="nl" class="btn btn-primary btn-lg pull-left announce" data-id="Fiets Tour London" data-toggle="modal" data-target="#myModal">Boek nu</button>
+                        <button lang="en" class="btn btn-primary btn-lg pull-left announce" data-id="Bike Tour London" data-toggle="modal" data-target="#myModal">Book now</button>
+                        <br/>
+                        <br/>
+                        <p class="pull-left">
+                        <ul class="none">
+                            <li lang="nl">Prijs: £50
+                            <li lang="nl">Duur: 2 uur
+                            <li lang="en">Price: £50
+                            <li lang="en">Duration: 2 hours
+                        </ul>
+                        </p>
+                </div> <!-- col-sm-8 -->
+                 <div class="col-sm-4">
+                     <div class="pull-right">
+                    <!--#include virtual="inc/tours-bike-list.html" -->
+                 </div>
+                    </div> <!-- col-sm-4 -->
+                </div> <!-- row -->
+
                 </div> <!-- 8 -->
              </div> <!-- row -->
 
-
-             <div class="row container-fluid">
-                <div class="col-sm-8">
-                    <!--#include virtual="inc/tours-fiets.html" -->
-                </div> <!-- col-sm-8 -->
-                 <div style="height:4em" class="col-sm-4">
-                        <button lang="nl" class="btn btn-primary btn-lg pull-right announce" data-id="Fiets Tour" data-toggle="modal" data-target="#myModal">Boek nu</button>
-                        <button lang="en" class="btn btn-primary btn-lg pull-right announce" data-id="Fiets Tour" data-toggle="modal" data-target="#myModal">Book now</button>
-                    </div> <!-- col-sm-4 -->
-
-                </div> <!-- row -->
-               </div> <!-- well -->
+            </div> <!-- well -->
 
             <div class="well">
                 <a name="tour-kids"></a>

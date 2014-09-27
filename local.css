@@ -7,11 +7,11 @@
 }
 
 .header-image {
-    background: url('img/london-skyline-isolated.png') no-repeat center center;
+/*    background: url('img/london-skyline-isolated.png') no-repeat center center; */
 /*    background: url('img/logo-NLgidsLonden.png') no-repeat center center; */
     background-size: cover;
     margin-bottom: 2%;
-    height: 40em;
+    height: 4em;
 }
 
 .header-content {
@@ -118,6 +118,8 @@ body {
     font-family: 'PT Serif', serif;
     line-height: 1.8;
 /*    padding-top: 80px; */
+/*    background: url('img/background.jpg') no-repeat center center; */
+/*    background-size: 100% 100%; */
 }
 
 @media screen and (max-width: 768px) {
@@ -129,11 +131,4 @@ hr {
 }
 
 .bg {
-  background: url('img/background.jpg') no-repeat center center;
-  position: fixed;
-  width: 100%;
-  height: 350px; /*same height as jumbotron */
-  top:0;
-  left:0;
-  z-index: -1;
 }
