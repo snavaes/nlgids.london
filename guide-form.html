@@ -1,0 +1,71 @@
+<!-- Modal -->
+<div class="modal fade" id="myContact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myContactLabel">Contact</h4>
+      </div>
+      <div class="modal-body">
+
+          <form class="form-horizontal" id="contactForm">
+<fieldset>
+        <div class="form-group">
+            <label lang="nl" for="inputName" class="control-label col-xs-2">Naam</label>
+            <label lang="en" for="inputName" class="control-label col-xs-2">Name</label>
+            <div class="col-xs-10">
+                <input type="text" required name="inputName" class="form-control" id="inputName" placeholder="Naam">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputEmail" class="control-label col-xs-2">Email</label>
+            <div class="col-xs-10">
+                <input type="email" name="inputEmail" required class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label lang="nl" for="inputMessage" class="control-label col-xs-2">Bericht</label>
+            <label lang="en" for="inputMessage" class="control-label col-xs-2">Message</label>
+            <div class="col-xs-10">
+                <textarea class="form-control" id="inputMessage" placeholder="Vragen/opmerkingen" rows="3"></textarea>
+            </div>
+        </div>
+
+        <div id="success"></div>
+        <div class="form-group">
+            <div class="col-xs-offset-2 col-xs-10">
+                <button lang="nl" type="submit" class="btn btn-primary">Verstuur</button>
+                <button lang="en" type="submit" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+
+</fieldset>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button lang="nl" type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+        <button lang="en" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+function validate(input) {
+    //logically decide and set custom validation message
+    if (input.value == "20" || input.value == "30") {
+        // set custom validation message
+        input.setCustomValidity('Your Age (' + input.value + ') is in a transition phase.');
+    } else {
+        // reset the validation message - makes it valid for checkValidity function
+        input.setCustomValidity('');
+    }
+    document.getElementById('validateMsg').innerHTML = 'Validation Message: "' + input.validationMessage + '"';
+    document.getElementById('validity').innerHTML = 'checkValidity function output: "' + input.checkValidity() + '"';
+}
+
+
+</script>
