@@ -67,7 +67,7 @@ a.social:hover {
     z-index:1151 !important;
 }
 
-/* customize nav style */
+/* customize nav style
 .navbar-custom {
     background-color: #2e2e2e;
     font-weight:700;
@@ -81,6 +81,7 @@ a.social:hover {
     background-color: #000;
     color: white;
 }
+*/
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
@@ -94,12 +95,10 @@ a.social:hover {
     }
 }
 
-.divider {
-        height:100px;
-}
-
-.panel {
-        border-width:0;
+ul.none {
+   list-style-type: none;
+   padding: 0;
+    margin: 0;
 }
 
 body.en :lang(nl) {
@@ -109,6 +108,11 @@ body.en :lang(nl) {
 body.nl :lang(en) {
     display: none;
 }
+
+body.modal-open {
+    overflow: hidden;
+}
+
 
 body {
     font-family: 'PT Serif', serif;
