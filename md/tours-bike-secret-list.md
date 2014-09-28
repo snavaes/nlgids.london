@@ -1,7 +1,9 @@
 <div lang="nl">
-* Hier
-* Daar
-* Hier ook
-* Terug
-* Klaar
+- Bank of England
+- St. Mary Le Bow
+- Royal Exchange
+- Leadenhall Market
+- Lloyds
+- East Londen
+- the Globe 
 </div>

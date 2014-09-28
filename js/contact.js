@@ -19,12 +19,15 @@ $(function() {
        var tour = $("input#inputTour").val();
        var date = $("input#inputDate").val();
        var message = $("textarea#inputMessage").val();
-       var formtype = $("input#formType").val();
+       var formtype = $("input#formContactType").val();
        // Stupid checks for the other forms.
        if (tour == '') { tour = $("select#inputTour").val(); }
        if (name == '') { name = $("input#inputContactName").val(); }
        if (message == '') { message = $("textarea#inputContactMessage").val(); }
+       if (formtype == '') { formtype = $("input#formNavType").val(); }
 
+       alert(formtype + " " +name);
+       return
        langcookie=document.cookie;
 
        var firstName = name; // For Success/Failure Message

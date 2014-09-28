@@ -1,5 +1,4 @@
 <div lang="nl">
-Deze wandeling duurt twee uur en geeft ons tijd om ook bij de nieuwere gebouwen
-in de City stil te staan zoals de Gherkin en de Walkie Talkie en wat verder door
-te lopen tot Summerset Palace en de omgeving waar recht wordt gesproken.
+De City heeft een 2000 jaar oude geschiedenis en heeft genoeg te zien om de hele dag mee te vullen in deze wandeling van 2 uur gaan we van oud naar nieuw en weer terug naar oud.
+We lopen tussen de nieuwe wolkenkrabbers in the City, we zien Romeinse fundamenten, we gaan kijken waar de eerste effecten verhandeld werden en waar de gildes bij elkaar komen tot op de dag van vandaag. We lopen door de steegjes die nog het oude stratenpatroon uit de tijd van de Romeinen volgen en waar rechters en advocaten hun pruik kopen.
 </div>

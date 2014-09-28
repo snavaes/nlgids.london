@@ -1,5 +1,8 @@
 <div lang="nl">
-* Hier
-* Terug
-* Eerder Klaar
+- St. Pauls Kathedraal
+- de Bank of England
+- Leadhall Market
+- Gildehuis
+- Rechtbank (Old Bailey)
+- Beursgebouw
 </div>

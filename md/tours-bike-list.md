@@ -1,7 +1,9 @@
 <div lang="nl">
-* Hier
-* Daar
-* Hier ook
-* Terug
-* Klaar
+- Houses of Parliment
+- Westminster Abbey
+- Buckingham Palace
+- Travalgar Square
+- Covent Garden
+- St. Pauls
+- London Eye
 </div>

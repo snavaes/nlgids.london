@@ -1,7 +1,12 @@
 <div lang="nl">
-* Hier
-* Daar
-* Hier ook
-* Terug
-* Klaar
+- St. Pauls Kathedraal
+- de Bank of England
+- Leadhall Market
+- Gildehuis
+- Rechtbank (Old Bailey)
+- Beursgebouw
+- Gherkin
+- Lloyds
+- Temple
+- Dr. Johnson house
 </div>
