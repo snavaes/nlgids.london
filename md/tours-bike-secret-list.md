@@ -3,7 +3,7 @@
 - St. Mary Le Bow
 - Royal Exchange
 - Leadenhall Market
-- Lloyds
+- Lloyds Bank
 - East Londen
-- the Globe 
+- Globe Theatre
 </div>

@@ -1,5 +1,5 @@
 <div lang="nl">
-- St. Pauls Kathedraal
+- St. Paul's Cathedral
 - de Bank of England
 - Leadhall Market
 - Gildehuis

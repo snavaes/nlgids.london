@@ -1,9 +1,9 @@
 <div lang="nl">
-- Houses of Parliment
+- Houses of Parliament
 - Westminster Abbey
 - Buckingham Palace
-- Travalgar Square
+- Trafalgar Square
 - Covent Garden
-- St. Pauls
+- St. Paul's Cathedral
 - London Eye
 </div>

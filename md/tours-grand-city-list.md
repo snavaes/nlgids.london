@@ -1,12 +1,12 @@
 <div lang="nl">
-- St. Pauls Kathedraal
+- St. Paul's Cathedral
 - de Bank of England
 - Leadhall Market
 - Gildehuis
 - Rechtbank (Old Bailey)
 - Beursgebouw
 - Gherkin
-- Lloyds
+- Lloyds Back
 - Temple
-- Dr. Johnson house
+- Dr. Johnson House
 </div>
