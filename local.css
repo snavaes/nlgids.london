@@ -118,7 +118,7 @@ body.modal-open {
 body {
     font-family: 'PT Serif', serif;
     line-height: 1.8;
-    padding-top: 40px;
+    padding-top: 5em;
     background: url('img/union-jack.jpg') no-repeat center center;
     background-size: 100% 140%;
 }
