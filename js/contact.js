@@ -20,8 +20,12 @@ $(function() {
        var date = $("input#inputDate").val();
        var message = $("textarea#inputMessage").val();
        var formtype = $("input#formType").val();
+       // Stupid checks for the other forms.
+       if (tour == '') { tour = $("select#inputTour").val(); }
+       if (name == '') { name = $("input#inputContactName").val(); }
+       if (message == '') { message = $("textarea#inputContactMessage").val(); }
 
-        langcookie=document.cookie;
+       langcookie=document.cookie;
 
        var firstName = name; // For Success/Failure Message
            // Check for white space in name for Success/Fail message
@@ -40,10 +44,10 @@ $(function() {
             		.append( "</button>");
                     if ( langcookie == '' || langcookie == 'lang=nl' ) {
                           $('.success > .alert-success')
-                                .append("<strong>Boeking is met succes verzonden. </strong>");
+                                .append("<strong>Bericht is met succes verzonden. </strong>");
                     } else {
                           $('.success > .alert-success')
-                                .append("<strong>Booking has been successfully sent. </strong>");
+                                .append("<strong>Message has been successfully sent. </strong>");
                     }
  		  $('.success > .alert-success')
  			.append('</div>');
@@ -61,7 +65,7 @@ $(function() {
                     if ( langcookie == '' || langcookie == 'lang=nl' ) {
                         $('.success > .alert-danger').append("<strong>Sorry "+firstName+", er lijkt iets mis te gaan...</strong> Kunt u een directe mail sturen naar <a href='mailto:ans@nlgids.london?Subject=[NLgids] reservering'>ans@nlgids.london</a> ? Sorry voor het ongemak!");
                     } else {
-                        $('.success > .alert-danger').append("<strong>Sorry "+firstName+", something has gone wrong...</strong> Could you send a direct mail to <a href='mailto:ans@nlgids.london?Subject=[NLgids] booking'>ans@nlgids.london</a> ? Sorry the hassle!");
+                        $('.success > .alert-danger').append("<strong>Sorry "+firstName+", something has gone wrong...</strong> Could you send a direct mail to <a href='mailto:ans@nlgids.london?Subject=[NLgids] booking'>ans@nlgids.london</a> ? Sorry the trouble!");
                     }
  	        $('.success > .alert-danger').append('</div>');
  		//clear all fields
@@ -111,10 +115,8 @@ $('#myNav').on('shown.bs.modal', function () {
 });
 
 $('#myContact').on('shown.bs.modal', function () {
-      $('#inputDate').attr('placeholder', placeholder("  Datum"));
-      $('#inputSize').attr('placeholder', placeholder("Aantal personen"));
-      $('#inputName').attr('placeholder', placeholder("Naam"));
-      $('#inputMessage').attr('placeholder', placeholder("Extra vragen/opmerkingen"));
+      $('#inputContactName').attr('placeholder', placeholder("Naam"));
+      $('#inputContactMessage').attr('placeholder', placeholder("Extra vragen/opmerkingen"));
 });
 
 function placeholder(text) {

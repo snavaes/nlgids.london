@@ -1,13 +1,7 @@
 <?php
-// check if fields passed are empty
-if(empty($_POST['inputName'])  		||
-   empty($_POST['inputEmail']) 		||
-   empty($_POST['inputMessage'])	||
-   !filter_var($_POST['inputEmail'],FILTER_VALIDATE_EMAIL))
-   {
-	echo "No arguments Provided!";
+#if(empty($_POST['inputName']) || empty($_POST['inputEmail']) {
 #	return false;
-   }
+#}
 
 $name = $_POST['inputName'];
 $date = $_POST['inputDate'];
@@ -68,8 +62,8 @@ $headers .= "Reply-To: $email\n";
 if ( ! mail("miek@miek.nl",$subject,$body,$headers) ) {
     return false;
 }
-if ( ! mail("ans@nlgids.london",$subject,$body,$headers) ) {
-    return false;
-}
+#if ( ! mail("ans@nlgids.london",$subject,$body,$headers) ) {
+#    return false;
+#}
 return true;
 ?>
