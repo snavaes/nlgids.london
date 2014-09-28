@@ -12,49 +12,49 @@
           <form class="form-horizontal" id="bookForm">
 <fieldset>
         <div class="form-group">
-            <label lang="nl" for="inputName" class="control-label col-xs-3">Naam</label>
-            <label lang="en" for="inputName" class="control-label col-xs-3">Name</label>
+            <label lang="nl" for="inputBookingName" class="control-label col-xs-3">Naam</label>
+            <label lang="en" for="inputBookingName" class="control-label col-xs-3">Name</label>
             <div class="col-xs-8">
-                <input type="text" required name="inputName" class="form-control" id="inputName" placeholder="Naam">
+                <input type="text" required name="inputBooking" class="form-control" id="inputBookingName" placeholder="Naam">
             </div>
         </div>
 
         <div class="form-group">
-            <label lang="nl" for="inputSize" class="control-label col-xs-3">Personen</label>
-            <label lang="en" for="inputSize" class="control-label col-xs-3">Persons</label>
+            <label lang="nl" for="inputBookingSize" class="control-label col-xs-3">Personen</label>
+            <label lang="en" for="inputBookingSize" class="control-label col-xs-3">Persons</label>
             <div class="col-xs-8">
-                <input type="number" name="inputSize" class="form-control" id="inputSize" placeholder="Aantal personen">
+                <input type="number" name="inputBooking" class="form-control" id="inputBookingSize" placeholder="Aantal personen">
             </div>
         </div>
 
         <div class="form-group">
-            <label for="inputEmail" class="control-label col-xs-3">Email</label>
+            <label for="inputBookingEmail" class="control-label col-xs-3">Email</label>
             <div class="col-xs-8">
-                <input type="email" name="inputEmail" required class="form-control" id="inputEmail" placeholder="Email">
+                <input type="email" name="inputBooking" required class="form-control" id="inputBookingEmail" placeholder="Email">
             </div>
         </div>
 
         <div class="form-group">
-            <label lang="nl" for="inputDate" class="control-label col-xs-3">Wanneer</label>
-            <label lang="en" for="inputDate" class="control-label col-xs-3">When</label>
+            <label lang="nl" for="inputBookingDate" class="control-label col-xs-3">Wanneer</label>
+            <label lang="en" for="inputBookingDate" class="control-label col-xs-3">When</label>
             <div class="col-xs-8">
-                <input type="text" data-date-format="  dd/mm/yyyy" class="datepicker form-control" data-provide="datepicker"
-                id="inputDate" placeholder="  Datum">
+                <input type="text" name="inputBooking" data-date-format="  dd/mm/yyyy" class="datepicker form-control" data-provide="datepicker"
+                id="inputBookingDate" placeholder="  Datum">
             </div>
         </div>
 
         <div class="form-group">
-            <label for="inputTour" class="control-label col-xs-3">Tour</label>
+            <label for="inputBookingTour" class="control-label col-xs-3">Tour</label>
             <div class="col-xs-8">
-                <input type="text" name="inputTour" class="form-control" readonly id="inputTour">
+                <input type="text" name="inputBooking" class="form-control" readonly id="inputBookingTour">
             </div>
         </div>
 
         <div class="form-group">
-            <label lang="nl" for="inputMessage" class="control-label col-xs-3">Bericht</label>
-            <label lang="en" for="inputMessage" class="control-label col-xs-3">Message</label>
+            <label lang="nl" for="inputBookingMessage" class="control-label col-xs-3">Bericht</label>
+            <label lang="en" for="inputBookingMessage" class="control-label col-xs-3">Message</label>
             <div class="col-xs-8">
-                <textarea class="form-control" id="inputMessage" placeholder="Extra vragen/opmerkingen" rows="3"></textarea>
+                <textarea name="inputBooking" class="form-control" id="inputBookingMessage" placeholder="Extra vragen/opmerkingen" rows="3"></textarea>
             </div>
         </div>
 
