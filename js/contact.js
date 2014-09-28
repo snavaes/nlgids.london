@@ -97,11 +97,11 @@ $('#myContact').on('hidden.bs.modal', function () {
 });
 
 $('#myModal').on('shown.bs.modal', function () {
-      $('#inputDate').attr('placeholder', placeholder("  Datum"));
-      $('#inputSize').attr('placeholder', placeholder("Aantal personen"));
-      $('#inputName').attr('placeholder', placeholder("Naam"));
-      $('#inputMessage').attr('placeholder', placeholder("Extra vragen/opmerkingen"));
-      $('#inputName').focus();
+      $('#inputBookingDate').attr('placeholder', placeholder("  Datum"));
+      $('#inputBookingSize').attr('placeholder', placeholder("Aantal personen"));
+      $('#inputBookingName').attr('placeholder', placeholder("Naam"));
+      $('#inputBookingMessage').attr('placeholder', placeholder("Extra vragen/opmerkingen"));
+      $('#inputBookingName').focus();
 });
 
 $('#myNav').on('shown.bs.modal', function () {
