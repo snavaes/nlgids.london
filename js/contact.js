@@ -21,6 +21,8 @@ $(function() {
        var message = $("textarea#inputMessage").val();
        var formtype = $("input#formType").val();
 
+        langcookie=document.cookie;
+
        var firstName = name; // For Success/Failure Message
            // Check for white space in name for Success/Fail message
         if (firstName.indexOf(' ') >= 0) {
@@ -33,26 +35,39 @@ $(function() {
             	cache: false,
             	success: function() {
             	// Success message
-            	   $('#success').html("<div class='alert alert-success'>");
-            	   $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+            	   $('.success').html("<div class='alert alert-success'>");
+            	   $('.success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             		.append( "</button>");
-            	  $('#success > .alert-success')
-            		.append("<strong>Boeking is met succes verzonden. </strong>");
- 		  $('#success > .alert-success')
+                    if ( langcookie == '' || langcookie == 'lang=nl' ) {
+                          $('.success > .alert-success')
+                                .append("<strong>Boeking is met succes verzonden. </strong>");
+                    } else {
+                          $('.success > .alert-success')
+                                .append("<strong>Booking has been successfully sent. </strong>");
+                    }
+ 		  $('.success > .alert-success')
  			.append('</div>');
 
  		  //clear all fields
  		  $('#contactForm').trigger("reset");
+ 		  $('#navForm').trigger("reset");
+ 		  $('#bookForm').trigger("reset");
  	      },
  	   error: function() {
  		// Fail message
- 		 $('#success').html("<div class='alert alert-danger'>");
-            	$('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+ 		 $('.success').html("<div class='alert alert-danger'>");
+            	$('.success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             	 .append( "</button>");
-            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+", er lijkt iets mis te gaan...</strong> Kunt u een directe mail sturen naar <a href='mailto:ans@nlgids.london?Subject=[NLgids] reservering'>ans@nlgids.london</a> ? Sorry voor het ongemak!");
- 	        $('#success > .alert-danger').append('</div>');
+                    if ( langcookie == '' || langcookie == 'lang=nl' ) {
+                        $('.success > .alert-danger').append("<strong>Sorry "+firstName+", er lijkt iets mis te gaan...</strong> Kunt u een directe mail sturen naar <a href='mailto:ans@nlgids.london?Subject=[NLgids] reservering'>ans@nlgids.london</a> ? Sorry voor het ongemak!");
+                    } else {
+                        $('.success > .alert-danger').append("<strong>Sorry "+firstName+", something has gone wrong...</strong> Could you send a direct mail to <a href='mailto:ans@nlgids.london?Subject=[NLgids] booking'>ans@nlgids.london</a> ? Sorry the hassle!");
+                    }
+ 	        $('.success > .alert-danger').append('</div>');
  		//clear all fields
  		$('#contactForm').trigger("reset");
+ 		$('#navForm').trigger("reset");
+ 		$('#bookForm').trigger("reset");
  	    },
            })
          },
@@ -70,15 +85,15 @@ $(function() {
 
 /* When clicking on Full hide fail/success boxes */
 $('#myModal').on('hidden.bs.modal', function () {
-     $('#success').html('');
+     $('.success').html('');
 });
 
 $('#myNav').on('hidden.bs.modal', function () {
-     $('#success').html('');
+     $('.success').html('');
 });
 
 $('#myContact').on('hidden.bs.modal', function () {
-     $('#success').html('');
+     $('.success').html('');
 });
 
 $('#myModal').on('shown.bs.modal', function () {
