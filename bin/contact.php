@@ -4,7 +4,7 @@
 #}
 
 $name = $_POST['inputName'];
-$date = $_POST['inputDate'];
+$date = trim($_POST['inputDate']);
 $size = $_POST['inputSize'];
 $email = $_POST['inputEmail'];
 $tour = $_POST['inputTour'];
@@ -15,18 +15,18 @@ switch ($type) {
 case "":
 case "bookingNav":
 case "bookingTour":
-    $subject= "[NLgids] Boeking voor \"$tour\" van $name";
+    $subject= "[NLgids] Reservering voor \"$tour\" van \"$name\"";
     $body = <<<EOF
 Hallo Ans,
 
-Er is een nieuwe boeking gemaild, met de volgende details:
+Er is een nieuwe reservering gemaild, met de volgende details:
 
 * Tour: $tour
 * Naam: $name ($email)
 * Datum: $date
 * Personen: $size
 
-Het volgende bericht is achter gelaten:
+Het volgende bericht is achtergelaten:
 
 =======================
 $message
@@ -37,7 +37,7 @@ Met vriendelijke groet,
 EOF;
     break;
 case "contact":
-    $subject= "[NLgids] Contact van $name";
+    $subject= "[NLgids] Contact van \"$name\"";
     $body = <<<EOF
 Hallo Ans,
 
