@@ -11,6 +11,9 @@ $tour = $_POST['inputTour'];
 $message = $_POST['inputMessage'];
 $type = $_POST['formType'];
 
+# put in log as fast as possible.
+error_log("nlgids: $name, $tour", $email, $message");
+
 switch ($type) {
 case "":
 case "bookingNav":
@@ -62,8 +65,8 @@ $headers .= "Reply-To: $email\n";
 if ( ! mail("miek@miek.nl",$subject,$body,$headers) ) {
     return false;
 }
-#if ( ! mail("ans@nlgids.london",$subject,$body,$headers) ) {
-#    return false;
-#}
+if ( ! mail("ans@nlgids.london",$subject,$body,$headers) ) {
+    return false;
+}
 return true;
 ?>
