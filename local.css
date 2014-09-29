@@ -120,7 +120,12 @@ body {
     line-height: 1.8;
     padding-top: 5em;
     background: url('img/union-jack.jpg') no-repeat center center;
-    background-size: 100% 140%;
+    background-size: 100% 100%;
+    min-height: 100%;
+}
+
+html {
+    min-height: 100%;
 }
 
 /*
