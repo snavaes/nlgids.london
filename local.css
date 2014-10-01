@@ -32,6 +32,10 @@ a.header-link { background-color: transparent; }
     margin-left: 1em;
 }
 
+.gutter-right {
+    margin-right: 1em;
+}
+
 .gutter {
     margin-right: 1em;
     margin-bottom: 1em;
