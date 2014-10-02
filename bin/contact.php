@@ -12,7 +12,7 @@ $message = $_POST['inputMessage'];
 $type = $_POST['formType'];
 
 # put in log as fast as possible.
-error_log("nlgids: $name, $tour", $email, $message");
+error_log("nlgids: $name, $tour, $email, $message");
 
 switch ($type) {
 case "":

@@ -1,8 +1,9 @@
 <div lang="nl">
 - St. Paul's Cathedral
-- de Bank of England
-- Leadhall Market
-- Gildehuis
-- Rechtbank (Old Bailey)
-- Beursgebouw
+- Bank of England
+- Leadenhall Market
+- Guildhall
+- Old Bailey (rechtbank)
+- Royal Exchange 
+(Beursgebouw)
 </div>
