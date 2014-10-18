@@ -1,2 +1,2 @@
-Als je met NLgids Londen op pad gaat kom je de leukste dingen tegen!!
+Als je met NLgidsLonden op pad gaat kom je de leukste dingen tegen!!
 - *Mirjam*
