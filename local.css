@@ -22,6 +22,15 @@
     }
 }
 
+.shadow {
+    box-shadow: 10px 5px 15px rgba(0,0,0,.5);
+    margin-bottom: 10px;
+}
+
+.noshadow {
+    margin-bottom: 10px;
+}
+
 .home-text {
     height: 15em;
     max-width: 35em; 
