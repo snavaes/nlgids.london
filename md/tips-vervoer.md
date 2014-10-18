@@ -1,5 +1,5 @@
 <div lang="nl">
-### Vervoer met Oystercard of Travelcard
+### Oystercard of Travelcard
 
 Een Oystercard werkt als een OV-chipkaart, je zet er vooraf geld op en betaalt per reis. In de spits betaal je meer dan tijdens de daluren. 
 
