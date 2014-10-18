@@ -1,9 +1,9 @@
 <div lang="nl">
 ### Vervoer met Oystercard of Travelcard
 
-Een Oystercard werkt als een OV-chipkaart, je betaalt per reis. In de spits betaal je meer dan tijdens de daluren. 
+Een Oystercard werkt als een OV-chipkaart, je zet er vooraf geld op en betaalt per reis. In de spits betaal je meer dan tijdens de daluren. 
 
-Er zit een maximum op de Oystercard als je dat bereikt hebt word je verder niet meer van je kaart afgeschreven. In de spits is dat £8,40
+Op de Oystercard zit een maximum als je dat bereikt hebt word je verder niet meer van je kaart afgeschreven. In de spits is dat £8,40
  en in de daluren (na 9.30) £ 7,00.
 
 Met een Travelcard betaal je een vast bedrag ongeacht hoeveel je reist. In de spits is dat £9,00  en buiten de spits (na 9.30) £ 8,90.

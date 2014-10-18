@@ -11,8 +11,8 @@ een reservering maken. Hoe eerder hoe beter.
 
 ### Annulering
 Annuleren is alleen mogelijk per mail. Annuleren tot zeven dagen of langer voor
-de tour, dan krijg je het aanbetaling bedrag teruggestort. Bij annuleringen
-korter dan 7 dagen geldt de aanbetaling als vergoeding.
+de tour, dan krijg je het aanbetaalde bedrag teruggestort. Bij annuleringen
+korter dan 7 dagen voor de tour geldt de aanbetaling als vergoeding.
 
 NLgidsLonden behoudt het recht om ten alle tijden te annuleren als door
 onvoorziene omstandigheden de tour niet door gaat. De aanbetaling wordt dan per
