@@ -141,7 +141,11 @@ $(document).ready(function() {
       $(".announce").click(function() { // Click to only happen on announce links
           $("#inputBookingTour").val($(this).data('id'));
       });
+      $('.carousel').carousel({
+          interval: 5000,
+      });
 });
+
 
 $(function() {
  $("input[name='inputContact'],textarea[name='inputContact']").jqBootstrapValidation(
