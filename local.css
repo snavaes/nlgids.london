@@ -6,16 +6,14 @@
     font-weight: bold;
 }
 
-.header-image {
-    background: url('img/logo-NLgidsLondon.jpg') no-repeat center center;
-    height: 3em;
+.header-img {
+    width: 60%;
+    height: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .header-content {
-    font-size: 5em;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    color: black;
-    font-weight: bold;
 }
 
 a.header-link:link    { color: black; }
@@ -29,20 +27,16 @@ a.header-link { background-color: transparent; }
 }
 
 .gutter-left {
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 .gutter-right {
-    margin-right: 1em;
+    margin-right: 2em;
 }
 
 .gutter {
-    margin-right: 1em;
-    margin-bottom: 1em;
-}
-
-.shadow {
-    box-shadow: 10px 5px 15px rgba(0,0,0,.5);
+    margin-right: 2em;
+    margin-bottom: 2em;
 }
 
 .flag {
