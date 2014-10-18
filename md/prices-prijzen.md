@@ -5,16 +5,23 @@ plek en eindigen bij een leuke pub of lunchtent.
 
 ###  De prijzen 
 
-City in een Notendop £35
+Mini City Tour £35
 
-:   maximaal 8 personen, per persoon extra £3.50
+:   Maximaal 8 personen, per persoon extra £3.50
 
-De city tour £50
+Grand City Tour £50
 
 :   Maximaal 8 personen, per persoon extra £5
 
-Fiets tour £140 (incl. fiets, helm en poncho)
+Fiets Tour £140 (incl. fiets, helm en poncho)
 
 :   2-4 personen, £20 voor elke extra persoon
 
+Secret Fiets Tour £140 (incl. fiets, helm en poncho)
+
+:   2-4 personen, £20 voor elke extra persoon
+
+Tour op Maat
+
+:     Op aanvraag
 </div>
