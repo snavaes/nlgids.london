@@ -22,8 +22,12 @@
     }
 }
 
-.header-content {
+.home-text {
+    height: 15em;
+    max-width: 35em; 
 }
+
+.header-content {}
 
 a.header-link:link    { color: black; }
 a.header-link:visited { color: black; }
