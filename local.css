@@ -61,13 +61,6 @@ a.header-link { background-color: transparent; }
     border: 0;
     display: inline;
 }
-/*
-a.social:hover {
-    text-decoration: none;
-    background-color: transparant;
-    color: transparant;
-}
-*/
 
 .datepicker {
     z-index:1151 !important;
@@ -75,22 +68,7 @@ a.social:hover {
 
 .navbar-custom {
     font-size: 1.5em;
-
-/*
-    background-color: #2e2e2e;
-    font-weight:700;
-    color: white;
-    padding-left: 2%;
-    padding-right: 2%;
-*/
 }
-
-/*
-.navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
-    background-color: #000;
-    color: white;
-}
-*/
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
@@ -126,17 +104,8 @@ body {
     font-family: 'PT Serif', serif;
     line-height: 1.8;
     padding-top: 5em;
-    /* background: url('img/union-jack.jpg') no-repeat center center; */
-    /* background-size: 100% 100%; */
-    /* min-height: 100%;*/
 }
 
 html {
     min-height: 100%;
 }
-
-/*
-@media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
-}
-*/
