@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Local -->
+    <link href="local.css" rel="stylesheet">
+    <link href="datepicker/css/datepicker.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NLgids Londen</title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body
+onload="
+langcookie=document.cookie;
+if (langcookie == '') { document.body.className='nl' };
+if (langcookie == 'lang=nl') { document.body.className='nl' };
+if (langcookie == 'lang=en') { document.body.className='en' };
+">
+    <!--#include virtual="navbar.html" -->
+    <div class="container-fluid">
+
+      <div class="row header-image">
+        <div class="col-sm-12">
+            <!--#include virtual="head.html" -->
+        </div>
+      </div> <!-- row -->
+
+      <div class="row">
+
+        <div class="col-sm-1 hidden-xs hidden-sm"></div>
+        <div class="col-sm-3 well">
+                <a href="tips.html">
+                    <img src="img/tip.png" class="img-responsive" alt="Foto van de Gids Ans Vaessen">
+                </a>
+                <div class="caption">
+               </div>
+        </div> <!-- 3 -->
+
+        <div class="col-sm-7">
+
+            <div id="tips-tip"></div>
+
+            <div class="well">
+            <div class="row container-fluid">
+                <div class="col-sm-2 pull-left gutter">
+                    <img class="img-responsive shadow" style="min-width:100px;min-height:100px" src="img/tips-intro.jpg" alt="Kaartje met Top Tips erop geschreven">
+                </div>
+                <div class="col-sm-8 pull-right">
+                    <h1>Prijzen</h1>
+                </div> <!-- 8 -->
+            </div> <!-- row -->
+
+            <div class="row container-fluid">
+                <div class="col-sm-10">
+                        <!--#include virtual="inc/tips-intro.html" -->
+                </div> <!-- col-sm-8 -->
+                 <div style="height:4em" class="col-sm-4">
+                     <!--      <button class="btn btn-primary btn-lg pull-right announce" data-id="City in een Notendop" data-toggle="modal" data-target="#myModal">Reserveer nu</button> -->
+                 </div> <!-- col-sm-4 -->
+             </div> <!-- row -->
+         </div> <!-- well -->
+
+            <div class="well">
+            <div class="row container-fluid">
+                <div class="col-sm-2 pull-left gutter">
+                    <img class="img-responsive shadow" style="min-width:100px;min-height:100px" src="img/tips-vervoer.jpg" alt="Londense Oystercard">
+                </div>
+                <div class="col-sm-8 pull-right">
+                    <h1 lang="nl">Vervoer</h1>
+                    <h1 lang="en">Transport</h1>
+                </div> <!-- 8 -->
+            </div> <!-- row -->
+
+            <div class="row container-fluid">
+                <div class="col-sm-10">
+                        <!--#include virtual="inc/tips-vervoer.html" -->
+                </div> <!-- col-sm-8 -->
+                 <div style="height:4em" class="col-sm-4">
+                     <!--      <button class="btn btn-primary btn-lg pull-right announce" data-id="City in een Notendop" data-toggle="modal" data-target="#myModal">Reserveer nu</button> -->
+                 </div> <!-- col-sm-4 -->
+             </div> <!-- row -->
+         </div> <!-- well -->
+
+            <div class="well">
+            <div class="row container-fluid">
+                <div class="col-sm-2 pull-left gutter">
+                    <img class="img-responsive shadow" style="min-width:100px;min-height:100px" src="img/tips-mobiel.jpg" alt="Mobile telefoons op elkaar gestapeld">
+                </div>
+                <div class="col-sm-10 pull-right">
+                    <h1 lang="nl">Mobiel</h1>
+                    <h1 lang="en">Mobile</h1>
+                </div> <!-- 8 -->
+            </div> <!-- row -->
+
+            <div class="row container-fluid">
+                <div class="col-sm-10">
+                        <!--#include virtual="inc/tips-mobiel.html" -->
+                </div> <!-- col-sm-8 -->
+                 <div style="height:4em" class="col-sm-4">
+                     <!--      <button class="btn btn-primary btn-lg pull-right announce" data-id="City in een Notendop" data-toggle="modal" data-target="#myModal">Reserveer nu</button> -->
+                 </div> <!-- col-sm-4 -->
+             </div> <!-- row -->
+         </div> <!-- well -->
+
+        </div> <!-- col-sm-7 -->
+
+      <!-- Footer -->
+      <div class="col-sm-12">
+            <!--#include virtual="foot.html" -->
+      </div>
+
+      </div> <!-- row -->
+
+
+    </div> <!-- class="container-fluid" -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact.js"></script>
+
+
+<script type="text/javascript">
+    $('#inputDate').datepicker({
+    todayBtn: "linked",
+    autoclose: true,
+    todayHighlight: true
+    });
+</script>
+  </body>
+</html>
