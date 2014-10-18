@@ -1,1 +1,2 @@
-"Nog nooit *zo'n* leuke tour meegemaakt." - Miek
+Somerset House was heerlijk: kinderen lekker rond rennend door de fonteinen, en jij wist ons ondertussen alles te vertellen over de historie.
+- *Doenja*

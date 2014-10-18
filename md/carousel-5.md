@@ -1,1 +1,1 @@
-"Heel mooi en leerzaam." - Miek
+Heel mooi en leerzaam. - *Miek*
