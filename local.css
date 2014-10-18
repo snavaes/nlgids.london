@@ -60,6 +60,10 @@ a.header-link { background-color: transparent; }
     margin-right: 1em;
 }
 
+.gutter-footer {
+    margin-top: 2em;
+}
+
 .gutter {
     margin-left: 2em;
     margin-right: 2em;
@@ -125,4 +129,26 @@ body {
 
 html {
     min-height: 100%;
+}
+
+.carousel {
+    height: 5em;
+}
+
+.carousel > .left {
+    background: white;
+}
+
+.carousel > .right {
+    background: white;
+}
+
+.carousel-control {
+    font-size: 2.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-inner > .item {
+    text-align: center;
 }
