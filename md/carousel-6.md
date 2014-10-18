@@ -1,1 +1,1 @@
-"Alles meteen weer vergeten."
+"Alles meteen weer vergeten." - Oma

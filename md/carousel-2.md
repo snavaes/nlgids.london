@@ -1,1 +1,1 @@
-"Nog nooit *zo'n* leuke tour meegemaakt."
+"Nog nooit *zo'n* leuke tour meegemaakt." - Miek

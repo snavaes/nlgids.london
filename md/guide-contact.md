@@ -1,11 +1,12 @@
 <div lang="nl">
 Toen mijn man een baan aangeboden kreeg in Londen zei ik meteen “DOEN!” Het is een fantastische stad en het was een geweldige kans de stad te leren kennen als een echte Londenaar. Samen met mijn dochtertje heb ik de hele stad doorkruist op zoek naar mooie parken, evenementen, historie en natuurlijk speeltuintjes. Omdat ik de weg ken en ook veel weet van de stad wil ik dit graag delen met bezoekers en inwoners van Londen.
 
-Als Nederlandse gids weet ik goed wat de Nederlander leuk vindt. Zonder je te overladen met jaartallen,
+Als Nederlandse gids weet ik goed wat de Nederlander leuk vindt. Een boeiend verhaal zonder je te overladen met jaartallen,
 namen, maar wel met leuke weetjes en verhalen. 
 
-Ik heb een master in toerisme en vrije tijd (Universiteit Wageningen),
- ik heb bedrijven en overheid hierover geadviseerd en lesgegeven in toerisme.
+Ik heb een master in toerisme en vrije tijd (Universiteit Wageningen). 
+In Nederland heb ik bedrijven en de gemeentelijke overheid geadviseerd met betrekking tot
+toerisme en ik heb ook lesgegeven in toerisme.
 
 In London heb ik een studie over de geschiedenis van de stad gedaan en een cursus aan de universiteit over de architectuur van
  typische Londense gebouwen gevolgd. In het voorjaar hoop ik af te studeren als City of London Guide. 
