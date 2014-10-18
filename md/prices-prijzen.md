@@ -4,6 +4,7 @@ Voldoende om een goede indruk te krijgen. We beginnen op een interessante
 plek en eindigen bij een leuke pub of lunchtent.
 
 De prijzen 
+
 * City in een Notendop £35
 * De city tour	£50
 * Fiets tour £140 (2-4 personen £20 voor elke extra persoon)
