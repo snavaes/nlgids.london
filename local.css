@@ -43,6 +43,10 @@ a.header-link { background-color: transparent; }
     margin-right: 2em;
 }
 
+.gutter-right-small {
+    margin-right: 1em;
+}
+
 .gutter {
     margin-left: 2em;
     margin-right: 2em;
