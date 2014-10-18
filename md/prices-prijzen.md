@@ -13,11 +13,11 @@ Grand City Tour £50
 
 :   Maximaal 8 personen, per persoon extra £5
 
-Fiets Tour £140 (incl. fiets, helm en poncho)
+Fietstour London £140 (incl. fiets, helm en poncho)
 
 :   2-4 personen, £20 voor elke extra persoon
 
-Secret Fiets Tour £140 (incl. fiets, helm en poncho)
+Fietstour Secret London £140 (incl. fiets, helm en poncho)
 
 :   2-4 personen, £20 voor elke extra persoon
 
