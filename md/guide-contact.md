@@ -5,14 +5,14 @@ Als Nederlandse gids weet ik goed wat de Nederlander leuk vindt. Zonder je te ov
 namen, maar wel met leuke weetjes en verhalen. 
 
 Ik heb een master in toerisme en vrije tijd (Universiteit Wageningen),
- ik heb bedrijven en overheid hierover geadviseerd en lesgeven in toerisme.
+ ik heb bedrijven en overheid hierover geadviseerd en lesgegeven in toerisme.
 
-In London heb ik een studie over de geschiedenis van de stad gedaan en een cursus aan de universiteit overde architectuur van
+In London heb ik een studie over de geschiedenis van de stad gedaan en een cursus aan de universiteit over de architectuur van
  typische Londense gebouwen gevolgd. In het voorjaar hoop ik af te studeren als City of London Guide. 
 Dus mocht je wel de details van de stad willen weten, ook dan ben je bij mij aan het goede adres.
 
 
-Al vanaf £35 geef ik rondleidingen van een uur. Voldoende om een goede indruk te krijgen en niet te lang. 
+Al vanaf £35 geef ik rondleidingen van een uur. Voldoende om een goede indruk te krijgen. 
 We beginnen op een interessante plek en eindigen bij een leuke pub of plek om te lunchen.
 
 Net als elke Londenaar ben ik op de hoogte van de leuke eettentjes en de beste plekken om te shoppen. 
