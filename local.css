@@ -100,7 +100,6 @@ blockquote {
 
 .navbar-custom {
     font-size: 1.5em;
-    height: 2em;
 }
 
 @media (min-width: 768px) {
@@ -112,6 +111,9 @@ blockquote {
 
     .navbar .navbar-collapse {
         text-align: center;
+    }
+    .navbar-custom {
+        height: 2em;
     }
 }
 
