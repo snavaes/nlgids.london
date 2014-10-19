@@ -56,6 +56,10 @@ a.header-link { background-color: transparent; }
     margin-right: 1em;
 }
 
+.gutter-left-small {
+    margin-left: 0.3em;
+}
+
 .gutter-bottom {
     margin-bottom: 5em;
 }
