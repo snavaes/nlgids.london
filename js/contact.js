@@ -144,6 +144,9 @@ $(document).ready(function() {
       $('.carousel').carousel({
           interval: 5000,
       });
+      /* even out the front column lengths */
+      var highestCol = Math.max($('#home-tours').height(),$('#home-guide').height(),$('#home-tips').height(), $('#home-prices').height());
+      $('.home-text').height(highestCol);
 });
 
 
