@@ -1,6 +1,6 @@
 <div lang="nl">
 Toen mijn man een baan aangeboden kreeg in Londen zei ik meteen “DOEN!”
-Het is een fantastische stad en het was een geweldige kans de stad te leren
+Het is een fantastische stad en een geweldige kans de stad te leren
 kennen als een echte Londenaar. Samen met mijn dochtertje heb ik de hele stad
 doorkruist op zoek naar mooie parken, evenementen, historie en natuurlijk
 speeltuintjes. Omdat ik de weg ken en ook veel weet van de stad wil ik dit graag

@@ -1,1 +1,1 @@
-Alles meteen weer vergeten. - *Oma*
+Ans, bedankt voor de ontzettend leuke tour! - *Loes*
