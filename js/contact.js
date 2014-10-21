@@ -146,7 +146,7 @@ $(document).ready(function() {
       });
       /* even out the front column lengths */
       var highestCol = Math.max($('#home-tours').height(),$('#home-guide').height(),$('#home-tips').height(), $('#home-prices').height());
-      $('.home-text').height(highestCol);
+      $('.home-text').height(highestCol-80);    /* why 80?? */
 });
 
 
