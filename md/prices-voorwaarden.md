@@ -5,7 +5,7 @@ De aanbetaling is 50% en daarmee staat de reservering vast.
 
 De rest van het bedrag kun je cash betalen aan de gids.
 
-### Reserving
+### Reservering
 Afhankelijk van de beschikbaarheid van de gids kun je tot op het laatste moment
 een reservering maken. Hoe eerder hoe beter.
 
