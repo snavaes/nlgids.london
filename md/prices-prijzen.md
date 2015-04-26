@@ -7,19 +7,23 @@ plek en eindigen bij een leuke pub of lunchtent.
 
 Mini City Tour £35 (prive tour)
 
-:   Maximaal 8 personen, per persoon extra £3.50
+:   Maximaal 8 personen, per persoon extra £3.50.
 
 Grand City Tour £50 (prive tour)
 
-:   Maximaal 8 personen, per persoon extra £5
+:   Maximaal 8 personen, per persoon extra £5.
 
-Fietstour London £140 (prive tour incl. fiets, helm en poncho)
+Fietstour London £24,95 (incl. fiets, helm en poncho)
 
-:   2-4 personen, £20 voor elke extra persoon
+:   Stuur me een [email](mailto: ans@nlgids.london) om te kijken of er een tour is om bij aan te sluiten.
 
-Fietstour Secret London £140 (prive tour incl. fiets, helm en poncho)
+    Prive tour 2-4 personen £140, £20 voor elke extra persoon.
 
-:   2-4 personen, £20 voor elke extra persoon
+Fietstour Secret London £24,95 (incl. fiets, helm en poncho)
+
+:   Stuur me een [bericht](mailto: ans@nlgids.london) om te kijken of er een tour is om bij aan te sluiten .
+
+    Prive tour 2-4 personen £140, 20 voor elke extra persoon.
 
 Tour op Maat
 
