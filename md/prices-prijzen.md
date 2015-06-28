@@ -21,6 +21,8 @@ Fietstour £24,95 (incl. fiets, helm en poncho)
 
 :   Stuur me een [email](mailto: ans@nlgids.london) om te kijken of er een tour is om bij aan te sluiten.
 
-    Prive tour 2-4 personen £140, £20 voor elke extra persoon.
+Prive Fietsrour £140 (incl. fiets, helm en poncho) 
+
+:   Prive tour 2-4 personen £140, £20 voor elke extra persoon.
 
 </div>
