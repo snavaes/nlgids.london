@@ -1,4 +1,7 @@
 <div lang="nl">
-- St. Paul's Cathedral
-- Dr. Johnson House
+- Bourough Market
+- The Globe 
+- Millennium bridge
+- Londen Bridge
+- Clink gevangenis
 </div>

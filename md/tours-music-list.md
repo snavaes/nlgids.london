@@ -1,4 +1,6 @@
 <div lang="nl">
-- St. Paul's Cathedral
-- Dr. Johnson House
+- SoHo
+- Denmark Street
+- Covent Garden
+- China Town
 </div>

@@ -1,5 +1,7 @@
 <div lang="nl">
-- St. Paul's Cathedral
-- Bank of England
-- Leadenhall Market
+- Nederlands verzet
+- St. James Park
+- Churchill War Rooms
+- The Duke of Wellington en Lord Nelson
+- Florance Nightingale
 </div>

@@ -20,7 +20,7 @@ gevolgd. In het voorjaar hoop ik af te studeren als City of London Guide. Dus
 mocht je wel de details van de stad willen weten, ook dan ben je bij mij aan het
 goede adres.
 
-Al vanaf £35 geef ik rondleidingen van een uur. Voldoende om een goede indruk
+Al vanaf [£35](/prices.html) geef ik rondleidingen van een uur. Voldoende om een goede indruk
 te krijgen. We beginnen op een interessante plek en eindigen bij een leuke pub
 of plek om te lunchen.
 

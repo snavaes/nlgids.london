@@ -1,7 +1,8 @@
 <div lang="nl">
-The City is vaak een vergeten onderdeel in een trip aan Londen.
-The City is niet alleen het financiële district van de stad is maar ook 
-van het oude Londen. *De square mile* is waar de Romeinen Londinium stichtten. 
-In een korte wandeling van een uur ontmoeten we Romeinen, gevangenen, bankiers, 
-handelaren, schrijvers en architecten.
+Ik niet, maar ik kan je er wel van alles oververtellen. 
+De geschiedenis van het Engelse koningshuis laat zich vertellen als een 
+sprookje of eigenlijk meer een griezel verhaal. Van af het eerste paleis waar 
+nog steeds een deel van staat tot het huidige 'werk' paleis van de Koningin. 
+Maar ook Willem van Oranje, Bloody Mary en de gekke Koning George. 
+Liefhebbers van Game of Thrones zullen overeenkomsten zien...
 </div>

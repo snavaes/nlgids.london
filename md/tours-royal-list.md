@@ -1,9 +1,8 @@
 <div lang="nl">
-- St. Paul's Cathedral
-- Bank of England
-- Leadenhall Market
-- Guildhall
-- Old Bailey (rechtbank)
-- Royal Exchange 
-(Beursgebouw)
+- Buckingham Palace
+- Downing street 10
+- Houses of Parliment
+- Trafalgar Square
+- Horse Guards
+- Westminster Abbey
 </div>
