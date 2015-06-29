@@ -117,6 +117,20 @@ ul.none {
     margin: 0;
 }
 
+@media (max-width: 480px) {
+    /* list-inline style */
+    div.pull-right>div>ul {
+        padding-left: 0;
+        margin-left: -5px;
+        list-style: none;
+    }
+    div.pull-right>div>ul>li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
 body.en :lang(nl) {
     display: none;
 }
