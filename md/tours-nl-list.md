@@ -1,7 +1,7 @@
 <div lang="nl">
 - Monument
 - Guildhall
-- St. Pauls
+- St. Paul's
 - Holland House
 - Dutch Church
 </div>

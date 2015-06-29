@@ -14,15 +14,15 @@ Annuleren is alleen mogelijk per mail. Bij annulering tot zeven dagen voor
 de tour wordt het aanbetaalde bedrag teruggestort. Bij annuleringen
 korter dan 7 dagen voor de tour geldt de aanbetaling als vergoeding.
 
-NLgidsLonden behoudt het recht om ten alle tijden te annuleren als door
-onvoorziene omstandigheden de tour niet door gaat. De aanbetaling wordt dan per
+NLgidsLonden behoudt het recht om te allen tijden te annuleren als door
+onvoorziene omstandigheden de tour niet doorgaat. De aanbetaling wordt dan per
 direct terug overgemaakt.
 
-### Veiligheid 
-Je bent tijdens de tour verantwoordelijk voor je eigen veiligheid. NLgidsLonden kan niet aansprakelijk gesteld worden voor ongelukken of letsel. Bij reservering van een tour ga je ermee akkoord om de aanwijzingen van de gids ten alle tijden op te volgen. 
+### Veiligheid
+Je bent tijdens de tour verantwoordelijk voor je eigen veiligheid. NLgidsLonden kan niet aansprakelijk gesteld worden voor ongelukken of letsel. Bij reservering van een tour ga je ermee akkoord om de aanwijzingen van de gids te allen tijden op te volgen.
 
-### Vertrek tijden
-De tour vertrekt op de afgesproken tijd. Laat telefonisch weten als je later bent bij meer dan 15 minuten te laat behoud NLgidsLonden het recht om de rondleiding te annuleren zonder teruggaaf van aanbetaling.
+### Vertrektijden
+De tour vertrekt op de afgesproken tijd. Laat telefonisch weten als je later bent bij meer dan 15 minuten te laat behoudt NLgidsLonden het recht om de rondleiding te annuleren zonder teruggaaf van aanbetaling.
 </div>
 
 <div lang="en">

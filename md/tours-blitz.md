@@ -2,8 +2,7 @@
 Overal in Londen vind je gedenk plaatsten van oorlogen en veldslagen. 
 Dit jaar is het 200 jaar geleden dat Napoleon werd verslagen in Waterloo. 
 Maar ook andere monumenten en plekken gedenken oorlogshelden en heldinnen 
-en degene die gevallen zijn. Ik neem je mee en laat je de meest bijzondere 
-plekjes zien niet alleen het Nederlandse verzet in Londen maar ook onverwachte 
+en degenen die gevallen zijn. Ik neem je mee en laat je de meest bijzondere 
+plekjes zien niet alleen het Nederlandse verzet in Londen, maar ook onverwachte 
 mooie of bizarre dingen.
-
 </div>

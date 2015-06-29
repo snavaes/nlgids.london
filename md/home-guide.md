@@ -1,5 +1,5 @@
 <div lang="nl">
-Toen mijn man een baan aangeboden kreeg in Londen zei ik meteen "DOEN!" Het is
+Toen mijn man een baan aangeboden kreeg in Londen, zei ik meteen "DOEN!" Het is
 een fantastische stad en het was een geweldige kans de stad te leren kennen als
 een echte Londenaar.
 </div>

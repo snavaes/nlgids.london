@@ -1,7 +1,7 @@
 <div lang="nl">
 - Buckingham Palace
-- Downing street 10
-- Houses of Parliment
+- Downing Street 10
+- Houses of Parliament
 - Trafalgar Square
 - Horse Guards
 - Westminster Abbey
