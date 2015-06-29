@@ -125,9 +125,13 @@ ul.none {
         list-style: none;
     }
     div.pull-right>div>ul>li {
+        border-right: 1px solid #000;
         display: inline-block;
         padding-right: 5px;
         padding-left: 5px;
+    }
+    div.pull-right>div>ul>li:last-child {
+        border: 0;
     }
 }
 
