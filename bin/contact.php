@@ -1,8 +1,4 @@
 <?php
-#if(empty($_POST['inputName']) || empty($_POST['inputEmail']) {
-#	return false;
-#}
-
 $name = $_POST['inputName'];
 $date = trim($_POST['inputDate']);
 $size = $_POST['inputSize'];
@@ -11,8 +7,21 @@ $tour = $_POST['inputTour'];
 $message = $_POST['inputMessage'];
 $type = $_POST['formType'];
 
+if (empty($name) || empty($email)) {
+	return false;
+}
+
 # put in log as fast as possible.
-error_log("nlgids: $name, $tour, $email, $message");
+error_log("nlgids: $name, $tour, $email, $message, $type");
+
+$tourinfo="";
+if (!empty($tour)) {
+    $tourinfo = "
+* Tour....: $tour
+* Naam....: $name ($email)
+* Datum...: $date
+* Personen: $size";
+}
 
 switch ($type) {
 case "":
@@ -22,11 +31,12 @@ case "bookingTour":
     $body = <<<EOF
 Hallo Ans,
 
-Er is een nieuwe reservering gemaild, met de volgende details:
+Er is een nieuwe reservering gemaakt, met de volgende details:
 
-* Tour: $tour
 * Naam: $name ($email)
-* Datum: $date
+
+* Tour....: $tour
+* Datum...: $date
 * Personen: $size
 
 Het volgende bericht is achtergelaten:
@@ -47,6 +57,7 @@ Hallo Ans,
 Er is een contact formulier ingevuld, met de volgende details:
 
 * Naam: $name ($email)
+$tourinfo
 
 En het volgende bericht is achter gelaten:
 
