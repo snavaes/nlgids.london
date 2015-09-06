@@ -1,1 +1,1 @@
-Ans, bedankt voor de ontzettend leuke tour! - *Loes*
+Tijdens pinksterweekend superleuke fietstocht door Londen gedaan onder begeleiding van deze leuke gids. Juist de minder bekende plekjes bezocht. Aanrader!!! - *Josje Geurts*

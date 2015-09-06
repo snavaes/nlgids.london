@@ -5,6 +5,7 @@ $size = $_POST['inputSize'];
 $email = $_POST['inputEmail'];
 $tour = $_POST['inputTour'];
 $message = $_POST['inputMessage'];
+$tel = $_POST['inputTel'];
 $type = $_POST['formType'];
 
 if (empty($name) || empty($email)) {
@@ -19,6 +20,7 @@ if (!empty($tour)) {
     $tourinfo = "
 * Tour....: $tour
 * Naam....: $name ($email)
+* Tel.....: $tel
 * Datum...: $date
 * Personen: $size";
 }
@@ -35,6 +37,7 @@ Er is een nieuwe reservering gemaakt, met de volgende details:
 
 * Naam: $name ($email)
 
+* Tel.....: $tel
 * Tour....: $tour
 * Datum...: $date
 * Personen: $size
@@ -56,7 +59,8 @@ Hallo Ans,
 
 Er is een contact formulier ingevuld, met de volgende details:
 
-* Naam: $name ($email)
+* Naam..: $name ($email)
+* Tel...: $tel
 $tourinfo
 
 En het volgende bericht is achter gelaten:

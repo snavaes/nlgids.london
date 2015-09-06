@@ -14,15 +14,10 @@ Ik heb een master in toerisme en vrije tijd (Universiteit Wageningen).
 In Nederland heb ik bedrijven en de gemeentelijke overheid geadviseerd met betrekking tot
 toerisme en ik heb ook lesgegeven in toerisme.
 
-In Londen heb ik een studie over de geschiedenis van de stad gedaan en een
+Ik ben een gekwalificeerde [City Of London Guide](http://www.cityoflondonguides.com/find/ans-vaessen).
+Daarnaast heb ik een studie over de geschiedenis van de stad gedaan en een
 cursus aan de universiteit over de architectuur van typische Londense gebouwen
-gevolgd. In het voorjaar hoop ik af te studeren als City of London Guide. Dus
-mocht je wel de details van de stad willen weten, ook dan ben je bij mij aan het
-goede adres.
-
-Al vanaf [£35](/prices.html) geef ik rondleidingen van een uur. Voldoende om een goede indruk
-te krijgen. We beginnen op een interessante plek en eindigen bij een leuke pub
-of plek om te lunchen.
+gevolgd.
 
 Net als elke Londenaar ben ik op de hoogte van de leuke eettentjes en de beste
 plekken om te shoppen. Verder heb ik veel tips voor mensen die met kinderen

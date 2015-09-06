@@ -1,14 +1,13 @@
 <div lang="nl">
-<big>Zomer in Londen.</big>
-Summer in the city. Waar vind je verkoeling in Londen in de zomer.
-Dat is makkelijker dan je denkt.
-De stad heeft enorm veel parken, groener dan de meeste grote steden.
-Je kunt natuurlijk je eigen wind creëren door met mij te gaan [fietsen](/tours-bike.html).
-Maar je kunt ook het strand in Camden bezoeken of naar de Diana Memorial
-fontein. Mijn favoriet is [Somerset House](http://www.citytrips4kids.nl/sommerset-house-londen/). Tientallen fonteinen en het is een fantastische plek om een drankje te doen.
-Daarnaast zijn er allerlei festivals in de zomer. 
+<big>In de herfstvakantie naar Londen?</big>
 
-Meer tips om verkoeling te zoeken of om met
-mij de stad te verkennen mail [me](mailto: ans@nlgids.london) of kijk op [facebook](https://www.facebook.com/NLgidsLonden?ref=hl)
+Goede keus! Het najaar is vaak heel erg zacht en het regent meestal minder dan 
+in de zomer. De parken zijn prachtig in de herfstkleuren. 
+In geval van regen geen nood, Londen heeft geweldige musea en deze zijn 
+vaak gratis!
+De eerste week van november is “Bonfire night” een spektakel met overal 
+vuurwerk en vreugdevuren. Als je Londen op een later tijdstip bezoekt kun 
+je zien hoe de stad zich opmaakt voor het Kerstfeest met overal feestverlichting.
+Meer tips of wil je met mij op zoek naar het kerstgevoel mail [me](mailto: ans@nlgids.london) of kijk op [facebook](https://www.facebook.com/NLgidsLonden?ref=hl)
 of [twitter](https://twitter.com/NLgidsLonden).
 </div>
