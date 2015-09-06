@@ -15,6 +15,7 @@ $(function() {
        // get values from FORM
        var nameBooking = $("input#inputBookingName").val();
        var emailBooking = $("input#inputBookingEmail").val();
+       var telBooking = $("input#inputBookingTel").val();
        var sizeBooking = $("input#inputBookingSize").val();
        var tourBooking = $("input#inputBookingTour").val();
        var dateBooking = $("input#inputBookingDate").val();
@@ -31,7 +32,7 @@ $(function() {
 	 $.ajax({
                 url: "../bin/contact.php",
             	type: "POST",
-            	data: {formType: formtype, inputName: nameBooking, inputEmail: emailBooking, inputSize: sizeBooking, inputDate: dateBooking, inputTour: tourBooking, inputMessage: messageBooking},
+            	data: {formType: formtype, inputName: nameBooking, inputEmail: emailBooking, inputTel: telBooking, inputSize: sizeBooking, inputDate: dateBooking, inputTour: tourBooking, inputMessage: messageBooking},
             	cache: false,
             	success: function() {
             	// Success message
@@ -163,6 +164,7 @@ $(function() {
        // get values from FORM
        var nameContact = $("input#inputContactName").val();
        var emailContact = $("input#inputContactEmai").val();
+       var telContact = $("input#inputContactTel").val();
        var messageContact = $("textarea#inputContactMessage").val();
        var formtype = $("input#formContactType").val();
        langcookie=document.cookie;
@@ -175,7 +177,7 @@ $(function() {
 	 $.ajax({
                 url: "../bin/contact.php",
             	type: "POST",
-            	data: {formType: formtype, inputName: nameContact, inputEmail: emailContact, inputMessage: messageContact},
+            	data: {formType: formtype, inputName: nameContact, inputEmail: emailContact, inputTel: telContact, inputMessage: messageContact},
             	cache: false,
             	success: function() {
             	// Success message
@@ -240,6 +242,7 @@ $(function() {
        // get values from FORM
        var nameNav = $("input#inputNavName").val();
        var emailNav = $("input#inputNavEmail").val();
+       var telNav = $("input#inputNavTel").val();
        var messageNav = $("textarea#inputNavMessage").val();
        var sizeNav = $("input#inputNavSize").val();
        var tourNav = $("select#inputNavTour").val();
@@ -255,7 +258,7 @@ $(function() {
 	 $.ajax({
                 url: "../bin/contact.php",
             	type: "POST",
-            	data: {formType: formtype, inputName: nameNav, inputEmail: emailNav, inputSize: sizeNav, inputDate: dateNav, inputTour: tourNav, inputMessage: messageNav},
+            	data: {formType: formtype, inputName: nameNav, inputEmail: emailNav, inputTel: telNav, inputSize: sizeNav, inputDate: dateNav, inputTour: tourNav, inputMessage: messageNav},
             	cache: false,
             	success: function() {
             	// Success message

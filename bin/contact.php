@@ -13,7 +13,7 @@ if (empty($name) || empty($email)) {
 }
 
 # put in log as fast as possible.
-error_log("nlgids: $name, $tour, $email, $message, $type");
+error_log("nlgids: $name, $tel, $tour, $email, $message, $type");
 
 $tourinfo="";
 if (!empty($tour)) {
@@ -36,8 +36,8 @@ Hallo Ans,
 Er is een nieuwe reservering gemaakt, met de volgende details:
 
 * Naam: $name ($email)
-
-* Tel.....: $tel
+* Tel.: $tel
+*
 * Tour....: $tour
 * Datum...: $date
 * Personen: $size
