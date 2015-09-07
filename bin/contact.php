@@ -37,7 +37,7 @@ Er is een nieuwe reservering gemaakt, met de volgende details:
 
 * Naam: $name ($email)
 * Tel.: $tel
-*
+
 * Tour....: $tour
 * Datum...: $date
 * Personen: $size
