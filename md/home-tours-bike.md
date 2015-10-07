@@ -5,5 +5,8 @@ neem een veilige route. Met de fiets kom je op plaatsten waar de bus niet komt.
 </div>
 
 <div lang="en">
-As a guide I know my way around London and can tell you all about the history and have a lot of quirky facts too.
+Being Dutch means I love Cycling. I believe seeing London on your 
+bike is an unique experience and I will make sure it is safe as well. 
+We will go where no bus or car can go.
+
 </div>

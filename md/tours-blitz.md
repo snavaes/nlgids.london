@@ -6,3 +6,7 @@ en degenen die gevallen zijn. Ik neem je mee en laat je de meest bijzondere
 plekjes zien niet alleen het Nederlandse verzet in Londen, maar ook onverwachte 
 mooie of bizarre dingen.
 </div>
+
+<div lang="en">
+Sorry not all tours are in English. But please have a look at my Dutch courage tour.
+</div>

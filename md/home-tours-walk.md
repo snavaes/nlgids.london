@@ -4,5 +4,6 @@ detail te treden. Ik ken de stad op mijn duimpje en weet alles van de geschieden
 </div>
 
 <div lang="en">
-As a guide I know my way around London and can tell you all about the history and have a lot of quirky facts too.
+My tours are fun. Without to much details and date but with loads of stories and qurky facts. 
+I know my way around and can also tell you about the Dutch historie in London.
 </div>

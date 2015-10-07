@@ -5,6 +5,6 @@ een echte Londenaar. Inmiddels ben ik een gekwalificeerde gids in [The City of L
 </div>
 
 <div lang="en">
-Early 2013 I moved to London with my husband and daughter. This presented an enormous
-opportunity to explore the city and get it to know like a real Londoner.
+Here is a little bit about myself: After moving to London I started exploring the City with my little daughter, I became more and more interested in the history of London and was amazed by what I discovered. Subsequently, I went on to qualify as a (Dutch) tourist guide in the City of London.
+
 </div>

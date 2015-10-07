@@ -8,3 +8,7 @@ studieclub etc. Met een bedrijfsbezoek of uitwisseling laat
 het [me](mailto: ans@nlgids.london) weten wat
 je in gedachten hebt dan ga ik er achter aan en maak ik een prijsopgave.
 </div>
+
+<div lang="en">
+Mini tour in London? A short walk with a some Highlights. Several themes available, Romans, Monarchy, churches or let me surprise you.....
+</div>
