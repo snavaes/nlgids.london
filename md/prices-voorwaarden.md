@@ -26,5 +26,5 @@ De tour vertrekt op de afgesproken tijd. Laat telefonisch weten als je later ben
 </div>
 
 <div lang="en">
-english
+English TODO.
 </div>

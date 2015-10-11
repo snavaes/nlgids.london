@@ -5,10 +5,11 @@ Romeinen, Kerken, Koningen en Koninginnen of laat je door mij verrassen voor £3
 
 Wil je graag een tour met een bepaald thema. Vriendengroep, bedrijfsuitje,
 studieclub etc. Met een bedrijfsbezoek of uitwisseling laat
-het [me](mailto: ans@nlgids.london) weten wat
+het [me](mailto:ans@nlgids.london) weten wat
 je in gedachten hebt dan ga ik er achter aan en maak ik een prijsopgave.
 </div>
 
 <div lang="en">
-Mini tour in London? A short walk with a some Highlights. Several themes available, Romans, Monarchy, churches or let me surprise you.....
+Mini tour in London? A short walk with a some highlights. Several themes available, Romans, Monarchy, churches
+or let [me](mailto:ans@nlgids.london) surprise you.....
 </div>

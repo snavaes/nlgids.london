@@ -5,7 +5,8 @@ plek en eindigen bij een leuke pub of lunchtent.
 </div>
 
 <div lang="en">
-Private tour from £35! A one hour private mini tour.Enough to 
+Private tours from £35! A one hour private mini tour. Enough to 
 get a good impression and we will end in a pub or nice place to have lunch.
+
 Or join me on a standard cycle tour for £25.
 </div>
