@@ -6,7 +6,7 @@ en indien gewenst wordt voor een helm en poncho's gezorgd.
 </div>
 
 <div lang="en">
-In 3 hours I will show you the 'other' London. 
+In 3½ hours I will show you the 'other' London. 
 We will see sights you won't find on the postcards. In this tour you will 
 discover the City of London (financial district), East London and the oldest 
 entertainment district on the southbank and unbelievable but true stories. 
