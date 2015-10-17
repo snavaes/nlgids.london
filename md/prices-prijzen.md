@@ -28,8 +28,8 @@ Prive Fietsrour £140 (incl. fiets, helm en poncho)
 
 
 <div lang="en">
-Private tour from £35! A one hour private mini tour.
-Enough to get a good impression and we will end in a pub or nice place to have lunch.
+A one hour private mini tour from £35!
+Just enough to get a good feel of the area .... and leave you wanting more.
 
 Or join me on a standard cycle tour for £25.
 
@@ -39,15 +39,15 @@ Bespoke tours
 :   Contact [me](mailto:ans@nlgids.london) for a quote.
 
 
-Mini tour £35 (maximum of 8 people, 1 hour)
-:    every extra person £3.50.
+Mini tour £35 (up to 8 people, 1 hour)
+:    every additional person £3.50.
 
-Walks £50 (maximum of 8 people, 2 hours)
-:    every extra person £3.50.
+Walks £50 (up to 8 people, 2 hours)
+:    every additional person £3.50.
 
 Standard Cyle tour £24,95 (with bike, helmet and poncho)
 :    Contact [me](mailto:ans@nlgids.london) by email to see if you can join a tour.
 
 Private Cycle tour £140 (with bike, helmet and poncho)
-:    Private tour 2-4 persons £140, £20 for every extra person.
+:    Private tour 2-4 persons £140, £20 for every additional person.
 </div>

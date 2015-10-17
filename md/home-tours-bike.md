@@ -7,8 +7,8 @@ Met de fiets kom je op plaatsten waar de bus niet komt.
 </div>
 
 <div lang="en">
-Being Dutch means I love cycling. I believe seeing London on your
-bike is an unique experience and I will make sure it is safe as well.
+Being Dutch means I love cycling. I believe seeing London by
+bike is a unique experience and also very safe.
 
-We will go where no bus or car can go.
+Cycling gives you freedom and access to historical sites.
 </div>

@@ -29,11 +29,11 @@ switch ($type) {
 case "":
 case "bookingNav":
 case "bookingTour":
-    $subject= "[NLgids] Reservering voor \"$tour\" van \"$name\"";
+    $subject= "[NLgids] Boeking voor \"$tour\" van \"$name\"";
     $body = <<<EOF
 Hallo Ans,
 
-Er is een nieuwe reservering gemaakt, met de volgende details:
+Er is een nieuwe boeking gemaakt, met de volgende details:
 
 * Naam: $name ($email)
 * Tel.: $tel

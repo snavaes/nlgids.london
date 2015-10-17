@@ -6,7 +6,7 @@ Ik ken de stad op mijn duimpje en weet alles van de geschiedenis en ik ken de bi
 </div>
 
 <div lang="en">
-My tours are fun. Without too much details and dates, but with loads of stories and quirky facts.
+My tours are informative and most of all fun; filled with loads of stories and quirky facts.
 
-I know my way around and can also tell you about the Dutch history in London.
+I know my way around the City and my expertise lies in the Dutch heritage in London.
 </div>
