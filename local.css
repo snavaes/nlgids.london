@@ -180,3 +180,7 @@ html {
     padding-left: 15%;
     padding-right: 15%;
 }
+
+.id-header-fix {
+    padding-top: 40px; margin-top: -40px
+}
