@@ -5,8 +5,6 @@ Afgelopen weekend hebben we een bezoekje aan Londen gebracht en 'the Romans and 
 
 <div lang="en">
 For a visit to London we've booked 'the Romans and Bankers tour'. We can absolutely recommend it. Ans breadth of knowledge is amazing. She showed
-us places you wouldn't find in a travel guide.
-
-Thank you, Ans!
+us places you wouldn't find in a travel guide. Thank you, Ans!
 - *Els Gelders*
 </div>
