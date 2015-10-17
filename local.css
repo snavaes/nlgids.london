@@ -180,3 +180,7 @@ html {
     padding-left: 15%;
     padding-right: 15%;
 }
+
+.arrow-min-height {
+    min-height: 2em;
+}
