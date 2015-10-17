@@ -5,10 +5,10 @@ en indien gewenst wordt voor een helm en poncho's gezorgd.
 </div>
 
 <div lang="en">
-In 3 hours you will see London's 'Must-see' sights. 
-A safe ride along all the major attractions. We go where the Buses can't go. 
+A 3½ hour ride that includes all the major 'Must-see' sights and attractions.
+We go where the buses can't go. 
 I'll give you background information and quirky facts. You will see things 
-you won't find in the guidebooks. This tour includes very comfy bike, helmet 
+you won't find in the guidebooks. This tour includes a very comfy bike, helmet 
 and poncho.
 </div>
 
