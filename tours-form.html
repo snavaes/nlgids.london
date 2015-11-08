@@ -12,10 +12,17 @@
           <form class="form-horizontal" id="bookForm">
 <fieldset>
         <div class="form-group">
-            <label lang="nl" for="inputBookingName" class="control-label col-xs-3">Naam</label>
-            <label lang="en" for="inputBookingName" class="control-label col-xs-3">Name</label>
+            <label lang="nl" for="inputBookingName" class="required control-label col-xs-3">Naam</label>
+            <label lang="en" for="inputBookingName" class="required control-label col-xs-3">Name</label>
             <div class="col-xs-8">
                 <input type="text" required name="inputBooking" class="form-control" id="inputBookingName" placeholder="Naam">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputBookingEmail" class="required control-label col-xs-3">Email</label>
+            <div class="col-xs-8">
+                <input type="email" name="inputBooking" required class="form-control" id="inputBookingEmail" placeholder="Email">
             </div>
         </div>
 
@@ -27,12 +34,6 @@
             </div>
         </div>
 
-        <div class="form-group">
-            <label for="inputBookingEmail" class="control-label col-xs-3">Email</label>
-            <div class="col-xs-8">
-                <input type="email" name="inputBooking" required class="form-control" id="inputBookingEmail" placeholder="Email">
-            </div>
-        </div>
 
         <div class="form-group">
             <label lang="nl" for="inputBookingTel" class="control-label col-xs-3">Telefoon</label>
