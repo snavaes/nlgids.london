@@ -1,5 +1,5 @@
 <div lang="nl">
-<big>In de herfstvakantie naar Londen?</big>
+<big class="lead">In de herfstvakantie naar Londen?</big>
 
 Goede keus! Het najaar is vaak heel erg zacht en het regent meestal minder dan
 in de zomer. De parken zijn prachtig in de herfstkleuren.
@@ -16,7 +16,7 @@ en [twitter](https://twitter.com/NLgidsLonden).
 </div>
 
 <div lang="en">
-<big>In London during the autumn?</big>
+<big class="lead">In London during the autumn?</big>
 
 Excellent choice! It actually rains less in autumn than in summer and the
 temperature is still moderate. The parks looks beautiful in their autumn colours.
