@@ -157,6 +157,12 @@ html {
     min-height: 100%;
 }
 
+.required::after {
+    content: "*";
+    color: red;
+    padding-left:1%;
+}
+
 .carousel {
     height: 7em;
 }
