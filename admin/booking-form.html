@@ -11,10 +11,14 @@
           <form class="form-horizontal" id="adminBookingForm">
 <fieldset>
         <div class="form-group">
-            <label lang="nl" for="inputContactName" class="required control-label col-xs-3">Naam</label>
-            <label lang="en" for="inputContactName" class="required control-label col-xs-3">Name</label>
+            <label for="adminContactName" class="required control-label col-xs-3">Naam</label>
             <div class="col-xs-8">
-                <input type="text" required name="inputContact" class="form-control" id="inputContactName" placeholder="Naam">
+                <input type="text" required name="adminContactName" class="form-control" id="adminContactName" placeholder="Voornaam">
+            </div>
+            &nbsp;<br/>
+            <label for="adminContactFullName" class="required control-label col-xs-3">Volledige Naam</label>
+            <div class="col-xs-8">
+                <input type="text" required name="adminContactFullName" class="form-control" id="adminContactFullName" placeholder="Volledige naam">
             </div>
         </div>
 
@@ -26,27 +30,32 @@
         </div>
 
         <div class="form-group">
-            <label lang="nl" class="control-label col-xs-3">Telefoon</label>
-            <label lang="en" class="control-label col-xs-3">Phone</label>
+            <label class="control-label col-xs-3">Telefoon</label>
             <div class="col-xs-8">
                 <input type="text" name="inputContact" class="form-control" id="inputContactTel" placeholder="+31 6 1234567">
             </div>
         </div>
 
         <div class="form-group">
-            <label lang="nl" for="inputContactMessage" class="control-label col-xs-3">Bericht</label>
-            <label lang="en" for="inputContactMessage" class="control-label col-xs-3">Message</label>
+            <label for="inputContactMessage" class="control-label col-xs-3">Ontmoetings plek</label>
             <div class="col-xs-8">
-                <textarea class="form-control" name="inputContact" id="inputContactMessage" placeholder="Vragen/opmerkingen" rows="3"></textarea>
+                <textarea class="form-control" name="inputContact" id="inputContactMessage" placeholder="Ik ben ... om" rows="3"></textarea>
             </div>
         </div>
+
+        <div class="form-group">
+            <label for="inputContactMessage" class="control-label col-xs-3">Ontmoetings tijd</label>
+            <div class="col-xs-8">
+                <textarea class="form-control" name="inputContact" id="inputContactMessage" placeholder="tijd op ontmoetings plek" rows="3"></textarea>
+            </div>
+        </div>
+
 
         <div class="success"></div>
         <div class="form-group">
             <input type="hidden" name="inputContact" id="formContactType" value="contact">
             <div class="col-xs-offset-3 col-xs-8">
-                <button lang="nl" type="submit" class="btn btn-primary">Verstuur</button>
-                <button lang="en" type="submit" class="btn btn-primary">Send</button>
+                <button type="submit" class="btn btn-primary">Genereer PDF</button>
             </div>
         </div>
 
@@ -56,8 +65,7 @@
 
       </div>
       <div class="modal-footer">
-        <button lang="nl" type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
-        <button lang="en" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
       </div>
     </div>
   </div>
