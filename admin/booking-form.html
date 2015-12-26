@@ -10,12 +10,55 @@
 
           <form class="form-horizontal" id="adminBookingForm">
 <fieldset>
+
+        <div class="form-group">
+          <label class="required control-label col-xs-3" for="inputNavTour">Tour en Personen</label>
+            <div class="col-xs-4">
+            <select id="inputNavTour" name="inputNav" class="form-control">
+              <option value="Tour op Maat">Tour Op Maat</option>
+
+              <option value=">Van Koninklijke Huize">Van Koninklijke Huize</option>
+              <option value="Romeinen en Bankiers">Romeinen en Bankiers</option>
+              <option value="Veldslagen en de Blitz">Veldslagen en de Blitz</option>
+              <option value="Vertier Toen en Nu">Vertier Toen en Nu</option>
+              <option value="Muziek en Theater">Muziek en Theater</option>
+              <option value="Nederlanders in de City">Nederlanders in de City</option>
+
+              <option value="Fietstour Londen">Fietstour Londen</option>
+              <option value="Fietstour Secret London">Fietstour Secret Londen</option>
+            </select>
+          </div>
+          <div class="col-xs-4">
+                <input type="text" required name="adminPersons" class="form-control" id="adminPersons" placeholder="2">
+          </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputAdminTime" class="required control-label col-xs-3">Tijd en Duur</label>
+            <div class="col-xs-4">
+                <input type="text" required name="adminContactFullName" class="form-control" id="adminTime" placeholder="11:00 uur">
+            </div>
+            <div class="col-xs-4">
+                <input type="text" required name="adminContactFullName" class="form-control" id="adminContactFullName" placeholder="2 uur">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputAdminDate" class="required control-label col-xs-3">Wanneer</label>
+            <div class="col-xs-8">
+                <input type="text" name="inputAdminDate" data-date-format="  dd/mm/yyyy" class="datepicker form-control" data-provide="datepicker"
+                id="inputAdminDate" placeholder="  Datum">
+            </div>
+        </div>
+
         <div class="form-group">
             <label for="adminContactName" class="required control-label col-xs-3">Naam</label>
             <div class="col-xs-8">
                 <input type="text" required name="adminContactName" class="form-control" id="adminContactName" placeholder="Voornaam">
             </div>
-            <br/>&nbsp;<br/>
+        </div>
+
+        <div class="form-group">
             <label for="adminContactFullName" class="required control-label col-xs-3">Volledige Naam</label>
             <div class="col-xs-8">
                 <input type="text" required name="adminContactFullName" class="form-control" id="adminContactFullName" placeholder="Volledige naam">
@@ -25,31 +68,23 @@
         <div class="form-group">
             <label for="inputEmail" class="required control-label col-xs-3">Email</label>
             <div class="col-xs-8">
-                <input type="email" name="inputContact" required class="form-control" id="inputContactEmai" placeholder="Email">
+                <input type="email" name="inputContact" required class="form-control" id="inputContactEmail" placeholder="Email">
             </div>
         </div>
 
         <div class="form-group">
-            <label for="inputContactMessage" class="control-label col-xs-3">Ontmoetingsplaats</label>
+            <label for="inputContactMessage" class="required control-label col-xs-3">Plaats</label>
             <div class="col-xs-8">
                 <textarea class="form-control" name="inputContact" id="inputContactMessage" placeholder="De ontmoetingplaats is ..." rows="2"></textarea>
             </div>
         </div>
 
         <div class="form-group">
-            <label class="control-label col-xs-3">Ontmoeting omschrijving</label>
+            <label class="required control-label col-xs-3">Ontmoeting omschrijving</label>
             <div class="col-xs-8">
                 <textarea class="form-control" name="inputContact" id="inputContactMessage" placeholder="Ik sta bij de ... om" rows="3"></textarea>
             </div>
         </div>
-
-        <div class="form-group">
-            <label for="inputContactMessage" class="control-label col-xs-3">Ontmoetings tijd</label>
-            <div class="col-xs-8">
-                <input type="text" required name="adminContactFullName" class="form-control" id="adminContactFullName" placeholder="11:00 uur">
-            </div>
-        </div>
-
         <div class="success"></div>
         <div class="form-group">
             <input type="hidden" name="inputContact" id="formContactType" value="contact">
