@@ -42,7 +42,7 @@ $(function() {
  			.append('</div>');
 
  		  //clear all fields
- 		  $('#adminBooking').trigger("reset");
+ 		  $('#adminForm').trigger("reset");
  	      },
  	   error: function() {
  		// Fail message
@@ -52,7 +52,7 @@ $(function() {
                       $('.success > .alert-danger').append("<strong>Sorry, er lijkt iets mis te gaan...</strong> Sorry voor het ongemak!");
  	        $('.success > .alert-danger').append('</div>');
  		//clear all fields
- 		$('#adminBooking').trigger("reset");
+ 		$('#adminForm').trigger("reset");
  	    },
            })
          },
