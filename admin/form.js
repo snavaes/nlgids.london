@@ -5,12 +5,12 @@ $('#adminTour').change(function () {
             $('#adminHow').val("Ik sta daar om");
             break;
         case "Van Koninklijke Huize":
-            $('#adminWhere').val("bij de uitgang van Metrostation Westminster (bij het standbeeld van Boudicca, een woeste dame met paarden, naast de brug)");
+            $('#adminWhere').val("bij de uitgang van metrostation Westminster (bij het standbeeld van Boudicca, een woeste dame met paarden, naast de brug)");
             $('#adminHow').val("Ik sta daar om");
             break;
         case "Romeinen en Bankiers":
-            $('#adminWhere').val("");
-            $('#adminHow').val("Ik sta daar om");
+            $('#adminWhere').val("bij de uitgang van metrostation St. Paul");
+            $('#adminHow').val("Ik sta bij de koffieshop Caffe Nero om");
             break;
         case "Veldslagen en de Blitz":
             $('#adminWhere').val("");

@@ -189,13 +189,3 @@ label.required::before {
 .id-header-fix {
     padding-top: 40px; margin-top: -40px
 }
-
-.adminbar {
-    font-weight: bold;
-    font-size: 25pt;
-    padding-top: 5pt;
-    padding-bottom: 5pt;
-    color:red;
-    text-align: center;
-    font-variant: small-caps;
-}
