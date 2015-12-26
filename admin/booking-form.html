@@ -12,7 +12,7 @@
 <fieldset>
 
         <div class="form-group">
-          <label class="required control-label col-xs-3" for="inputNavTour">Tour en Personen</label>
+          <label class="required control-label col-xs-3" for="inputNavTour">Tour en Aantal</label>
             <div class="col-xs-4">
             <select id="inputNavTour" name="inputNav" class="form-control">
               <option value="Tour op Maat">Tour Op Maat</option>
@@ -36,10 +36,17 @@
         <div class="form-group">
             <label for="inputAdminTime" class="required control-label col-xs-3">Tijd en Duur</label>
             <div class="col-xs-4">
-                <input type="text" required name="adminContactFullName" class="form-control" id="adminTime" placeholder="11:00 uur">
+                <input type="text" required name="adminContactFullName" class="form-control" id="adminTime" placeholder="..:.. uur">
             </div>
             <div class="col-xs-4">
-                <input type="text" required name="adminContactFullName" class="form-control" id="adminContactFullName" placeholder="2 uur">
+                <input type="text" required name="adminContactFullName" class="form-control" id="adminContactFullName" placeholder=".. uur">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="adminContactCosts" class="required control-label col-xs-3">Prijs</label>
+            <div class="col-xs-8">
+                <input type="text" required name="adminContactFullName" class="form-control" id="adminContactFullName" placeholder="50">
             </div>
         </div>
 
@@ -73,16 +80,16 @@
         </div>
 
         <div class="form-group">
-            <label for="inputContactMessage" class="required control-label col-xs-3">Plaats</label>
+            <label for="inputContactMessage" class="required control-label col-xs-3">Waar</label>
             <div class="col-xs-8">
                 <textarea class="form-control" name="inputContact" id="inputContactMessage" placeholder="De ontmoetingplaats is ..." rows="2"></textarea>
             </div>
         </div>
 
         <div class="form-group">
-            <label class="required control-label col-xs-3">Ontmoeting omschrijving</label>
+            <label class="required control-label col-xs-3">Omschrijving</label>
             <div class="col-xs-8">
-                <textarea class="form-control" name="inputContact" id="inputContactMessage" placeholder="Ik sta bij de ... om" rows="3"></textarea>
+                <textarea class="form-control" name="inputContact" id="inputContactMessage" placeholder="... om" rows="3"></textarea>
             </div>
         </div>
         <div class="success"></div>
