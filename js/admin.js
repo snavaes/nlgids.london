@@ -3,7 +3,7 @@
   Jquery Validation using jqBootstrapValidation
 */
 $(function() {
- $("input[name='adminBooking']").jqBootstrapValidation(
+ $("input[name='adminBooking'],textarea[name='adminBooking']").jqBootstrapValidation(
     {
      preventSubmit: true,
      submitError: function($form, event, errors) {
@@ -12,7 +12,7 @@ $(function() {
      },
      submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
-       var adminTour    = $("input#adminTour").val();
+       var adminTour    = $("select#adminTour").val();
        var adminPersons = $("input#adminPersons").val();
        var adminTime    = $("input#adminTime").val();
        var adminDuration= $("input#adminDuration").val();
@@ -29,7 +29,7 @@ $(function() {
                 url: "../bin/invoice.php",
             	type: "POST",
             	data: {adminTour: adminTour, adminPersons: adminPersons, adminTime: adminTime, adminDuration: adminDuration,
-                    adminCost: adminCost, adminDate: adminDate, adminNAme: adminNAme, adminFullName: adminFullName, adminEmail: adminEmail,
+                    adminCost: adminCost, adminDate: adminDate, adminName: adminName, adminFullName: adminFullName, adminEmail: adminEmail,
                     adminWhere: adminWhere, adminHow: adminHow},
             	cache: false,
             	success: function() {
