@@ -1,0 +1,4 @@
+AuthUserFile /home/miek/.htpasswd
+AuthType Basic
+AuthName "Administratie; password required/wachtwoord nodig"
+Require valid-user
