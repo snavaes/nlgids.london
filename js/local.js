@@ -3,6 +3,10 @@ $("#formTest").submit(function(event){
     event.preventDefault();
     PostForm("#formTest", "/api/open/contact/test");
 });
+$("#formContact").submit(function(event){
+    event.preventDefault();
+    PostForm("#formContact", "/api/open/contact");
+});
 
 // PostForm will serialize a form based on id and will then post it to action.
 // The success will be called on id-success and error on id-error.
@@ -12,10 +16,12 @@ function PostForm(id, action) {
         type: "POST",
         url: action,
         data: datastring,
-        success: PostSuccess(id+"-success"),
+        success: function() {
+            PostSuccess(id+"-success"),
+            $(id).trigger("reset");
+        },
         error: PostError(id+"-success"),
     });
-    $(id).trigger("reset");
 }
 
 function PostSuccess(id) {
