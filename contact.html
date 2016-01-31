@@ -45,36 +45,41 @@
         <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
       </div>
     </div>
-    <form data-toggle="validator" role="form" id="formTest">
+    <form data-toggle="validator" role="form" id="formContact">
       <div class="form-group">
-        <label for="inputName" class="control-label">Name</label> <input type="text" class="form-control" id=
-        "inputName" name="name" placeholder="Cina Saffary" required="" title="Dit veld is vereist.">
-      </div>
-      <div class="form-group has-feedback">
-        <label for="inputTwitter" class="control-label">Twitter</label>
-        <div class="input-group">
-          <span class="input-group-addon">@</span> <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class=
-          "form-control" id="inputTwitter" name="twitter" placeholder="1000hz" required="">
-        </div><span class="help-block with-errors">Hey look, this one has feedback icons!</span>
-      </div>
-      <div class="form-group">
-        <label for="inputEmail" class="control-label">Email</label> <input type="email" class="form-control" id=
-        "inputEmail" placeholder="Email" name="email" data-error="Bruh, that email address is invalid" required="">
-        <div class="help-block with-errors"></div>
-      </div>
-      <div class="form-group">
-        <div class="radio">
-          <label><input type="radio" name="underwear" required=""> Boxers</label>
+        <div class="col-sm-3">
+            <label for="inputName" class="control-label">Name</label> <input type="text" class="form-control" id=
+            "inputName" name="name" placeholder="Naam" required="" title="Dit veld is vereist.">
         </div>
-        <div class="radio">
-          <label><input type="radio" name="underwear" required=""> Briefs</label>
+
+        <div class="col-sm-3">
+            <label for="inputEmail" class="control-label">Email</label> <input type="email" class="form-control" id=
+            "inputEmail" placeholder="Email" name="email" data-error="Bruh, that email address is invalid" required="">
+            <div class="help-block with-errors"></div>
         </div>
       </div>
-      <div id="formTest-success"></div>
+
       <div class="form-group">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="col-sm-12">
+            <label for="inputPhone" class="control-label">Phone</label> <input type="text" class="form-control" id=
+            "inputPhone" placeholder="06 1234567" name="phone" data-error="Bruh, that email address is invalid">
+            <div class="help-block with-errors"></div>
+        </div>
+      </div>
+      <div class="form-group">
+          <div class="col-sm-12">
+              <label for="inputText" class="control-label">Bericht</label> <textarea class="form-control" id="inputText"
+                  placeholder="Bericht" name="message"></textarea>
+          </div>
+      </div>
+      <div id="formContact-success"></div>
+      <div class="form-group">
+          <div class="col-sm-12">
+            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+          </div>
       </div>
     </form>
+
     <footer class="footer">
       <p>© 2015 Company, Inc.</p>
     </footer>
