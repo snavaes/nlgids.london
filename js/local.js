@@ -5,21 +5,25 @@ $("#formTest").submit(function(event){
 });
 
 // PostForm will serialize a form based on id and will then post it to action.
+// The success will be called on id-success and error on id-error.
 function PostForm(id, action) {
     datastring = $(id).serialize();
-
-    alert(datastring)
 
     $.ajax({
         type: "POST",
         url: action,
         data: datastring,
-        success: function(data) {
-            //var obj = jQuery.parseJSON(data); if the dataType is not specified as json uncomment this
-            // do what ever you want with the server response
-        },
+        success: PostSuccess(id+"-success"),
         error: function(){
+            // #formTest-error
             alert('error handing here');
         }
     });
+}
+
+function PostSuccess(id) {
+    $(id).html("<div class='alert alert-success'>");
+    $(id).html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append( "</button>");
+    $(id).append("<strong>Message has been successfully sent.</strong>");
+    $(id).append('</div>');
 }

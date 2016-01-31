@@ -1,23 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.1.25">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
-  <meta name="author" content=""><!--    <link rel="icon" href="../../favicon.ico"> -->
-  <title>Narrow Jumbotron Template for Bootstrap</title><!-- Bootstrap core CSS -->
-  <link href="/js/bootstrap/css/bootstrap.min.css" rel="stylesheet"><!-- Form validation -->
-  <!-- Custom styles for this template -->
-  <link href="/css/jumbotron-narrow.css" rel="stylesheet">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+{{.Include "/includes/head.html"}}
 <body>
   <div class="container">
     <div class="header clearfix">
@@ -87,6 +70,7 @@
           <label><input type="radio" name="underwear" required=""> Briefs</label>
         </div>
       </div>
+      <div id="formTest-success"></div>
       <div class="form-group">
         <button type="submit" class="btn btn-primary">Submit</button>
       </div>
@@ -95,14 +79,6 @@
       <p>© 2015 Company, Inc.</p>
     </footer>
   </div><!-- /container -->
-  <!-- Javascript includes -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
-  </script>
-  <script src="/js/bootstrap/js/bootstrap.min.js">
-  </script>
-  <script src="/js/bootstrap-validator/js/validator.js">
-  </script>
-  <script src="/js/local.js">
-  </script>
+{{.Include "/includes/foot.html"}}
 </body>
 </html>
