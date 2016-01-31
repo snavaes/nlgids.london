@@ -45,7 +45,7 @@
         <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
       </div>
     </div>
-    <form data-toggle="validator" role="form" id="formContact">
+    <form data-toggle="validator" id="formContact">
       <div class="form-group">
         <div class="col-sm-3">
             <label for="inputName" class="control-label">Name</label> <input type="text" class="form-control" id=
@@ -67,19 +67,22 @@
         </div>
       </div>
       <div class="form-group">
-          <div class="col-sm-12">
+        <div class="col-sm-12">
               <label for="inputText" class="control-label">Bericht</label> <textarea class="form-control" id="inputText"
                   placeholder="Bericht" name="message"></textarea>
-          </div>
+        </div>
       </div>
-      <div id="formContact-success"></div>
+      <div class="col-sm-12">
+        <div id="formContact-success"></div>
+      </div>
       <div class="form-group">
           <div class="col-sm-12">
-            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                <button type="submit" class="btn btn-primary pull-right">Submit</button>
           </div>
       </div>
     </form>
 
+    <br/>
     <footer class="footer">
       <p>© 2015 Company, Inc.</p>
     </footer>
