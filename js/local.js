@@ -31,7 +31,8 @@ function PostForm(id, action) {
         data: datastring,
         success: function() {
             PostSuccess(id+"-success"),
-            $(id + "> :submit").prop("disabled", true);
+            // we do model forms which close the form after a short time.
+            // $(id + "> :submit").prop("disabled", true);
             $(id).trigger("reset");
         },
         error: PostError(id+"-success"),
