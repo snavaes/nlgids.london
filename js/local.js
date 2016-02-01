@@ -22,7 +22,7 @@ $("#formContact").submit(function(event){
  */
 
 // PostForm will serialize a form based on id and will then post it to action.
-// The success will be called on id-success and error on id-error.
+// The success will be set on id-success and error on id-error.
 function PostForm(id, action) {
     datastring = $(id).serialize();
     $.ajax({
@@ -31,8 +31,8 @@ function PostForm(id, action) {
         data: datastring,
         success: function() {
             PostSuccess(id+"-success"),
+            $(id + "> :submit").prop("disabled", true);
             $(id).trigger("reset");
-            $(id + "> :submit").addClass("disabled")
         },
         error: PostError(id+"-success"),
     });
