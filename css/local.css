@@ -1,3 +1,8 @@
+body {
+    padding-top: 100px; /* skip the navbar */
+}
+
+/* Overlay test on images */
 .caption {
     width:100%;
     bottom: 0;
@@ -22,3 +27,4 @@
 .caption h4 {
    color: #fff;
 }
+/* End overlay test on images */
