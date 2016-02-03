@@ -22,7 +22,12 @@ body {
     font-size: 125%;
 }
 
-.max-height125 {
+.header-max-height {
     max-height: 125px;
+    width: auto;
+}
+
+.header-min-height {
+    min-height: 125px;
     width: auto;
 }
