@@ -6,30 +6,34 @@
   <div class="container">
 
       <div class="row header-image">
+
           <div class="col-sm-8">
               <a href="#">
                   <img class="header-img img-responsive max-height125" src="/img/logo-NLgidsLondon.jpg" alt="Skyline van London met Engelse vlag als achtergrond"/>
               </a>
           </div>
 
-          <div class="col-sm-2">
-              <a href="#">
-                  <div class="header-box">
-                      <img src="/img/walk.png" class="align-center img-responsive max-height125">
-                      <div class="caption"><span class="fa fa-exchange"> Wandelen</div>
-                  </div>
-              </a>
+          <div class="col-sm-4">
+              <div class="pull-right">
+                  <a href="#">
+                      <div class="header-box">
+                          <img src="/img/walk.png" class="align-center img-responsive max-height125">
+                          <div class="caption"><span class="fa fa-eye"> Wandelen</span></div>
+                      </div>
+                  </a>
+
+                  <a href="#">
+                      <div class="header-box">
+                          <img src="/img/bike.jpg" class="align-center img-responsive max-height125">
+                          <div class="caption"><span class="fa fa-bicycle"> Fietsen</span></div>
+                      </div>
+                  </a>
+              </div>
           </div>
 
-          <div class="col-sm-2">
-              <a href="#">
-                  <div class="header-box">
-                      <img src="/img/bike.jpg" class="align-center img-responsive max-height125">
-                      <div class="caption"><span class="fa fa-bicycle"> Fietsen</span></div>
-                  </div>
-              </a>
-          </div>
       </div>
+
+    {{.Include "/test-list.md"}}
 
     <div class="header clearfix">
       <nav>
@@ -47,34 +51,14 @@
       </nav>
       <h3 class="text-muted">Project name</h3>
     </div>
-    <a name="jumbo">
+    <a name="jumbo"></a>
     <div class="jumbotron">
       <h1>Jumbotron heading</h1>
       <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
       commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
       <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
     </div>
-    <a name="marketing">
-    <div class="row marketing">
-      <div class="col-lg-6">
-        <h4>Subheading</h4>
-        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-        <h4>Subheading</h4>
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet
-        fermentum.</p>
-        <h4>Subheading</h4>
-        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      </div>
-      <div class="col-lg-6">
-        <h4>Subheading</h4>
-        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-        <h4>Subheading</h4>
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet
-        fermentum.</p>
-        <h4>Subheading</h4>
-        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      </div>
-    </div>
+
     <form data-toggle="validator" id="formContact">
       <div class="form-group">
         <div class="col-sm-3">
