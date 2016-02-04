@@ -31,12 +31,13 @@
 
                 <p>Contact</p>
 
-                <form action="#" method="post">
+                <form class="" action="#" method="post">
+            <input type="text" class="form-control" id="inputName" name="name" placeholder="Naam" required="" title="Dit veld is vereist.">
 
-                        <input type="text" name="email" placeholder="Email" />
+            <input type="email" class="form-control" id= "inputEmail" placeholder="Email" name="email" data-error="Bruh, that email address is invalid" required="">
+            <div class="help-block with-errors"></div>
                         <textarea name="message" placeholder="Message"></textarea>
-                        <button>Send</button>
-
+                        <button class="pull-left">Send</button>
                 </form>
 
         </div>
