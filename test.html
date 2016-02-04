@@ -5,6 +5,7 @@
     {{.Include "/include/nav.html"}}
   <div class="container">
 
+      <header>
       <div class="row header-image">
 
           <div class="col-md-6">
@@ -38,21 +39,19 @@
                   </a>
               </div>
           </div>
-          <hr class="header-hr"/>
       </div>
+      </header>
+      <br/><br/>
 
-      <div class="row">
+          <div class="row">
               <div class="col-md-4">
                   <img src="/img/gids.png" class="img-responsive">
               </div>
               <div class="col-md-8">
-
-                  <h1>Jumbotron heading</h1>
-                  <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-                      commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  <p><a class="btn btn-lg btn-success pull-right" href="#" role="button"><span class="glyphicon glyphicon-pencil"></span> &nbsp;Contact</a><p>
+                  {{.Markdown "/md/gids.md"}}
+                  <p><a class="btn btn-lg btn-success" href="#" role="button"><span class="glyphicon glyphicon-pencil"></span> &nbsp;Contact</a><p>
               </div>
-      </div>
+          </div>
 
     <form data-toggle="validator" id="formContact">
       <div class="form-group">
