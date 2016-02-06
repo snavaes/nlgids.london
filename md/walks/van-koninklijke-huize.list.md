@@ -1,0 +1,6 @@
+- Buckingham Palace
+- Downing Street 10
+- Houses of Parliament
+- Trafalgar Square
+- Horse Guards
+- Westminster Abbey
