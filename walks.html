@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    {{.Include "/include/head.html"}}
+  <body
+    onload="
+    langcookie=document.cookie;
+    if (langcookie == '') { document.body.className='nl' };
+    if (langcookie == 'lang=nl') { document.body.className='nl' };
+    if (langcookie == 'lang=en') { document.body.className='en' };
+  ">
+    {{.Include "/include/nav.html"}}
+  <div class="container">
+
+    {{.Include "/include/header.html"}}
+
+    <div class="row">
+        <div class="col-md-4">
+            <img src="/img/gids.png" class="img-responsive">
+        </div>
+        <div class="col-md-6 tour">
+            <span id="van-koninklijke-huize" class="nav-fix"></span>
+            <div lang="nl">{{.Markdown "/md/walks/van-koninklijke-huize.nl.md"}}</div>
+            <div lang="en">{{.Markdown "/md/walks/van-koninklijke-huize.en.md"}}</div>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button"><span class="fa fa-thumbs-up"></span> Boek</a><p>
+        </div>
+        <div class="col-md-2 tour">
+            {{.Markdown "/md/walks/van-koninklijke-huize.list.md"}}
+        </div>
+    </div>
+
+    </div><!-- /container -->
+
+    {{.Include "/include/footer.html"}}
+    {{.Include "/include/foot.html"}}
+    </body>
+</html>

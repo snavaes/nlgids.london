@@ -2,7 +2,8 @@
 <span class="price">£50</span>
 <span class="duration">2 uur</span>
 
-...Ik niet, maar ik kan je er wel van alles over vertellen.
+<span class="lead">...Ik niet, maar ik kan je er wel van alles over
+vertellen.</span>
 
 De geschiedenis van het Engelse koningshuis laat zich vertellen als een
 sprookje of eigenlijk meer een griezelverhaal. Van af het eerste paleis waar
