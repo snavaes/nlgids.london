@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    {{.Include "/include/head.html"}}
+  <body
+    onload="
+    langcookie=document.cookie;
+    if (langcookie == '') { document.body.className='nl' };
+    if (langcookie == 'lang=nl') { document.body.className='nl' };
+    if (langcookie == 'lang=en') { document.body.className='en' };
+  ">
+    {{.Include "/include/nav.html"}}
+  <div class="container">
+    {{.Include "/include/header.html"}}
+  </div>
+
+    <div class="container-fluid">
+        <div class="row auth">
+            <div class="col-md-12 center-block">
+                <br/>
+                <h1 class="text-center">Administratie</h1>
+                <br/>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <br/>
+
+  <div class="container">
+
+  <div class="row">
+        {{.Include "/auth/select.html"}}
+  </div>
+
+  <br/>
+  <br/>
+
+  </div>
+
+    {{.Include "/include/footer.html"}}
+    {{.Include "/include/foot.html"}}
+    </body>
+</html>
