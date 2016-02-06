@@ -46,3 +46,16 @@ body {
     border: 0;
     display: inline;
 }
+
+.nav-fix {
+    padding-top: 75px;
+    margin-top: -75px;
+}
+
+*[id]:before {
+    display: inline-block;
+    content: " ";
+    margin-top: -75px;
+    height: 75px;
+    visibility: hidden;
+}
