@@ -11,13 +11,26 @@
             <a class="navbar-brand" href="/">NLgidsLonden</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li>
+                    <button type="button" class="flag navbar-btn" onclick="document.body.className='en';document.cookie='lang=en';">
+                        <img src="/img/United-Kingdom.png" class="img-responsive" alt="Engelse vlag">
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="flag navbar-btn" onclick="document.body.className='nl';document.cookie='lang=nl'; ">
+                        <img src="/img/Netherlands.png" class="img-responsive" alt="Nederlandse vlag">
+                    </button>
+                </li>
+            </ul>
+
             <ul class="nav navbar-nav">
                 <li><a href="#home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><button class="btn btn-success navbar-btn" type="button"><span class="glyphicon glyphicon-pencil"></span> &nbsp;Contact</button></li>
+                <li><button style="margin-left: 10px;" class="btn btn-success navbar-btn" type="button"><span class="glyphicon glyphicon-pencil"></span> &nbsp;Contact</button></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

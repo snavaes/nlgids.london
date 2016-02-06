@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-{{.Include "/include/head.html"}}
-<body>
-{{.Include "/include/nav.html"}}
+<html>
+    {{.Include "/include/head.html"}}
+  <body
+    onload="
+    langcookie=document.cookie;
+    if (langcookie == '') { document.body.className='nl' };
+    if (langcookie == 'lang=nl') { document.body.className='nl' };
+    if (langcookie == 'lang=en') { document.body.className='en' };
+  ">
+        {{.Include "/include/nav.html"}}
   <div class="container">
 
       <header>
@@ -20,21 +26,24 @@
                   <a href="#">
                       <div class="header-box">
                           <img src="/img/walk.png" class="align-center img-responsive header-max-height">
-                          <div class="caption"><span class="fa fa-eye"> Wandelen</span></div>
+                          <div class="caption"><span lang="nl" class="fa fa-eye"> Wandelen</span></div>
+                          <div class="caption"><span lang="en" class="fa fa-eye"> Walks</span></div>
                       </div>
                   </a>
 
                   <a href="#">
                       <div class="header-box">
                           <img src="/img/bike.jpg" class="align-center img-responsive header-max-height">
-                          <div class="caption"><span class="fa fa-bicycle"> Fietsen</span></div>
+                          <div class="caption"><span lang="nl" class="fa fa-bicycle"> Fietsen</span></div>
+                          <div class="caption"><span lang="en" class="fa fa-bicycle"> Cycling</span></div>
                       </div>
                   </a>
 
                   <a href="#">
                       <div class="header-box">
                           <img src="https://placehold.it/300x300" class="align-center img-responsive header-max-height">
-                          <div class="caption"><span class="fa fa-star"> Specials</span></div>
+                          <div class="caption"><span lang="nl" class="fa fa-star"> Specials</span></div>
+                          <div class="caption"><span lang="en" class="fa fa-star"> Specials</span></div>
                       </div>
                   </a>
               </div>
@@ -53,40 +62,14 @@
               </div>
           </div>
 
-    <form data-toggle="validator" id="formContact">
-      <div class="form-group">
-        <div class="col-sm-3">
-            <label for="inputName" class="control-label">Name</label> <input type="text" class="form-control" id=
-            "inputName" name="name" placeholder="Naam" required="" title="Dit veld is vereist.">
-        </div>
+          <br/>
+          <br/>
 
-        <div class="col-sm-3">
-            <label for="inputEmail" class="control-label">Email</label> <input type="email" class="form-control" id=
-            "inputEmail" placeholder="Email" name="email" data-error="Bruh, that email address is invalid" required="">
-            <div class="help-block with-errors"></div>
+          <div class="row">
+              <div class="col-md-12">
+            {{.Include "/include/carousel.html"}}
         </div>
-      </div>
-
-      <div class="form-group">
-        <div class="col-sm-12">
-            <label for="inputPhone" class="control-label">Phone</label> <input type="text" class="form-control" id=
-            "inputPhone" placeholder="06 1234567" name="phone" data-error="Bruh, that email address is invalid">
-            <div class="help-block with-errors"></div>
-        </div>
-      </div>
-      <div class="form-group col-sm-12">
-        <label for="inputText" class="control-label">Bericht</label> <textarea class="form-control" id="inputText"
-               placeholder="Bericht" name="message"></textarea>
-      </div>
-      <div class="form-group col-sm-12">
-        <div id="formContact-success"></div>
-      </div>
-      <div class="form-group col-sm-12">
-        <button type="submit" class="btn btn-primary pull-right">Submit</button>
-      </div>
-    </form>
-
-    <br/>
+          </div>
   </div><!-- /container -->
 {{.Include "/include/footer.html"}}
 {{.Include "/include/foot.html"}}
