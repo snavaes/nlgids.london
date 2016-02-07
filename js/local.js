@@ -1,21 +1,16 @@
 // For all forms we will need to add this.
-$("#formTest").submit(function(event){
-    if ($("#formTest > :submit").hasClass("disabled")) {
-        e.preventDefault();
-        return
-    }
-    event.preventDefault();
-    PostForm("#formTest", "/api/open/contact/test");
-});
-$("#formContact").submit(function(event){
+$("#formContact").submit(function(e){
+    e.preventDefault();
     if ($("#formContact > :submit").hasClass("disabled")) {
-        e.preventDefault();
         return
     }
-    event.preventDefault();
     PostForm("#formContact", "/api/open/contact");
 });
-
+/* Clear content on hide */
+$('.modal').on('hidden.bs.modal', function(){
+    $("#formContact")[0].reset();
+    $("#formContact-success").html("")
+});
 
 /*
  * Functions below
@@ -41,13 +36,15 @@ function PostForm(id, action) {
 function PostSuccess(id) {
     $(id).html("<div class='alert alert-success'>");
     $(id + "> .alert-success").html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append( "</button>");
-    $(id + "> .alert-success").append("<strong>Message has been successfully sent.</strong>");
+    $(id + "> .alert-success").append("<strong lang=\"nl\">Bericht is succesvol verzonden.</strong>");
+    $(id + "> .alert-success").append("<strong lang=\"en\">Message has been successfully sent.</strong>");
     $(id).append('</div>');
 }
 
 function PostError(id) {
     $(id).html("<div class='alert alert-danger'>");
     $(id + "> .alert-danger").html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append( "</button>");
-    $(id + "> .alert-danger").append("<strong>Something went wrong.</strong>");
+    $(id + "> .alert-danger").append("<strong lang=\"nl\">Er ging iets verkeerd.<strong>");
+    $(id + "> .alert-danger").append("<strong lang=\"en\">Something went wrong.</strong>");
     $(id).append('</div>');
 }
