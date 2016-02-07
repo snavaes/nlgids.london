@@ -1,4 +1,8 @@
-# Jumbotron heading
+# Ans Vaessen
 
-<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+Toen mijn man een baan aangeboden kreeg in Londen, zei ik meteen "DOEN!" Het is
+een fantastische stad en het was een geweldige kans de stad te leren kennen als
+een echte Londenaar.
+
+Inmiddels ben ik een gekwalificeerde gids in
+[The City of London](http://www.cityoflondonguides.com/find/ans-vaessen).
