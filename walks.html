@@ -4,10 +4,16 @@
   <body
     onload="
     langcookie=document.cookie;
-    if (langcookie == '') { document.body.className='nl' };
-    if (langcookie == 'lang=nl') { document.body.className='nl' };
-    if (langcookie == 'lang=en') { document.body.className='en' };
-  ">
+    switch (langcookie) {
+    case 'lang=nl':
+        document.body.className='nl';
+        break;
+    case 'lang=en':
+        document.body.className='en';
+        break;
+    default:
+        document.body.className='nl';
+    }">
     {{.Include "/include/nav.html"}}
   <div class="container">
 
