@@ -18,7 +18,7 @@
             <img src="/img/gids.png" class="img-responsive">
         </div>
         <div class="col-md-8">
-            <span id="gids" class="nav-fix"></span>
+            <span id="gids" class="nav-fix anchor"></span>
             <div lang="nl">{{.Markdown "/md/gids.nl.md"}}</div>
             <div lang="en">{{.Markdown "/md/gids.en.md"}}</div>
             <p><a class="btn btn-lg btn-success" href="#" role="button" data-toggle="modal" data-target="#formContactModal" data-id="contact">
@@ -30,6 +30,9 @@
     <br/>
 
     <div class="row">
+        <span id="walks" class="nav-fix anchor"></span>
+        <span id="cycling" class="nav-fix anchor"></span>
+        <span id="specials" class="nav-fix anchor"></span>
         {{.Include "/include/select.html"}}
     </div>
 
@@ -38,7 +41,7 @@
 
     <div class="row">
         <div class="col-md-6 col-md-push-3 tips">
-            <span id="tips" class="nav-fix"></span>
+            <span id="tips" class="nav-fix anchor"></span>
             <div lang="nl">{{.Markdown "/md/tips.nl.md"}}</div>
             <div lang="en">{{.Markdown "/md/tips.en.md"}}</div>
         </div>
@@ -50,6 +53,7 @@
     </div><!-- /container -->
 
     <div class="container-fluid">
+        <span id="testimonials" class="nav-fix anchor"></span>
         <div class="row bg-info">
             <div class="col-md-12">
                 {{.Include "/include/carousel.html"}}

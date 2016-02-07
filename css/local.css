@@ -114,13 +114,14 @@ body {
     display: inline;
 }
 
+/* fix for clicking an anchors */
 .nav-fix {
     padding-top: 75px;
     margin-top: -75px;
 }
 
-/* fix clicking on anchor, only for id inside a span */
-*[id]:before span {
+/* fix clicking on anchors */
+.anchor {
     display: inline-block;
     content: " ";
     margin-top: -75px;
