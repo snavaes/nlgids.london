@@ -64,7 +64,7 @@ body {
 
 .select-box .caption .arrow {
     position: absolute;
-    bottom: 0;
+    bottom: 0.5em;
     right: 0.5em;
   }
 
@@ -95,6 +95,12 @@ body {
     position: relative;
     overflow: hidden;
     height: 17em;
+}
+
+.select-box .hfill-auth {
+    position: relative;
+    overflow: hidden;
+    height: 4em;
 }
 
 .header-max-height {
@@ -134,11 +140,11 @@ body {
 }
 
 .tour .title::after {
-    content: " / ";
+    content: " ";
 }
 
 .tour .price {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .tour .price::after {
@@ -146,9 +152,9 @@ body {
 }
 
 .tour .duration {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .tour ul {
-    padding-top: 72px;
+    padding-top: 1em;
 }

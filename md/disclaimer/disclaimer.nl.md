@@ -1,4 +1,4 @@
-# Voorwoorden
+# Voorwaarden
 
 ## Betaling
 Na het reserveren van een tour krijg je een bevestiging mail. De aanbetaling is

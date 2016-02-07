@@ -6,10 +6,21 @@ $("#formContact").submit(function(e){
     }
     PostForm("#formContact", "/api/open/contact");
 });
+$("#formInvoice").submit(function(e){
+    e.preventDefault();
+    if ($("#formInvoice > :submit").hasClass("disabled")) {
+        return
+    }
+    /* api/auth/invoice */
+    PostForm("#formInvoice", "/api/auth/test");
+});
 /* Clear content on hide */
 $('.modal').on('hidden.bs.modal', function(){
     $("#formContact")[0].reset();
-    $("#formContact-success").html("")
+    $("#formContact-success").html("");
+
+    $("#formInvoice")[0].reset();
+    $("#formInvoice-success").html("");
 });
 
 /*
@@ -20,7 +31,7 @@ $('.modal').on('hidden.bs.modal', function(){
 // The success will be set on id-success and error on id-error.
 function PostForm(id, action) {
     datastring = $(id).serialize();
-    alert(datastring);
+    // alert(datastring); // test test test
     $.ajax({
         type: "POST",
         url: action,

@@ -1,0 +1,140 @@
+<div class="modal fade" id="formInvoiceModal" tabindex="-1" role="dialog" aria-labelledby="formInvoice" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header auth">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Reserverings Form</h4>
+      </div>
+      <div class="modal-body">
+
+<form class="form-horizontal" data-toggle="validator" id="formInvoice">
+    <fieldset>
+
+        <div class="form-group">
+            <div class="col-md-5 col-md-offset-1">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                    <select id="inputTour" name="tour" class="form-control">
+                        <option value="Tour op Maat">Tour Op Maat</option>
+
+                        <option value="Van Koninklijke Huize">Van Koninklijke Huize</option>
+                        <option value="Romeinen en Bankiers">Romeinen en Bankiers</option>
+                        <option value="Veldslagen en de Blitz">Veldslagen en de Blitz</option>
+                        <option value="Vertier Toen en Nu">Vertier Toen en Nu</option>
+                        <option value="Muziek en Theater">Muziek en Theater</option>
+                        <option value="Nederlanders in de City">Nederlanders in de City</option>
+
+                        <option value="Fietstour Londen">Fietstour Londen</option>
+                        <option value="Fietstour Secret London">Fietstour Secret Londen</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input type="text" requireds name="persons" class="form-control" id="adminPersons" placeholder="Aantal personen">
+                </div>
+            </div>
+        </div>
+
+      <div class="form-group">
+          <div class="col-md-5 col-md-offset-1">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                  <input type="text" requireds name="time"
+                  class="form-control" id="inputTime" placeholder="Tijd in HH:MM uur">
+              </div>
+          </div>
+          <div class="col-md-5">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                  <input type="text" requireds name="duration" class="form-control" id="inputDuration" placeholder="Duur in HH:MM uur">
+              </div>
+          </div>
+      </div>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-gbp"></i></span>
+                    <input type="text" requireds name="cost" class="form-control" id="inputCost" placeholder="Prijs">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                    <input type="date" requireds name="date" class="form-control" id="inputDate" placeholder="Wanneer">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input type="text" requireds name="name" class="form-control" id="inputName" placeholder="Voornaam">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input type="text" requireds name="fullname" class="form-control" id="inputFullname" placeholder="Volledige naam">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                    <input type="email" name="inputEmail" requireds class="form-control" id="email" placeholder="Email">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-hand-down"></i></span>
+                    <textarea requireds class="form-control" name="where" id="inputWhere" placeholder="Wat is de ontmoetingplaats? &quot;De ontmoetingsplaats is&quot; wordt er voor gezet" rows="2"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-bullhorn"></i></span>
+                    <textarea class="form-control" name="how" id="inputHow" placeholder="Waar sta je precies? Zin moet eindigen met &quot;om&quot;" rows="2"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <div id="formInvoice-success"></div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <button type="submit" class="btn btn-primary">Genereer PDF</button>
+            </div>
+        </div>
+
+</fieldset>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-danger" data-dismiss="modal">Sluiten</button>
+      </div>
+    </div>
+  </div>
+</div>
