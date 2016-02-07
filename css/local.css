@@ -135,12 +135,9 @@ body {
     visibility: hidden;
 }
 
-.tour .title {
+.tour h1 {
     font-size: 36px;
-}
-
-.tour .title::after {
-    content: " ";
+    margin-top: 0px;
 }
 
 .tour .price {

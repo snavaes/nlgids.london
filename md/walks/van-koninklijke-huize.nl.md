@@ -1,4 +1,4 @@
-<span class="title">Van Koninklijke Huize</span>
+# Van Koninklijke Huize
 
 <span class="lead">...Ik niet, maar ik kan je er wel van alles over
 vertellen.</span>
