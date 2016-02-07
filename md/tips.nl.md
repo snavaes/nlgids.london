@@ -13,5 +13,5 @@ Chinese nieuwjaar. Dit jaar wordt het jaar van de aap ingeluid met een evenemen
 op 14 februari.
 
 Mail <a href="mailto:ans@nlgids.london">me</a> of kijk op
-[facebook](href="https://www.facebook.com/NLgidsLonden?ref=hl) en
+[facebook](https://www.facebook.com/NLgidsLonden?ref=hl) en
 [twitter](https://twitter.com/NLgidsLonden).

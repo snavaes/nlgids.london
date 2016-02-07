@@ -62,6 +62,12 @@ body {
     height: 17em;
 }
 
+.select-box .caption .arrow {
+    position: absolute;
+    bottom: 0;
+    right: 0.5em;
+  }
+
 .select-box .auth-caption {
     position: absolute;
     width: 100%;
@@ -78,6 +84,11 @@ body {
 .auth {
     background-color: #d9534f;
     color: white;
+}
+
+.success {
+    color: white;
+    background-color: #5cb85c;
 }
 
 .select-box .hfill {

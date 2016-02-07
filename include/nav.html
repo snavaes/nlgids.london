@@ -32,9 +32,15 @@
                 <li lang="nl"><a href="#contact">Contact</a></li>
                 <li lang="en"><a href="#contact">Contact</a></li>
             </ul>
+
             <ul class="nav navbar-nav navbar-right">
-                <li><button style="margin-left: 10px;" class="btn btn-success navbar-btn" type="button"><span class="glyphicon glyphicon-pencil"></span> &nbsp;Contact</button></li>
+                <li>
+                <button style="margin-left: 10px;" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#formContactModal"
+                        data-id="contact" type="button">
+                        <span class="glyphicon glyphicon-pencil"></span> Contact</button>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
+{{.Include "/include/contact.html"}}

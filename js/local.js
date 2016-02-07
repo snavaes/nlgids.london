@@ -8,7 +8,7 @@ $("#formTest").submit(function(event){
     PostForm("#formTest", "/api/open/contact/test");
 });
 $("#formContact").submit(function(event){
-    if ($("#formTest > :submit").hasClass("disabled")) {
+    if ($("#formContact > :submit").hasClass("disabled")) {
         e.preventDefault();
         return
     }

@@ -11,5 +11,5 @@ will experience how Londoners prepare themselves for Christmas.
 
 More information or do you want to join me in search of the Christmas spirit?
 Email <a href="mailto:ans@nlgids.london">me</a> or check out
-[facebook](href="https://www.facebook.com/NLgidsLonden?ref=hl) and
+[facebook](https://www.facebook.com/NLgidsLonden?ref=hl) and
 [twitter](https://twitter.com/NLgidsLonden).
