@@ -25,14 +25,13 @@ $("#formContact").submit(function(event){
 // The success will be set on id-success and error on id-error.
 function PostForm(id, action) {
     datastring = $(id).serialize();
+    alert(datastring);
     $.ajax({
         type: "POST",
         url: action,
         data: datastring,
         success: function() {
-            PostSuccess(id+"-success"),
-            // we do model forms which close the form after a short time.
-            // $(id + "> :submit").prop("disabled", true);
+            PostSuccess(id+"-success");
             $(id).trigger("reset");
         },
         error: PostError(id+"-success"),

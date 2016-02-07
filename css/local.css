@@ -119,7 +119,8 @@ body {
     margin-top: -75px;
 }
 
-*[id]:before {
+/* fix clicking on anchor, only for id inside a span */
+*[id]:before span {
     display: inline-block;
     content: " ";
     margin-top: -75px;
