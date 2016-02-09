@@ -20,6 +20,7 @@
     {{.Include "/include/header.html"}}
 
     <div class="row">
+        <a id="gids" class="anchor"></a>
         <div class="col-md-4">
             <img src="/img/gids.png" class="img-responsive" alt="Foto van de gids Ans Vaessen">
         </div>
@@ -42,8 +43,8 @@
     <br/>
 
     <div class="row">
+        <a id="tips" class="anchor"></a>
         <div class="col-md-6 col-md-push-3 tips">
-            <span id="tips" class="nav-fix anchor"></span>
             <div lang="nl">{{.Markdown "/md/tips.nl.md"}}</div>
             <div lang="en">{{.Markdown "/md/tips.en.md"}}</div>
         </div>
@@ -55,7 +56,6 @@
     </div><!-- /container -->
 
     <div class="container-fluid">
-        <span id="testimonials" class="nav-fix anchor"></span>
         <div class="row bg-info">
             <div class="col-md-12">
                 {{.Include "/include/carousel.html"}}

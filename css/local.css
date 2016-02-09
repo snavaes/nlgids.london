@@ -10,6 +10,14 @@ body {
     padding-top: 100px; /* skip the navbar */
 }
 
+/* fixed navbar fix */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
 .header-box {
     display: inline-block;
     position: relative;
@@ -118,21 +126,6 @@ body {
     max-width: 48px;
     border: 0;
     display: inline;
-}
-
-/* fix for clicking an anchors */
-.nav-fix {
-    padding-top: 75px;
-    margin-top: -75px;
-}
-
-/* fix clicking on anchors */
-.anchor {
-    display: inline-block;
-    content: " ";
-    margin-top: -75px;
-    height: 75px;
-    visibility: hidden;
 }
 
 .tour h1 {
