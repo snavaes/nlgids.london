@@ -10,4 +10,4 @@ Maar ook Willem van Oranje, Bloody Mary en de gekke Koning George.
 Liefhebbers van Game of Thrones zullen overeenkomsten zien...
 
 <span class="price">£50</span>
-<span class="duration">2 uur</span>
+<span class="duration">1.5 uur</span>

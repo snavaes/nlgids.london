@@ -99,6 +99,11 @@ a.anchor {
     background-color: #5cb85c;
 }
 
+.info {
+    color: white;
+    background-color: #006dcc;
+}
+
 .select-box .hfill {
     position: relative;
     overflow: hidden;

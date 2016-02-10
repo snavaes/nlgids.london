@@ -1,0 +1,43 @@
+table td {
+    text-align: center;
+}
+
+table th {
+    text-align: center;
+}
+
+table td a {
+    display:block;
+    width:100%;
+    color: black;
+}
+
+table td.free a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+table td.free:hover {
+    background-color: #006dcc;
+    color: black !important;
+}
+
+table td.free:hover {
+    background-color: #006dcc;
+    color: white !important;
+}
+
+table td.success {
+  background-color: #5cb85c !important;
+  color: black;
+}
+
+table td.busy {
+  background-color: #d4d4d4 !important;
+  color: black;
+}
+
+table td.past {
+    background-color: #292c2f !important;
+    color: black;
+}
