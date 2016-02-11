@@ -74,20 +74,18 @@
     <script>
 //triggered when modal is about to be shown
 $('#formBookingModal').on('show.bs.modal', function(e) {
-    //get data-id attribute of the clicked element
     var date = $(e.relatedTarget).data('date');
     var d = new Date(date);
-    // Dutch and English based on cookie
-    var monthNames = ["January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
 
-    date = monthNames[d.getMonth()];
+    var monthNamesEN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var monthNamesNL = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
 
-//    alert(langcookie);
-    //populate the textbox
+    dateNL = d.getDate() + " " + monthNamesNL[d.getMonth()] + " " + d.getFullYear();
+    dateEN = d.getDate() + " " + monthNamesEN[d.getMonth()] + " " + d.getFullYear();
+
     $(e.currentTarget).find('input[name="date"]').val(date);
-    $('#formBookingTitleNL').html("Booking: " + date);
+    $('#formBookingTitleNL').html("Booking: " + dateNL);
+    $('#formBookingTitleEN').html("Booking: " + dateEN);
 });
     </script>
     </body>

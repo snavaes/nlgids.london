@@ -38,6 +38,6 @@ table td.busy {
 }
 
 table td.past {
-    background-color: #660066 !important;
-    color: black;
+  background-color: #d4d4d4 !important;
+  color: black;
 }
