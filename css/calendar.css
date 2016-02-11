@@ -19,11 +19,6 @@ table td.free a:hover {
 
 table td.free:hover {
     background-color: #006dcc;
-    color: black !important;
-}
-
-table td.free:hover {
-    background-color: #006dcc;
     color: white !important;
 }
 
