@@ -16,7 +16,6 @@
         document.body.className='nl';
     }">
     {{.Include "/include/nav.html"}}
-    {{.Include "book.html"}}
   <div class="container">
 
     {{.Include "/include/header.html"}}
@@ -38,8 +37,8 @@
     <br/>
 
     <div class="row">
-        {{.Include "/calendar.html"}}
-    <a class="btn bnt-danger" data-toggle="modal" href="#formCalendarModal" data-date="2015-01-03">Book NU</a>
+        {{.Include "/book.html"}}
+    <a class="btn bnt-danger" data-toggle="modal" href="#formBookingModal">Book NU</a>
     </div>
 
     <br/>
@@ -71,23 +70,6 @@
     <script>
     $("#nav-home-nl").addClass("active");
     $("#nav-home-en").addClass("active");
-    </script>
-    <script>
-// Triggered when modal is about to be shown.
-$('#formBookingModal').on('show.bs.modal', function(e) {
-    var date = $(e.relatedTarget).data('date');
-    var d = new Date(date);
-
-    var monthNamesEN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    var monthNamesNL = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
-
-    dateNL = d.getDate() + " " + monthNamesNL[d.getMonth()] + " " + d.getFullYear();
-    dateEN = d.getDate() + " " + monthNamesEN[d.getMonth()] + " " + d.getFullYear();
-
-    $(e.currentTarget).find('input[name="date"]').val(date);
-    $('#formBookingTitleNL').html("Booking: " + dateNL);
-    $('#formBookingTitleEN').html("Booking: " + dateEN);
-});
     </script>
     </body>
 </html>
