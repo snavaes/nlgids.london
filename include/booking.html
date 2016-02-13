@@ -26,7 +26,7 @@
 </div>
 
 <div class="row">
-            <div class="col-md-10 col-md-offset-1">
+<div class="col-md-10 col-md-offset-1">
 <table class="table table-bordered table-condensed">
 
 <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
@@ -42,7 +42,7 @@
 <tr>
     <td>8</td>
     <td class="free"></td>
-    <td class="free"><a data-toggle="modal" href="#formBookingModal" data-date="2015-01-03">10</a></td>
+    <td class="free"><a onclick="setDate('2016-02-10');">10</a></td>
     <td class="busy">11</td>
     <td class="free">12</td>
     <td>6</td>
@@ -67,8 +67,8 @@
     <td>7</td>
 </tr>
 </table>
-</div> <!-- row -->
 </div>
+</div> <!-- row -->
 
 <form class="form-horizontal" data-toggle="validator" id="formBooking">
     <fieldset>
@@ -76,7 +76,7 @@
             <div class="col-md-10 col-md-offset-1">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-fw fa-calendar"></i></span>
-                    <input type="text" class="form-control input-lg" id= "inputDate" readonly name="date" placeholder="">
+                    <input type="text" class="form-control input-lg" id="inputDate" readonly name="date" placeholder="">
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
             <div class="col-md-10 col-md-offset-1">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-fw fa-user"></i></span>
-                    <input type="text" class="form-control" id= "inputName" name="name" placeholder="Naam / Name" required>
+                    <input type="text" class="form-control" id="inputName" name="name" placeholder="Naam / Name" required>
                 </div>
             </div>
         </div>

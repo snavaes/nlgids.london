@@ -59,3 +59,14 @@ function PostError(id) {
     $(id + "> .alert-danger").append("<strong lang=\"en\">Something went wrong.</strong>");
     $(id).append('</div>');
 }
+
+function SetDate(d) {
+    /*
+#inputDate
+
+#formBookingTitleNL
+#formBookingTitleEN
+
+set the date to these elements. set lang as well
+*/
+}
