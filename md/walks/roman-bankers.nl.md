@@ -1,7 +1,8 @@
 # Romeinen en Bankiers
 
-<span class="lead">De City heeft een 2000 jaar oude geschiedenis en heeft genoeg
-te zien om de hele dag mee te vullen.</span>
+<span class="lead">De City heeft een 2000 jaar oude geschiedenis...</span>
+
+...en heeft genoeg te zien om de hele dag mee te vullen.
 
 In deze wandeling van 2 uur gaan we van oud naar nieuw en weer terug naar oud.
 We lopen tussen de nieuwe wolkenkrabbers in the City, we zien Romeinse
