@@ -1,0 +1,10 @@
+# Nederlanders in de City
+
+<span class="lead">Londen is een wereldstad met bijna net zoveel inwoners als
+Nederland 13,5 miljoen als je alle buitenwijken meetelt.</span>
+
+Je zult je verbazen wat onze invloed als Nederlanders was in deze stad. Sommige
+aspecten kun je nog zien tot vandaag de dag zoals de *Dutch Church* of *Holland
+House*.
+
+Vanaf <span class="price">£50</span><span class="duration">1.5 uur</span>
