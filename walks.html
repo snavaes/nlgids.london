@@ -20,7 +20,7 @@
     {{.Include "/include/header.html"}}
 
     <div class="row">
-        <a id="van-koninklijke-huize" class="anchor"></a>
+        <a id="koninklijke" class="anchor"></a>
         <div class="col-md-4">
             <img src="/img/walks/koninklijk.jpg" class="img-responsive mob-center-block" alt="Foto van Westminster en Big Ben">
         </div>
@@ -32,14 +32,14 @@
             <p class="text-center"><strong>Highlights</strong></p>
             {{.Markdown "/md/walks/van-koninklijke-huize.list.md"}}
             <br/>
-            <a class="btn btn-lg btn-primary btn-block" href="#" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
+            <a class="btn btn-lg btn-primary btn-block" data-toggle="modal" href="#formBookingModal" data-tour="koninklijke" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
         </div>
     </div>
 
     <br/>
 
     <div class="row">
-        <a id="romeinen-bankiers" class="anchor"></a>
+        <a id="romeinen" class="anchor"></a>
         <div class="col-md-4">
             <img src="/img/walks/grand-city.jpg" class="img-responsive mob-center-block" alt="Foto van de skyline van de City of London">
         </div>
@@ -51,7 +51,7 @@
             <p class="text-center"><strong>Highlights</strong></p>
             {{.Markdown "/md/walks/roman-bankers.list.md"}}
             <br/>
-            <a class="btn btn-lg btn-primary btn-block" href="#" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
+            <a class="btn btn-lg btn-primary btn-block" data-toggle="modal" href="#formBookingModal" data-tour="romeinen" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
         </div>
     </div>
 
@@ -70,7 +70,7 @@
             <p class="text-center"><strong>Highlights</strong></p>
             {{.Markdown "/md/walks/blitz.list.md"}}
             <br/>
-            <a class="btn btn-lg btn-primary btn-block" href="#" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
+            <a class="btn btn-lg btn-primary btn-block" data-toggle="modal" href="#formBookingModal" data-tour="blitz" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
         </div>
     </div>
 
@@ -89,7 +89,7 @@
             <p class="text-center"><strong>Highlights</strong></p>
             {{.Markdown "/md/walks/dutch.list.md"}}
             <br/>
-            <a class="btn btn-lg btn-primary btn-block" href="#" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
+            <a class="btn btn-lg btn-primary btn-block" data-toggle="modal" href="#formBookingModal" data-tour="dutch" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
         </div>
     </div>
 
@@ -108,8 +108,7 @@
             <p class="text-center"><strong>Highlights</strong></p>
             {{.Markdown "/md/walks/custom.list.md"}}
             <br/>
-            <a class="btn btn-lg btn-primary btn-block" data-toggle="modal" href="#formBookingModal"
-                data-tour="custom" href="#" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
+            <a class="btn btn-lg btn-primary btn-block" data-toggle="modal" href="#formBookingModal" data-tour="custom" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
         </div>
     </div>
 

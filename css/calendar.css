@@ -7,19 +7,19 @@ table th {
 }
 
 table td a {
-    display:block;
-    width:100%;
+    display: block;
+    width: 100%;
     color: black;
 }
 
 table td.free a:hover {
-    color: white;
+    color: white !important;
     font-weight: bold;
 }
 
 table td.free:hover {
     background-color: #006dcc;
-    color: white !important;
+    color: white;
 }
 
 table td.success {
