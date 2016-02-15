@@ -169,4 +169,10 @@ a.anchor {
     div.tour>ul>li:last-child {
         border: 0;
     }
+
+    .mob-center-block {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 }
