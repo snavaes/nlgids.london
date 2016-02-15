@@ -21,6 +21,9 @@ $('.modal').on('hidden.bs.modal', function(){
 
     $("#formInvoice")[0].reset();
     $("#formInvoice-success").html("");
+
+    $("#formBooking")[0].reset();
+    $("#formBooking-success").html("");
 });
 
 /*
