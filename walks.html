@@ -108,7 +108,8 @@
             <p class="text-center"><strong>Highlights</strong></p>
             {{.Markdown "/md/walks/custom.list.md"}}
             <br/>
-            <a class="btn btn-lg btn-primary btn-block" href="#" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
+            <a class="btn btn-lg btn-primary btn-block" data-toggle="modal" href="#formBookingModal"
+                data-tour="custom" href="#" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
         </div>
     </div>
 
@@ -116,6 +117,8 @@
 
     <br/>
     <br/>
+
+    {{.Include "/include/form/booking.html"}}
 
     {{.Include "/include/footer.html"}}
     {{.Include "/include/foot.html"}}

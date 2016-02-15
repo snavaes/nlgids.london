@@ -25,18 +25,12 @@ $('.modal').on('hidden.bs.modal', function(){
     $("#formBooking")[0].reset();
     $("#formBooking-success").html("");
 });
-/* On booking's form show, get the calendar and set html() and show */
-$('#exampleModal').on('show.bs.modal', function (event) {
-  var button = $(event.relatedTarget) // Button that triggered the modal
-  var recipient = button.data('whatever') // Extract info from data-* attributes
-  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-  var modal = $(this)
-  modal.find('.modal-title').text('New message to ' + recipient)
-  modal.find('.modal-body input').val(recipient)
+/* On booking's modal show, get the calendar and set html() */
+$('#formBookingModal').on('show.bs.modal', function (e) {
+    $.post( "/api/open/calendar", function(d) {
+      $( "#bookingCalendar" ).html(d);
+    });
 })
-
-/* Get calendar from buttons */
 
 /*
  * Functions below
@@ -73,15 +67,4 @@ function PostError(id) {
     $(id + "> .alert-danger").append("<strong lang=\"nl\">Er ging iets verkeerd.<strong>");
     $(id + "> .alert-danger").append("<strong lang=\"en\">Something went wrong.</strong>");
     $(id).append('</div>');
-}
-
-function SetDate(d) {
-    /*
-#inputDate
-
-#formBookingTitleNL
-#formBookingTitleEN
-
-set the date to these elements. set lang as well
-*/
 }
