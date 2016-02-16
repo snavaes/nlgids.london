@@ -1,14 +1,22 @@
 body.en :lang(nl) {
     display: none;
 }
-
 body.nl :lang(en) {
     display: none;
 }
-
 body {
     padding-top: 100px; /* skip the navbar */
 }
+
+/* prevent scrolling on mobile with modal open */
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
+body.viewport-lg {
+    position: absolute;
+}
+
 
 /* fixed navbar fix */
 a.anchor {
@@ -22,7 +30,6 @@ a.anchor {
     display: inline-block;
     position: relative;
 }
-
 .header-box .caption {
     position: absolute;
     background-color: #000;
@@ -42,7 +49,6 @@ a.anchor {
     display: inline-block;
     position: relative;
 }
-
 .select-box .top-caption {
     position: absolute;
     background-color: #000;
@@ -59,7 +65,6 @@ a.anchor {
     padding-top: 1em;
     padding-bottom: 1em;
 }
-
 .select-box .caption {
     position: absolute;
     width: 100%;
@@ -69,13 +74,11 @@ a.anchor {
     padding-right: 1em;
     height: 17em;
 }
-
 .select-box .caption .arrow {
     position: absolute;
     bottom: 0.5em;
     right: 0.5em;
-  }
-
+}
 .select-box .auth-caption {
     position: absolute;
     width: 100%;
@@ -87,6 +90,16 @@ a.anchor {
 
     background-color: #d9534f;
     color: white;
+}
+.select-box .hfill {
+    position: relative;
+    overflow: hidden;
+    height: 17em;
+}
+.select-box .hfill-auth {
+    position: relative;
+    overflow: hidden;
+    height: 4em;
 }
 
 .auth {
@@ -102,18 +115,6 @@ a.anchor {
 .info {
     color: white;
     background-color: #006dcc;
-}
-
-.select-box .hfill {
-    position: relative;
-    overflow: hidden;
-    height: 17em;
-}
-
-.select-box .hfill-auth {
-    position: relative;
-    overflow: hidden;
-    height: 4em;
 }
 
 .header-max-height {
@@ -137,19 +138,15 @@ a.anchor {
     font-size: 36px;
     margin-top: 0px;
 }
-
 .tour .price {
     font-size: 30px;
 }
-
 .tour .price::after {
     content: " / ";
 }
-
 .tour .duration {
     font-size: 30px;
 }
-
 .tour ul {
     padding-top: 1em;
 }
