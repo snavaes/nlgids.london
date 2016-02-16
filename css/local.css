@@ -9,14 +9,9 @@ body {
 }
 
 /* prevent scrolling on mobile with modal open */
-body.modal-open {
-    overflow: hidden;
-    position: fixed;
+.modal-open {
+    height: 100%;
 }
-body.viewport-lg {
-    position: absolute;
-}
-
 
 /* fixed navbar fix */
 a.anchor {
