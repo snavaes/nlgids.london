@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    {{.Include "/include/head.html"}}
+  <body
+    onload="
+    langcookie=document.cookie;
+    switch (langcookie) {
+    case 'lang=nl':
+        document.body.className='nl';
+        break;
+    case 'lang=en':
+        document.body.className='en';
+        break;
+    default:
+        document.body.className='nl';
+    }">
+    {{.Include "/include/nav.html"}}
+  <div class="container">
+
+    {{.Include "/include/header.html"}}
+
+    <div class="row">
+        <a id="bus" class="anchor"></a>
+        <div class="col-md-4">
+            <img src="/img/specials/bus-tour-tea.jpg" class="img-responsive mob-center-block" alt="Foto van een Londense tour bus">
+        </div>
+        <div class="col-md-5 tour">
+            <div lang="nl">{{.Markdown "/md/specials/bus.nl.md"}}</div>
+            <div lang="en">{{.Markdown "/md/specials/bus.en.md"}}</div>
+        </div>
+        <div class="col-md-3 tour">
+            <p class="text-center"><strong>Highlights</strong></p>
+            {{.Markdown "/md/specials/bus.list.md"}}
+            <br/>
+            <a class="btn btn-lg btn-primary btn-block" data-toggle="modal" href="#formBookingModal" data-type="specials" data-tour="bus" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
+        </div>
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <a id="gin" class="anchor"></a>
+        <div class="col-md-4">
+            <img src="/img/specials/cocktail.jpg" class="img-responsive mob-center-block" alt="Foto van een cocktail">
+        </div>
+        <div class="col-md-5 tour">
+            <div lang="nl">{{.Markdown "/md/specials/gin.nl.md"}}</div>
+            <div lang="en">{{.Markdown "/md/specials/gin.en.md"}}</div>
+        </div>
+        <div class="col-md-3 tour">
+            <p class="text-center"><strong>Highlights</strong></p>
+            {{.Markdown "/md/specials/gin.list.md"}}
+            <br/>
+            <a class="btn btn-lg btn-primary btn-block" data-toggle="modal" href="#formBookingModal" data-type="specials" data-tour="gin" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
+        </div>
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <a id="happen" class="anchor"></a>
+        <div class="col-md-4">
+            <img src="https://placehold.it/300x300" class="img-responsive mob-center-block" alt="Placeholder">
+        </div>
+        <div class="col-md-5 tour">
+            <div lang="nl">{{.Markdown "/md/specials/happen.nl.md"}}</div>
+            <div lang="en">{{.Markdown "/md/specials/happen.en.md"}}</div>
+        </div>
+        <div class="col-md-3 tour">
+            <p class="text-center"><strong>Highlights</strong></p>
+            {{.Markdown "/md/specials/happen.list.md"}}
+            <br/>
+            <a class="btn btn-lg btn-primary btn-block" data-toggle="modal" href="#formBookingModal" data-type="specials" data-tour="happen" role="button"><span class="fa fa-thumbs-up"></span> Boek</a>
+        </div>
+    </div>
+
+    </div><!-- /container -->
+
+    <br/>
+    <br/>
+
+    {{.Include "/include/form/booking.html"}}
+
+    {{.Include "/include/footer.html"}}
+    {{.Include "/include/foot.html"}}
+    <script>
+    $("#nav-specials-nl").addClass("active");
+    $("#nav-specials-en").addClass("active");
+    </script>
+    </body>
+</html>
