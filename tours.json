@@ -1,0 +1,44 @@
+{
+   "walks":[
+      {
+         "Naam":"Amit Goenka",
+         "Name":"Physics"
+      },
+      {
+         "Naam":"Smita Pallod",
+         "Name":"Chemistry"
+      },
+      {
+         "Naam":"Rajeev Sen",
+         "Name":"Mathematics"
+      }
+   ],
+   "cycling":[
+      {
+         "Naam":"Amit Goenka",
+         "Name":"Physics"
+      },
+      {
+         "Naam":"Smita Pallod",
+         "Name":"Chemistry"
+      },
+      {
+         "Naam":"Rajeev Sen",
+         "Name":"Mathematics"
+      }
+   ],
+   "specials":[
+      {
+         "Naam":"gin",
+         "Name":"more gin"
+      },
+      {
+         "Naam":"bla",
+         "Name":"blq"
+      },
+      {
+         "Naam":"Sen",
+         "Name":"bla"
+      }
+   ]
+}
