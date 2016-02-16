@@ -30,7 +30,13 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
     $.post( "/api/open/calendar", function(d) {
       $( "#bookingCalendar" ).html(d);
     });
+
 })
+// using latest bootstrap so, show.bs.modal
+//$('#modal-form-edit').on('show.bs.modal', function(e) {
+//  var product = $(e.relatedTarget).data('id');
+//  $("#product_name").val(product);
+//});
 
 /*
  * Functions below
