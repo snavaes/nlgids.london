@@ -1,1 +1,6 @@
-- ?
+- St. Paul's Cathedral
+- Tower of London
+- Bank of England
+- Loyds of London
+- Guildhall
+- pub :-)

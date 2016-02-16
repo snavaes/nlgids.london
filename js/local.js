@@ -77,4 +77,6 @@ function PostError(id) {
 // BookingDate will set the date in the bookings form, from the calendar.
 function BookingDate(d) {
     $('input[name="date"]').val(d);
+    $('#formBookingTitleNL').html("Boeking: "+d); // TODO(miek): translate here
+    $('#formBookingTitleEN').html("Booking: "+d);
 }

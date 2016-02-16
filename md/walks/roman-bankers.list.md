@@ -3,4 +3,4 @@
 - Leadenhall Market
 - Guildhall
 - Gherkin
-- Lloyds
+- Lloyds of London
