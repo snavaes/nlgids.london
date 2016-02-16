@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    {{.Include "/include/head.html"}}
+  <body
+    onload="
+    langcookie=document.cookie;
+    switch (langcookie) {
+    case 'lang=nl':
+        document.body.className='nl';
+        break;
+    case 'lang=en':
+        document.body.className='en';
+        break;
+    default:
+        document.body.className='nl';
+    }">
+    {{.Include "/include/nav.html"}}
+  <div class="container">
+
+    {{.Include "/include/header.html"}}
+
+    <div class="row">
+        <a id="bus" class="anchor"></a>
+        <div class="col-md-4">
+            <img src="https://placehold.it/300x300" class="img-responsive mob-center-block" alt="Placeholder">
+        </div>
+        <div class="col-md-5 tour">
+            <div lang="nl">{{.Markdown "/md/prices/prijs.nl.md"}}</div>
+            <div lang="en">{{.Markdown "/md/prices/prijs.en.md"}}</div>
+        </div>
+
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <a id="gin" class="anchor"></a>
+        <div class="col-md-4">
+            <img src="https://placehold.it/300x300" class="img-responsive mob-center-block" alt="Placeholder">
+        </div>
+        <div class="col-md-5 tour">
+            <div lang="nl">{{.Markdown "/md/prices/voorwaarden.nl.md"}}</div>
+            <div lang="en">{{.Markdown "/md/prices/voorwaarden.en.md"}}</div>
+        </div>
+    </div>
+
+    <br/>
+
+
+    </div><!-- /container -->
+
+    <br/>
+    <br/>
+
+    {{.Include "/include/form/booking.html"}}
+
+    {{.Include "/include/footer.html"}}
+    {{.Include "/include/foot.html"}}
+    <script>
+    $("#nav-prices-nl").addClass("active");
+    $("#nav-prices-en").addClass("active");
+    </script>
+    </body>
+</html>
