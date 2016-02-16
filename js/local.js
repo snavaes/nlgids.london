@@ -32,24 +32,17 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
       $( "#bookingCalendar" ).html(d);
     });
 
-    // populate the tour selection
+    // populate the tour input selection
     var type = $(e.relatedTarget).data('type');
     var index = $(e.relatedTarget).data('index');
     var tours = $.getJSON('/tours.json');
 
     $.each(tours[type], function(index, value) {
-        sum += value;
+        alert(value);
     });
-
     // #inputTour
-
     });
 })
-// using latest bootstrap so, show.bs.modal
-//$('#modal-form-edit').on('show.bs.modal', function(e) {
-//  var product = $(e.relatedTarget).data('id');
-//  $("#product_name").val(product);
-//});
 
 /*
  * Functions below
