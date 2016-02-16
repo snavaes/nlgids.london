@@ -74,3 +74,7 @@ function PostError(id) {
     $(id + "> .alert-danger").append("<strong lang=\"en\">Something went wrong.</strong>");
     $(id).append('</div>');
 }
+
+// BookingSetDate will set the date in the bookings form, from the calendar.
+function BookingSetDate(d) {
+}
