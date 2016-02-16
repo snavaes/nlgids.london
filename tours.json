@@ -1,44 +1,48 @@
 {
    "walks":[
       {
-         "Naam":"Amit Goenka",
-         "Name":"Physics"
+         "Naam":"Van Koninklijke Huize",
+         "Name":"Of Royal Descent"
       },
       {
-         "Naam":"Smita Pallod",
-         "Name":"Chemistry"
+         "Naam":"Romeinen en Bankiers",
+         "Name":"Roman and Bankers"
       },
       {
-         "Naam":"Rajeev Sen",
-         "Name":"Mathematics"
+         "Naam":"Nederlanders in de City",
+         "Name":"Dutch in the City"
+      },
+      {
+         "Naam":"Op Maat Wandeling",
+         "Name":"Custom Walk"
       }
    ],
    "cycling":[
       {
-         "Naam":"Amit Goenka",
-         "Name":"Physics"
+         "Naam":"London Tour",
+         "Name":"London Tour"
       },
       {
-         "Naam":"Smita Pallod",
-         "Name":"Chemistry"
+         "Naam":"Secret Tour",
+         "Name":"Secret Tour"
       },
       {
-         "Naam":"Rajeev Sen",
-         "Name":"Mathematics"
+         "Naam":"Op Maat Fietstocht",
+         "Name":"Custom Cycling"
       }
    ],
    "specials":[
       {
-         "Naam":"gin",
-         "Name":"more gin"
+         "Naam":"Afternoon Tea Bustour",
+         "Name":"Afternoon Tea Bustour"
       },
       {
-         "Naam":"bla",
-         "Name":"blq"
+         "Naam":"Gin en Cocktails",
+         "Name":"Gin and Cocktails"
       },
       {
-         "Naam":"Sen",
-         "Name":"bla"
+         "Naam":"Happen en Stappen",
+         "Name":"Pub Food Tour"
       }
    ]
 }

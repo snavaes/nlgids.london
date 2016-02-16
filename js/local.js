@@ -31,20 +31,20 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
     $.post( "/api/open/calendar", function(d) {
       $( "#bookingCalendar" ).html(d);
     });
-
     // populate the tour input selection
     var type = $(e.relatedTarget).data('type');
     var index = $(e.relatedTarget).data('index');
 
     $.getJSON("/tours.json", function(data) {
-        //var items = [];
+        var options = $("#inputTour");
         $.each(data[type], function(key, val) {
             // if key is index then selected is true
-            alert(data[type][key].Name + " " +  data[type][key].Naam);
-            //items.push( "<li id='" + key + "'>" + val + "</li>" );
+            // TODO(miek): language!
+            var dutch = data[type][key].Naam;
+            var english = data[type][key].Name;
+            options.append($("<option />").val(dutch).text(dutch));
         });
     });
-    // #inputTour
 })
 
 /*
