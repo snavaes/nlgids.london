@@ -1,0 +1,6 @@
+- Bank of England
+- Royal Exchange
+- Leadenhall Market
+- Lloyds of London
+- Brick Lane
+- Globe Theatre

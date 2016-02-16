@@ -10,6 +10,7 @@ fireworks and (of course) bonfires. If you visit London later in the season you
 will experience how Londoners prepare themselves for Christmas.
 
 More information or do you want to join me in search of the Christmas spirit?
-Email <a href="mailto:ans@nlgids.london">me</a> or check out
+
+Email [me](mailto:ans@nlgids.london) or check out
 [facebook](https://www.facebook.com/NLgidsLonden?ref=hl) and
 [twitter](https://twitter.com/NLgidsLonden).

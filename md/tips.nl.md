@@ -12,6 +12,6 @@ plekken een pannenkoekenrace en in februari viert de Chinese gemeenschap het
 Chinese nieuwjaar. Dit jaar wordt het jaar van de aap ingeluid met een evenement
 op 14 februari.
 
-Mail <a href="mailto:ans@nlgids.london">me</a> of kijk op
+Mail [me](mailto:ans@nlgids.london) of kijk op
 [facebook](https://www.facebook.com/NLgidsLonden?ref=hl) en
 [twitter](https://twitter.com/NLgidsLonden).
