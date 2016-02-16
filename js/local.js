@@ -38,11 +38,14 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
     $.getJSON("/tours.json", function(data) {
         var options = $("#inputTour");
         $.each(data[type], function(key, val) {
-            // if key is index then selected is true
-            // TODO(miek): language!
             var dutch = data[type][key].Naam;
             var english = data[type][key].Name;
-            options.append($("<option />").val(dutch).text(dutch));
+            if (key == index) {
+                // TODO(miek): language!
+                options.append($("<option />").val(dutch).text(dutch).prop('selected', true));
+            } else {
+                options.append($("<option />").val(dutch).text(dutch));
+            }
         });
     });
 })
