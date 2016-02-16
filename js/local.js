@@ -27,8 +27,22 @@ $('.modal').on('hidden.bs.modal', function(){
 });
 /* On booking's modal show, get the calendar and set html() */
 $('#formBookingModal').on('show.bs.modal', function (e) {
+    // get and set the calendar
     $.post( "/api/open/calendar", function(d) {
       $( "#bookingCalendar" ).html(d);
+    });
+
+    // populate the tour selection
+    var type = $(e.relatedTarget).data('type');
+    var index = $(e.relatedTarget).data('index');
+    var tours = $.getJSON('/tours.json');
+
+    $.each(tours[type], function(index, value) {
+        sum += value;
+    });
+
+    // #inputTour
+
     });
 })
 // using latest bootstrap so, show.bs.modal
