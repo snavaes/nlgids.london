@@ -1,5 +1,5 @@
 - Monument
-- Guildhall
-- St. Paul's
+- Bank of England
+- Van Gogh
 - Holland House
 - Dutch Church

@@ -37,9 +37,11 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
 
     $.getJSON("/tours.json", function(data) {
         var options = $("#inputTour");
+        options.html("");
         $.each(data[type], function(key, val) {
             var dutch = data[type][key].Naam;
             var english = data[type][key].Name;
+//            alert(key +  " " + index);
             if (key == index) {
                 // TODO(miek): language!
                 options.append($("<option />").val(dutch).text(dutch).prop('selected', true));
