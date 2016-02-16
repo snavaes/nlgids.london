@@ -35,13 +35,16 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
     // populate the tour input selection
     var type = $(e.relatedTarget).data('type');
     var index = $(e.relatedTarget).data('index');
-    var tours = $.getJSON('/tours.json');
 
-    $.each(tours[type], function(index, value) {
-        alert(value);
+    $.getJSON("/tours.json", function(data) {
+        //var items = [];
+        $.each(data[type], function(key, val) {
+            // if key is index then selected is true
+            alert(data[type][key].Name + " " +  data[type][key].Naam);
+            //items.push( "<li id='" + key + "'>" + val + "</li>" );
+        });
     });
     // #inputTour
-    });
 })
 
 /*
