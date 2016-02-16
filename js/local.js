@@ -30,7 +30,6 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
     $.post( "/api/open/calendar", function(d) {
       $( "#bookingCalendar" ).html(d);
     });
-
 })
 // using latest bootstrap so, show.bs.modal
 //$('#modal-form-edit').on('show.bs.modal', function(e) {
@@ -75,6 +74,7 @@ function PostError(id) {
     $(id).append('</div>');
 }
 
-// BookingSetDate will set the date in the bookings form, from the calendar.
-function BookingSetDate(d) {
+// BookingDate will set the date in the bookings form, from the calendar.
+function BookingDate(d) {
+    $('input[name="date"]').val(d);
 }

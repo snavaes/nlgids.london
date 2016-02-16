@@ -1,1 +1,6 @@
-- ?
+- Trafalgar Square
+- Westminster Abbey
+- Big Ben
+- Harronds
+- Hyde Park
+- Picadilly Circus
