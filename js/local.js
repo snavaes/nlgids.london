@@ -48,7 +48,7 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
         $.each(data[type], function(key, val) {
             var dutch = data[type][key].Naam;
             var english = data[type][key].Name;
-            var id = data[type][key].id;
+            var id = type + "/" + data[type][key].id; // cycling/custom or walks/custom
             var langcookie = document.cookie;
             if (key == index) {
                 // get lang so we set the right one to 'selected'
