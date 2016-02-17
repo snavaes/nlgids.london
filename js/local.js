@@ -119,7 +119,7 @@ function BookingDate(d) {
 }
 
 function BookingCalendar(d) {
-    $.post( "/api/open/calendar", d, function(data) {
-      $( "#bookingCalendar" ).html(data);
+    $.post( "/api/open/calendar", "date=" + d, function(data) {
+      $("#bookingCalendar").html(data);
     });
 };
