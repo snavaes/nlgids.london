@@ -11,28 +11,29 @@ table td a {
     width: 100%;
     color: black;
 }
-
 table td.free a:hover {
     color: white !important;
     font-weight: bold;
 }
-
 table td.free:hover {
     background-color: #006dcc;
     color: white;
 }
-
 table td.success {
   background-color: #5cb85c !important;
   color: black;
 }
-
 table td.busy {
   background-color: #d4d4d4 !important;
   color: black;
 }
-
 table td.past {
   background-color: #d4d4d4 !important;
   color: black;
+}
+table td.next {
+  color: grey;
+}
+table td.prev {
+  color: grey;
 }
