@@ -6,6 +6,13 @@ $("#formContact").submit(function(e){
     }
     PostForm("#formContact", "/api/open/contact");
 });
+$("#formBooking").submit(function(e){
+    e.preventDefault();
+    if ($("#formBooking > :submit").hasClass("disabled")) {
+        return
+    }
+    PostForm("#formBooking", "/api/open/booking");
+});
 $("#formInvoice").submit(function(e){
     e.preventDefault();
     if ($("#formInvoice > :submit").hasClass("disabled")) {
@@ -43,7 +50,7 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
             var english = data[type][key].Name;
             if (key == index) {
 
-                // get lang so we populate set the right one to 'selected'
+                // get lang so we set the right one to 'selected'
                 langcookie=document.cookie;
                 switch (langcookie) {
                 case 'lang=nl':
@@ -105,6 +112,6 @@ function PostError(id) {
 // BookingDate will set the date in the bookings form, from the calendar.
 function BookingDate(d) {
     $('input[name="date"]').val(d);
-    $('#formBookingTitleNL').html("Boeking: "+d); // TODO(miek): translate here
+    $('#formBookingTitleNL').html("Boeking: "+d);
     $('#formBookingTitleEN').html("Booking: "+d);
 }
