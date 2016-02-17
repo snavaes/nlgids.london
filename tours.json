@@ -1,46 +1,56 @@
 {
    "walks":[
       {
+         "id": "koninklijke",
          "Naam":"Van Koninklijke Huize",
          "Name":"Of Royal Descent"
       },
       {
+         "id": "romeinen",
          "Naam":"Romeinen en Bankiers",
          "Name":"Roman and Bankers"
       },
       {
+         "id": "dutch",
          "Naam":"Nederlanders in de City",
          "Name":"Dutch in the City"
       },
       {
+         "id": "custom",
          "Naam":"Op Maat Wandeling",
          "Name":"Custom Walk"
       }
    ],
    "cycling":[
       {
+         "id": "london",
          "Naam":"London Tour",
          "Name":"London Tour"
       },
       {
+         "id": "secret",
          "Naam":"Secret Tour",
          "Name":"Secret Tour"
       },
       {
+         "id": "custom",
          "Naam":"Op Maat Fietstocht",
          "Name":"Custom Cycling"
       }
    ],
    "specials":[
       {
+         "id": "bus",
          "Naam":"Afternoon Tea Bustour",
          "Name":"Afternoon Tea Bustour"
       },
       {
+         "id": "gin",
          "Naam":"Gin en Cocktails",
          "Name":"Gin and Cocktails"
       },
       {
+         "id": "happen",
          "Naam":"Happen en Stappen",
          "Name":"Pub Food Tour"
       }
