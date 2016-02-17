@@ -1,21 +1,45 @@
 # Prices
 
-A one hour private mini tour from £35! Just enough to get a good feel of the
+A one hour private mini tour from £50! Just enough to get a good feel of the
 area .... and leave you wanting more.
 
-Or join me on a standard cycle tour for £25.
+
+Walk 1½ hour £50 (up to 4 people)
+
+:    every additional person £5
+
+
+Walk 2 hours £60 (up to 4 people)
+
+:    every additional person £6
+
 
 Bespoke tours
+
 :   Contact [me](mailto:ans@nlgids.london) for a quote.
 
-Mini tour £35 (up to 8 people, 1 hour)
-:    every additional person £3.50.
 
-Walks £50 (up to 8 people, 2 hours)
-:    every additional person £3.50.
+Afternoon Tea Bus Tour 2 hours £50 p.p.
 
-Standard Cyle tour £24,95 (with bike, helmet and poncho)
-:    Contact [me](mailto:ans@nlgids.london) by email to see if you can join a tour.
+:   includes short walk, tea, sandwiches and scones
+
+
+Gin and Coctail tour 3 hours £35 p.p. (minimum of 4 people)
+
+:   includes 2 drinks
+
+
+Pub food tour
+
+:   Contact [me](mailto:ans@nlgids.london) for a quote
+
+
+Standard cyle tour 3½ hours £24,95 p.p. 
+
+:   includes bicycle, helmet and poncho
+
 
 Private Cycle tour £140 (with bike, helmet and poncho)
-:    Private tour 2-4 persons £140, £20 for every additional person.
+
+:    Private tour 2-4 persons £140, £20 for every additional person contact [me](mailtto:ans@nlgids.london)
+

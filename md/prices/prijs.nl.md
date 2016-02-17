@@ -17,11 +17,11 @@ Tour op Maat
 :   Langer? Opgehaald worden of andere wensen?
 Stuur me een [email](mailto: ans@nlgids.london)
 
-Afternoon Tea Bus tour 2 uur £50 p.p. 
+Afternoon Tea Bustour 2 uur £50 p.p. 
 
 :   incl. korte wandeling, thee, sandwiches en scones
 
-Gin en Cocktailtour 3 uur £50
+Gin en Cocktailtour 3 uur £35
 
 :   incl. 2 drankjes
 

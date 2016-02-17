@@ -8,4 +8,4 @@ fantastische plekken een cocktail drinkt.
 
 Minimaal 4 deelnemers.
 
-Vanaf <span class="price">£35 p.p. </span><span class="duration">3&frac12; uur</span>
+Vanaf <span class="price">£35 p.p. </span><span class="duration">3 uur</span>
