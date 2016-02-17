@@ -43,15 +43,16 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
     var index = $(e.relatedTarget).data('index');
 
     $.getJSON("/tours.json", function(data) {
+        var langcookie = document.cookie;
         var options = $("#inputTour");
+
         options.html("");
+
         $.each(data[type], function(key, val) {
             var dutch = data[type][key].Naam;
             var english = data[type][key].Name;
             var id = type + "/" + data[type][key].id; // cycling/custom or walks/custom
-            var langcookie = document.cookie;
             if (key == index) {
-                // get lang so we set the right one to 'selected'
                 switch (langcookie) {
                 case 'lang=en':
                     options.append($("<option />").val(id).text(english).prop('selected', true).prop('lang', 'en'));
