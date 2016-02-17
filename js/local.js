@@ -119,7 +119,6 @@ function BookingDate(d) {
 }
 
 function BookingCalendar(d) {
-    // 'date=d'
     $.post( "/api/open/calendar", d, function(data) {
       $( "#bookingCalendar" ).html(data);
     });
