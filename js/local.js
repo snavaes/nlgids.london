@@ -99,6 +99,8 @@ function PostSuccess(id) {
     $(id + "> .alert-success").append("<strong lang=\"nl\">Bericht is succesvol verzonden.</strong>");
     $(id + "> .alert-success").append("<strong lang=\"en\">Message has been successfully sent.</strong>");
     $(id).append('</div>');
+    // remove submit button(s)
+    $('button[type="submit"]').fadeOut(500);
 }
 
 function PostError(id) {
