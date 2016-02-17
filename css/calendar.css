@@ -11,7 +11,7 @@ table td a {
     width: 100%;
     color: black;
 }
-table td.free a:hover {
+table td a:hover {
     color: white !important;
     font-weight: bold;
 }
@@ -24,7 +24,7 @@ table td.success {
   color: black;
 }
 table td.busy {
-  background-color: #d4d4d4 !important;
+    background-color: #d4d4d4 !important;
   color: black;
 }
 table td.past {
@@ -32,8 +32,8 @@ table td.past {
   color: black;
 }
 table td.next {
-  color: grey;
+    background: rgb(250, 255, 140);
 }
 table td.prev {
-  color: grey;
+    background: rgb(250, 255, 140);
 }
