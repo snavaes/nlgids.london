@@ -4,4 +4,5 @@
 - Blackfriars
 - St. Paul's Cathedral
 
-incl. twee drankjes
+<span lang="nl">Inclusief twee drankjes</span>
+<span lang="en">Includes two drinks</span>

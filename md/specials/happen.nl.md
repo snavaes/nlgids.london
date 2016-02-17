@@ -8,4 +8,6 @@ Westminster? Laat me weten waar je meer van wilt weten. Minimaal 4 deelnemers.
 laat [me](mailto:ans@nlgids.london) weten wat je in gedachten hebt dan ga ik er
 achter aan en maak ik een prijsopgave.
 
+Minimaal 4 deelnemers.
+
 Vanaf <span class="price">£35</span><span class="duration">2 &frac12; uur</span>

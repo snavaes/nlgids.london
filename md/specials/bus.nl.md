@@ -2,7 +2,7 @@
 
 <span class="lead">Geen zin om te lopen of te fietsen?</span>
 
-Waarom dan niet met mij een Afternoon Tea Bustour doen?
+Waarom dan niet met mij een Afternoon Tea Bus tour doen?
 
 Een korte wandeling vooraf en dan de rest van West London bekijken vanaf een
 oldtimer dubbledek bus. Ondertussen krijg je thee, gebak, sandwiches en scones
