@@ -1,7 +1,10 @@
-# Custom Tour
+# Tailor Made Tour
 
-<span class="lead">Bla bla bla</span>
+<span class="lead"></span>
 
-Whatever you want.
+Mini tour in London? A short walk with a some highlights. Or a longer walk 
+including some places to eat and drink. Several themes available, Romans, 
+World War 2, Monarchy, churches or Harry Potter.
 
-From <span class="price">£50</span><span class="duration">1 &frac12; hour</span>
+To make an enquiry please email [me](mailto:ans@nlgids.london).
+
