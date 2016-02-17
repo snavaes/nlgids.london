@@ -23,13 +23,13 @@ $("#formInvoice").submit(function(e){
 });
 /* Clear content on hide */
 $('.modal').on('hidden.bs.modal', function(){
-    $("#formContact")[0].reset();
+    $("#formContact").trigger("reset");
     $("#formContact-success").html("");
 
-    $("#formInvoice")[0].reset();
+    $("#formInvoice").trigger("reset");
     $("#formInvoice-success").html("");
 
-    $("#formBooking")[0].reset();
+    $("#formBooking").trigger("reset");
     $("#formBooking-success").html("");
 });
 /* On booking's modal show, get the calendar and set html() */
