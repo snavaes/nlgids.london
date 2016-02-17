@@ -41,12 +41,12 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
         $.each(data[type], function(key, val) {
             var dutch = data[type][key].Naam;
             var english = data[type][key].Name;
-//            alert(key +  " " + index);
             if (key == index) {
-                // TODO(miek): language!
-                options.append($("<option />").val(dutch).text(dutch).prop('selected', true));
+                options.append($("<option />").val(dutch).text(dutch).prop('selected', true).prop('lang', 'nl');
+                options.append($("<option />").val(english).text(english).prop('selected', true).prop('lang', 'en');
             } else {
-                options.append($("<option />").val(dutch).text(dutch));
+                options.append($("<option />").val(dutch).text(dutch).prop('lang', 'nl');
+                options.append($("<option />").val(dutch).text(dutch).prop('lang', 'en');
             }
         });
     });
