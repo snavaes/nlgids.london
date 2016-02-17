@@ -115,3 +115,10 @@ function BookingDate(d) {
     $('#formBookingTitleNL').html("Boeking: "+d);
     $('#formBookingTitleEN').html("Booking: "+d);
 }
+
+function BookingCalendar(d) {
+    // 'date=d'
+    $.post( "/api/open/calendar", d, function(data) {
+      $( "#bookingCalendar" ).html(data);
+    });
+};
