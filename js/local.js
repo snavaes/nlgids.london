@@ -48,25 +48,30 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
         $.each(data[type], function(key, val) {
             var dutch = data[type][key].Naam;
             var english = data[type][key].Name;
+            var id = data[type][key].id;
+            var langcookie = document.cookie;
             if (key == index) {
-
                 // get lang so we set the right one to 'selected'
-                langcookie=document.cookie;
                 switch (langcookie) {
-                case 'lang=nl':
-                    options.append($("<option />").val(dutch).text(dutch).prop('selected', true).prop('lang', 'nl'));
-                    break;
                 case 'lang=en':
-                    options.append($("<option />").val(english).text(english).prop('selected', true).prop('lang', 'en'));
+                    options.append($("<option />").val(id).text(english).prop('selected', true).prop('lang', 'en'));
                     break;
+                case 'lang=nl':
                 default:
-                    options.append($("<option />").val(dutch).text(dutch).prop('selected', true).prop('lang', 'nl'));
+                    options.append($("<option />").val(id).text(dutch).prop('selected', true).prop('lang', 'nl'));
                     break;
                 }
 
             } else {
-                options.append($("<option />").val(dutch).text(dutch).prop('lang', 'nl'));
-                options.append($("<option />").val(english).text(english).prop('lang', 'en'));
+                switch (langcookie) {
+                case 'lang=en':
+                    options.append($("<option />").val(id).text(english).prop('lang', 'en'));
+                    break;
+                case 'lang=nl':
+                default:
+                    options.append($("<option />").val(id).text(dutch).prop('lang', 'nl'));
+                    break;
+                }
             }
         });
     });
