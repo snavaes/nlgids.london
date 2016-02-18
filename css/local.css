@@ -143,8 +143,8 @@ a.anchor {
 
 div.reclame {
     border: 1px solid black;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 div.reclame p {
     font-weight: bold;

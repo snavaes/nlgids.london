@@ -1,11 +1,13 @@
-# Bike Tour London
+# Ans Vaessen
 
-<span class="lead">We go where the buses can't go.</span>
+<span class="lead">When my husband got a job offer in London I said immediatly "let's Go".</span>
 
-A 3½ hour ride that includes all the major *Must-See* sights and attractions.
 
-I'll give you background information and quirky facts. You will see things
-you won't find in the guidebooks. This tour includes a very comfy bike, helmet
-and poncho.
+What a brilliant opportunity to get to know this city as a Londoner.
 
-From <span class="price">£24.95</span><span class="duration">3 &frac12; hour</span>
+With my little daughter I explored the city, visited the parks, playgrounds and museums. I would love to share my knowledge of London with you. Not boring dates, 
+but interesting stories about the kings, queens, famous people and also everyday life.
+
+I have a masters degree in Tourism and in the Netherlands I worked as a policy adviser and teacher. But now I do what I like most about Tourism,: giving people an unforgettable experience.
+
+In London I did several courses and I am a qualified City of London guide. Like every Londoner I know where to go for a nice “cuppa” or a pint of ale if that is more to your liking and please ask me where to get a gin or cocktail.
