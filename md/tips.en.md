@@ -1,15 +1,18 @@
-# In London during the autumn?
+# Spring in London
 
-Excellent choice! It actually rains less in autumn than in summer and the
-temperature is still moderate. The parks looks beautiful in their autumn
-colours. In case of rain, you can always go to one of London's excellent museums
-which are often free admittance!
+Spend Easter in London. Discover the city on bicycle it is fun and you
+will see a lot in a short time. You can also join a Easter Egg Hunt in one
+of the many parks. Spring is the best time to visit London. As soon as
+the sun is out everybody will look for a spot in the sun.
 
-The first week of November there is &quot;Bonfire Night&quot;. A spectacle with
-fireworks and (of course) bonfires. If you visit London later in the season you
-will experience how Londoners prepare themselves for Christmas.
+Two major sport events are 'the Boat race' (between Oxford and Cambridge)
+27 March or the London Marathon 24 April.
 
-More information or do you want to join me in search of the Christmas spirit?
+Most Museums have late openings on Thursdays or Fridays. But 11-14 May,
+Museums open all night. Sunday 8 May is the May Fayre and Puppet festival
+in Covent Garden.
+
+
 
 Email [me](mailto:ans@nlgids.london) or check out
 [facebook](https://www.facebook.com/NLgidsLonden?ref=hl) and
