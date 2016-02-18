@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html>
     {{.Include "/include/head.html"}}
-  <body
-    onload="
-    langcookie=document.cookie;
-    switch (langcookie) {
-    case 'lang=nl':
-        document.body.className='nl';
-        break;
-    case 'lang=en':
-        document.body.className='en';
-        break;
-    default:
-        document.body.className='nl';
-    }">
+    {{.Include "/include/body.html"}}
     {{.Include "/include/nav.html"}}
   <div class="container">
     {{.Include "/include/header.html"}}
