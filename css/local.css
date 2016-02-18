@@ -141,6 +141,15 @@ a.anchor {
     padding-top: 1em;
 }
 
+div.reclame {
+    border: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+div.reclame p {
+    font-weight: bold;
+}
+
 @media (max-width: 480px) {
     div.tour>ul {
         padding-left: 0;
