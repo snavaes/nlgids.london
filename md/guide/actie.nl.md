@@ -1,10 +1,13 @@
-# Fietstour London
+# ACTIE!
 
-<span class="lead">In 3½ uur alle topattracties zien? Dit is je kans!</span>
+<span class="lead">Gratis Nederlandse rondleiding in de National Portrait Gallery</span>
 
-Een veilige route langs alle bezienswaardigheden en een hoop leuke weetjes en
-tips. Perfect ook voor oudere kinderen die niet veel willen lopen. Deze tour is
-inclusief comfortabele fiets en indien gewenst wordt voor een helm en poncho's
-gezorgd.
+Af en toe geef ik gratis een rondleiding. 
+De eerst volgende is 4 Maart in de National Portrait Gallery.
 
-Vanaf <span class="price">£24.95</span><span class="duration">3 &frac12; uur</span>
+Je kunt om 12.00 uur aansluiten. Ik vertel je het verhaal van Westminster. 
+Meer dan 400 jaar geschiedenis aan de hand van 13 portretten.
+
+Rondleiding is in het Nederlands.
+
+<span class="price">Gratis</span><span class="duration">75 minuten</span>

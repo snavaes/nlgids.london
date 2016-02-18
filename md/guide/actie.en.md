@@ -1,11 +1,8 @@
-# Bike Tour London
+# Promotion
 
-<span class="lead">We go where the buses can't go.</span>
+<span class="lead">Free tour in the National Portrait Gallery</span>
 
-A 3½ hour ride that includes all the major *Must-See* sights and attractions.
+Occasionally I give free walks. The next one is 4 March. This one is in Dutch but from time to time there will be English walks as well. So keep an eye out for my free walks.
 
-I'll give you background information and quirky facts. You will see things
-you won't find in the guidebooks. This tour includes a very comfy bike, helmet
-and poncho.
 
-From <span class="price">£24.95</span><span class="duration">3 &frac12; hour</span>
+<span class="price">Free</span><span class="duration">75 minutes</span>
