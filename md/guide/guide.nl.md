@@ -14,4 +14,4 @@ Een echte Engelse pub, of kleine streetart. Kom je als familie, vriendengroep of
 Ik ben een gekwalificeerde [City Of London Guide](http://www.cityoflondonguides.com/find/ans-vaessen). Daarnaast heb ik diverse studies gevolgd over de geschiedenis van de stad en over de architectuur van typische gebouwen in Londen.
 Verder heb ik veel tips voor mensen die met kinderen reizen want Londen heeft ook voor kleintjes veel te bieden.
 
-Heb je een vraag, of wil je tips? Mail [me](mailto: Ans@nlgids.london) gerust!
+Heb je een vraag, of wil je tips? Mail [me](mailto:ans@nlgids.london) gerust!
