@@ -32,8 +32,14 @@ $('.modal').on('hidden.bs.modal', function(){
     $("#formBooking").trigger("reset");
     $("#formBooking-success").html("");
 });
+
+$('#formContactModal').on('shown.bs.modal', function (e) {
+    translateContact();
+})
+
 /* On booking's modal show, get the calendar and set html() */
 $('#formBookingModal').on('show.bs.modal', function (e) {
+    translateBooking();
     // get and set the calendar
     $.post( "/api/open/calendar", function(d) {
       $( "#bookingCalendar" ).html(d);
@@ -44,7 +50,7 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
 
     $.getJSON("/tours.json", function(data) {
         var langcookie = document.cookie;
-        var options = $("#inputTour");
+        var options = $("#inputBookingTour");
 
         options.html("");
 
