@@ -8,6 +8,7 @@ function placeholder(id) {
             case "inputPhone":      return "(optioneel) 06 1234 5678";
             case "inputPersons":    return "(optioneel) Personen";
             case "inputText":       return "Bericht";
+            case "inputTextOpt":    return "(optioneel) Bericht";
             case "inputDate":       return "Wanneer";
             default: return "";
         }
@@ -19,6 +20,7 @@ function placeholder(id) {
         case "inputPhone":      return "(optional) 7777 123 456";
         case "inputPersons":    return "(optional) Persons";
         case "inputText":       return "Message";
+        case "inputTextOpt":    return "(optional) Message";
         case "inputDate":       return "When";
         default: return "";
     }
@@ -38,5 +40,5 @@ function translateBooking() {
     $('#inputBookingEmail').attr('placeholder', placeholder("inputEmail"));
     $('#inputBookingPhone').attr('placeholder', placeholder("inputPhone"));
     $('#inputBookingPersons').attr('placeholder', placeholder("inputPersons"));
-    $('#inputBookingText').attr('placeholder', placeholder("inputText"));
+    $('#inputBookingText').attr('placeholder', placeholder("inputTextOpt"));
 }
