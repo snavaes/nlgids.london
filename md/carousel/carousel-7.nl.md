@@ -4,6 +4,6 @@ erg boeiend en interessant. Ondanks dat een stad als London erg druk is, is
 fietsen, ook met kinderen, een absolute aanrader! Je komt op mooie
 plaatsten waar je anders niet snel zou komen.
 
-Wil je London echt zien en ervaren, dan moet je Ans inhuren!
+Wil je London echt zien en ervaren, dan moet je [Ans](mailto:ans@nlgids.london) inhuren!
 
 *Peter Pompen*

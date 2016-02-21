@@ -1,4 +1,4 @@
 Thanks to Ans' exiting tour through the historic and hip parts of
-central London, we had an fantastic time this summer.
+central London, we had a fantastic time this summer.
 
 *Greetje*
