@@ -84,6 +84,23 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
     });
 })
 
+$('#formInvoiceModal').on('show.bs.modal', function (e) {
+    $.getJSON("/tours.json", function(data) {
+        var langcookie = document.cookie;
+        var options = $("#inputInvoiceTour");
+
+        options.html("");
+
+        for (i in types = ["walks", "cycling", "specials"]) {
+            $.each(data[types[i]], function(key, val) {
+                var dutch = data[types[i]][key].Naam;
+                var id = types[i] + "/" + data[types[i]][key].id; // cycling/custom or walks/custom
+                options.append($("<option />").val(id).text(dutch));
+            });
+        }
+    });
+})
+
 /*
  * Functions below
  */
