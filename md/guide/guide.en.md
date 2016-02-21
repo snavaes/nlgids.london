@@ -2,7 +2,6 @@
 
 <span class="lead">When my husband got a job offer in London I said immediatly "let's Go".</span>
 
-
 What a brilliant opportunity to get to know this city as a Londoner.
 
 With my little daughter I explored the city, visited the parks, playgrounds and museums. I would love to share my knowledge of London with you. Not boring dates, 
