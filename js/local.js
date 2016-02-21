@@ -32,8 +32,7 @@ $("#formInvoice").submit(function(e){
     if ($("#formInvoice > :submit").hasClass("disabled")) {
         return
     }
-    /* api/auth/invoice */
-    PostForm("#formInvoice", "/api/auth/test");
+    PostForm("#formInvoice", "/api/auth/invoice");
 });
 /* Clear content on hide */
 $('.modal').on('hidden.bs.modal', function(){
@@ -98,6 +97,7 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
     });
 })
 
+// auth/invoice form.
 $('#formInvoiceModal').on('show.bs.modal', function (e) {
     $.getJSON("/tours.json", function(data) {
         var langcookie = document.cookie;
@@ -114,6 +114,32 @@ $('#formInvoiceModal').on('show.bs.modal', function (e) {
         }
     });
 })
+$('#inputInvoiceTour').change(function () {
+    switch ($('#inputInvoiceTour').val()) {
+        case "walks/custom":
+            $('#inputInvoiceWhere').val("");
+            $('#inputInvoiceHow').val("Ik sta daar om");
+            break;
+        case "specials/bus":
+        case "walks/koninklijke":
+            $('#inputInvoiceWhere').val("bij de uitgang van metrostation Westminster (bij het standbeeld van Boudicca, een woeste dame met paarden, naast de brug)");
+            $('#inputInvoiceHow').val("Ik sta daar om");
+            break;
+        case "walks/romeinen":
+            $('#inputInvoiceWhere').val("bij de uitgang van metrostation St. Paul");
+            $('#inputInvoiceHow').val("Ik sta bij de koffieshop Caffe Nero om");
+            break;
+        case "walks/dutch":
+            $('#inputInvoiceWhere').val("");
+            $('#inputInvoiceHow').val("Ik sta daar om");
+            break;
+        case "cycling/london":
+        case "cycling/secret":
+            $('#inputInvoiceWhere').val("Waterloo treinstation, spoor 1/2");
+            $('#inputInvoiceHow').val("Ik kom jullie met de fiets ophalen om");
+            break;
+    }
+});
 
 /*
  * Functions below
