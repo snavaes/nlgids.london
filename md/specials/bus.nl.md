@@ -1,4 +1,4 @@
-# Afternoon Tea Bustour
+# Afternoon Tea Bus Tour
 
 <span class="lead">Geen zin om te lopen of te fietsen?</span>
 

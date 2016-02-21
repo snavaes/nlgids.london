@@ -18,13 +18,13 @@
       {
          "id": "custom",
          "Naam":"Wandeling Op Maat",
-         "Name":"Custom Walk"
+         "Name":"Bespoke Walks"
       }
    ],
    "cycling":[
       {
          "id": "london",
-         "Naam":"London Tour",
+         "Naam":"Londen Tour",
          "Name":"London Tour"
       },
       {
@@ -35,24 +35,24 @@
       {
          "id": "custom",
          "Naam":"Prive Fietstocht",
-         "Name":"Custom Cycling"
+         "Name":"Private Cycling Tour"
       }
    ],
    "specials":[
       {
          "id": "bus",
-         "Naam":"Afternoon Tea Bustour",
-         "Name":"Afternoon Tea Bustour"
+         "Naam":"Afternoon Tea Bus Tour",
+         "Name":"Afternoon Tea Bus Tour"
       },
       {
          "id": "gin",
-         "Naam":"Gin en Cocktails",
-         "Name":"Gin and Cocktails"
+         "Naam":"Gin & Cocktails",
+         "Name":"Gin & Cocktails"
       },
       {
          "id": "happen",
          "Naam":"Happen en Stappen",
-         "Name":"Pub Food Tour"
+         "Name":"Pubfood Tour"
       }
    ]
 }

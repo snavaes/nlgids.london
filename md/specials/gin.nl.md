@@ -1,4 +1,4 @@
-# Gin en Cocktails
+# Gin & Cocktails
 
 <span class="lead">Gin is een zeer populair drankje in Londen</span>
 

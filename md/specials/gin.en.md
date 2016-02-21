@@ -1,4 +1,4 @@
-# Gin and Cocktails
+# Gin & Cocktails
 
 <span class="lead">Gin is very popular in London</span>
 

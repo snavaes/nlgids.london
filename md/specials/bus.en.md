@@ -1,4 +1,4 @@
-# Afternoon Tea Bustour
+# Afternoon Tea Bus Tour
 
 <span class="lead">Don't want to walk or cycle?</span>
 

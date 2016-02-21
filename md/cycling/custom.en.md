@@ -1,4 +1,4 @@
-# Private Tour
+# Private Cycling Tour
 
 Longer tour? Short tour? Special interest or theme? Ask me and I will design the 
 tour for you. Stag or Hen party? Corporate event? A private family tour. 
