@@ -1,3 +1,17 @@
+$(document).ready(function() {
+    langcookie=document.cookie;
+    switch (langcookie) {
+    case 'lang=nl':
+        document.body.className='nl';
+        break;
+    case 'lang=en':
+        document.body.className='en';
+        break;
+    default:
+        document.body.className='nl';
+    }
+});
+
 // For all forms we will need to add this.
 $("#formContact").submit(function(e){
     e.preventDefault();

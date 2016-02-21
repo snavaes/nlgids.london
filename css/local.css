@@ -1,10 +1,8 @@
 body.en :lang(nl) {
     display: none;
-    visibility: hidden;
 }
 body.nl :lang(en) {
     display: none;
-    visibility: hidden;
 }
 body {
     padding-top: 100px; /* skip the navbar */
