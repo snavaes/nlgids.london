@@ -18,7 +18,7 @@ function placeholder(id) {
         case "inputEmail":      return "Email";
         case "inputPhone":      return "(optional) 7777 123 456";
         case "inputPersons":    return "(optional) Persons";
-        case "inputeText":      return "Message";
+        case "inputText":       return "Message";
         case "inputDate":       return "When";
         default: return "";
     }
