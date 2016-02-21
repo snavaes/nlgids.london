@@ -1,6 +1,6 @@
 - St. Paul's Cathedral
-- Tower of London
-- Bank of England
+- Trafalgar Square
+- Big Ben
 - Loyds of London
 - Guildhall
 - pub :-)
