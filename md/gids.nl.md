@@ -12,3 +12,5 @@ je nog niet wist dat je ze wilde zien.
 
 Inmiddels ben ik een gekwalificeerde gids in
 [The City of London](http://www.cityoflondonguides.com/find/ans-vaessen).
+
+Heb je een vraag, of wil je tips? Mail [me](mailto:ans@nlgids.london) gerust!

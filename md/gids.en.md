@@ -15,3 +15,5 @@ Subsequently, I went on to qualify as a (Dutch) tour guide in
 I would love to share my knowledge of London with you.
 Not boring dates, but interesting stories about kings, queens, famous people
 and also everyday life.
+
+Contact [me](mailto:ans@nlgids.london) if you have questions or just wants some tips.
