@@ -135,6 +135,7 @@ $('#inputInvoiceTour').change(function () {
             break;
         case "cycling/london":
         case "cycling/secret":
+        case "cycling/custom":
             $('#inputInvoiceWhere').val("Waterloo treinstation, spoor 1/2");
             $('#inputInvoiceHow').val("Ik kom jullie met de fiets ophalen om");
             break;
