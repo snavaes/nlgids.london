@@ -47,11 +47,13 @@ $('.modal').on('hidden.bs.modal', function(){
 });
 
 $('#formContactModal').on('shown.bs.modal', function (e) {
+    $('button[type="submit"]').show();
     translateContact();
 })
 
 /* On booking's modal show, get the calendar and set html() */
 $('#formBookingModal').on('show.bs.modal', function (e) {
+    $('button[type="submit"]').show();
     translateBooking();
     // get and set the calendar
     $.post( "/api/open/calendar", function(d) {
@@ -99,6 +101,7 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
 
 // auth/invoice form.
 $('#formInvoiceModal').on('show.bs.modal', function (e) {
+    $('button[type="submit"]').show();
     $.getJSON("/tours.json", function(data) {
         var langcookie = document.cookie;
         var options = $("#inputInvoiceTour");
