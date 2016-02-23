@@ -47,13 +47,13 @@ $('.modal').on('hidden.bs.modal', function(){
 });
 
 $('#formContactModal').on('shown.bs.modal', function (e) {
-    $('button[type="submit"]').show();
+//    $('button[type="submit"]').show(); // shows both languages
     translateContact();
 })
 
 /* On booking's modal show, get the calendar and set html() */
 $('#formBookingModal').on('show.bs.modal', function (e) {
-    $('button[type="submit"]').show();
+//    $('button[type="submit"]').show(); // shows both languages
     translateBooking();
     // get and set the calendar
     $.post( "/api/open/calendar", function(d) {
