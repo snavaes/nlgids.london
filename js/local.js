@@ -45,13 +45,13 @@ $('.modal').on('hidden.bs.modal', function(){
 });
 
 $('#formContactModal').on('shown.bs.modal', function (e) {
-    ShowSubmit('#formContactModal');
+    ShowSubmit();
     translateContact();
 })
 
 /* On booking's modal show, get the calendar and set html() */
 $('#formBookingModal').on('show.bs.modal', function (e) {
-    ShowSubmit('#formBookingModal');
+    ShowSubmit();
     translateBooking();
     // get and set the calendar
     $.post( "/api/open/calendar", function(d) {
@@ -99,7 +99,7 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
 
 // auth/invoice form.
 $('#formInvoiceModal').on('show.bs.modal', function (e) {
-    ShowSubmit('#formInvoiceModal');
+    ShowSubmit();
     $.getJSON("/tours.json", function(data) {
         var langcookie = document.cookie;
         var options = $("#inputInvoiceTour");
@@ -195,15 +195,14 @@ function BookingCalendar(d) {
     });
 };
 
-function ShowSubmit(id) {
+function ShowSubmit() {
     langcookie=document.cookie;
     switch (langcookie) {
     case 'lang=en':
-        $(id + 'button[type="submit"]:lang("en")').show();
+        $('button[type="submit"]:lang("en")').show();
         break;
     case 'lang=nl':
     default:
-        $(id + 'button[type="submit"]:lang("nl")').show();
-        document.body.className='nl';
+        $('button[type="submit"]:lang("nl")').show();
     }
 }
