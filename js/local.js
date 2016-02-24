@@ -1,12 +1,10 @@
 $(document).ready(function() {
     langcookie=document.cookie;
     switch (langcookie) {
-    case 'lang=nl':
-        document.body.className='nl';
-        break;
     case 'lang=en':
         document.body.className='en';
         break;
+    case 'lang=nl':
     default:
         document.body.className='nl';
     }
@@ -47,13 +45,13 @@ $('.modal').on('hidden.bs.modal', function(){
 });
 
 $('#formContactModal').on('shown.bs.modal', function (e) {
-//    $('button[type="submit"]').show(); // shows both languages
+    ShowSubmit('#formContactModal');
     translateContact();
 })
 
 /* On booking's modal show, get the calendar and set html() */
 $('#formBookingModal').on('show.bs.modal', function (e) {
-//    $('button[type="submit"]').show(); // shows both languages
+    ShowSubmit('#formBookingModal');
     translateBooking();
     // get and set the calendar
     $.post( "/api/open/calendar", function(d) {
@@ -101,7 +99,7 @@ $('#formBookingModal').on('show.bs.modal', function (e) {
 
 // auth/invoice form.
 $('#formInvoiceModal').on('show.bs.modal', function (e) {
-    $('button[type="submit"]').show();
+    ShowSubmit('#formInvoiceModal');
     $.getJSON("/tours.json", function(data) {
         var langcookie = document.cookie;
         var options = $("#inputInvoiceTour");
@@ -196,3 +194,16 @@ function BookingCalendar(d) {
       $("#bookingCalendar").html(data);
     });
 };
+
+function ShowSubmit(id) {
+    langcookie=document.cookie;
+    switch (langcookie) {
+    case 'lang=en':
+        $(id + 'button[type="submit"]:lang("en")').show();
+        break;
+    case 'lang=nl':
+    default:
+        $(id + 'button[type="submit"]:lang("nl")').show();
+        document.body.className='nl';
+    }
+}
