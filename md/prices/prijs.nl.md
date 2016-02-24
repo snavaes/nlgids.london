@@ -21,7 +21,7 @@ Afternoon Tea Bustour 2 uur £50 p.p.
 
 :   inclusief korte wandeling, thee, sandwiches en scones.
 
-Gin en Cocktailtour 3 uur £35
+Gin en Cocktailtour 3 uur £35 p.p.
 
 :   inclusief 2 drankjes.
 

@@ -1,6 +1,5 @@
 # Ans Vaessen
 
-
 When my husband got a job offer in London I said immediately “Let's Go”.
 What a brilliant opportunity to get to know this city as a Londoner.
 
