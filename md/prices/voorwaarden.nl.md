@@ -1,7 +1,7 @@
 # Voorwaarden
 
 ## Betaling
-Na het reserveren van een tour krijg je een bevestiging mail. De aanbetaling is
+Na het reserveren van een tour krijg je een bevestiging per mail. De aanbetaling is
 50% en daarmee staat de reservering vast.
 
 De rest van het bedrag kun je cash betalen aan de gids.
@@ -27,5 +27,5 @@ op te volgen.
 
 ## Vertrektijden
 De tour vertrekt op de afgesproken tijd. Laat telefonisch weten als je later
-bent bij meer dan 15 minuten te laat behoudt NLgidsLonden het recht om de
-rondleiding te annuleren zonder teruggaaf van aanbetaling.
+bent, bij meer dan 15 minuten te laat behoudt NLgidsLonden het recht om de
+rondleiding te annuleren zonder teruggave van aanbetaling.

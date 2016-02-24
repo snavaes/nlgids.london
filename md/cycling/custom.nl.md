@@ -1,6 +1,6 @@
 # Privé Fietstour
 
-Langer fietsten? Korter fietsen? Een bepaald thema? In overleg is van alles
+Langer fietsen? Korter fietsen? Een bepaald thema? In overleg is van alles
 mogelijk. Met een langere stop in het midden? Vrijgezellenfeest? Bedrijfsuitje
 of met de famillie op stap? Laat [me](mailto:ans@nlgids.london) weten wat je in
 gedachten hebt dan ga ik er achter aan en maak ik een prijsopgave.
