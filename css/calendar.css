@@ -20,20 +20,39 @@ table td.free:hover {
     color: white;
 }
 table td.success {
-  background-color: #5cb85c !important;
-  color: black;
+    background-color: #5cb85c !important;
+    color: black;
 }
 table td.busy {
     background-color: #d4d4d4 !important;
-  color: black;
+    color: black;
 }
 table td.past {
-  background-color: #d4d4d4 !important;
-  color: black;
+    background-color: #d4d4d4 !important;
+    color: black;
 }
 table td.next {
     background: rgb(250, 255, 140);
 }
 table td.prev {
     background: rgb(250, 255, 140);
+}
+
+div .color-box-busy {
+    border: 1px solid;
+    width: 2em;
+    height: 1.5em;
+    display: inline-block;
+    background-color: #d4d4d4;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+div .color-box-avail {
+    border: 1px solid;
+    width: 2em;
+    height: 1.5em;
+    display: inline-block;
+    background-color: white;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
 }
