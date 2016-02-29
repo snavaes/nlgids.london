@@ -1,4 +1,4 @@
-Liever niet wandelen of te fietsen? 
+Liever niet wandelen of fietsen? 
 Probeer de Afternoon Tea Bustour. Nieuwsgierig naar het Engelse Pubfood of de 
 oorsprong van de gin-tonic of te wel Happen en Stappen in Londen.
 
