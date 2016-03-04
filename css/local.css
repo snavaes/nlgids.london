@@ -34,6 +34,14 @@ a.anchor {
     width: 100%;
     font-size: 125%;
 }
+.header-box .mobile-caption {
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    background-color: #000;
+    font-size: 125%;
+    opacity: 0.7;
+    width: 100%;
+}
 
 .select-box {
     display: inline-block;
