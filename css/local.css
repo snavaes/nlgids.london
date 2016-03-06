@@ -187,9 +187,11 @@ div.reclame p {
         content: '';
     }
 
+    /*
     .mob-center-block {
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
+    */
 }
