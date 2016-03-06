@@ -44,6 +44,13 @@ a.anchor {
     width: 100%;
 }
 
+.img-overlay {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    bottom: 0px;
+}
+
 .select-box {
     display: inline-block;
     position: relative;

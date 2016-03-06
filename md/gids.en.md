@@ -15,4 +15,6 @@ I would love to share my knowledge of London with you.
 Not boring dates, but interesting stories about kings, queens, famous people
 and also everyday life.
 
+I also teamed up with a network a Dutch [guides all over the world](http://www.wereldstadgidsen).
+
 Contact [me](mailto:ans@nlgids.london) if you have questions or just wants some tips.
