@@ -1,1 +1,0 @@
-ACTIE! Gratis Nederlandse rondleiding in [National Portrait Gallery](/guide#actie)

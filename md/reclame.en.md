@@ -1,1 +1,0 @@
-PROMOTION! Free guided walk in the [National Portrait Gallery](/guide#actie) in Dutch
