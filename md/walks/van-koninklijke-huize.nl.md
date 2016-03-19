@@ -9,4 +9,7 @@ waar nog steeds een deel van staat tot het huidige werkpaleis van de Koningin.
 Maar ook andere koningen en koninginnen komen aan bod zoals Willem van Oranje, Bloody Mary en de gekke Koning George.
 Liefhebbers van Game of Thrones zullen overeenkomsten zien...
 
+Liever een gezicht bij mijn verhaal en gegarandeerd een droge tour. 
+Dan verhuizen we naar de National Portrait Gallery.
+
 Vanaf <span class="price">£50</span><span class="duration">1 &frac12; uur</span>
