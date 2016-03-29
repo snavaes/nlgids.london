@@ -1,1 +1,1 @@
-Aanbieding! Nederlandse rondleiding in [National Portrait Gallery](/guide#actie)
+Actie! Ga met mij naar de sluiting van de Tower of London [Ceremony of the Keys](/guide#actie)

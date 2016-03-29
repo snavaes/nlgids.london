@@ -2,9 +2,9 @@
 
 <span class="lead">Gin is very popular in London</span>
 
-Gin komt oorspronkelijk uit Nederland en stamt af van Jenever. Meer weten over
-dit drankje en andere drank gerelateerde verhalen terwijl je op de meest
-fantastische plekken een cocktail drinkt.
+Gin originates from the Netherlands and is made of juniper berries. 
+Do you want to learn more about this drink and hear other Tall tales 
+about alcoholic drinks while sipping a cocktail in the most unexpected venues.
 
 A minimum of 4 participants.
 

@@ -1,11 +1,11 @@
 # Pubfood Tour
 
-<span class="lead">Learn about history while eating pubfood?</span>
+<span class="lead">Learn about history while eating pub food?</span>
 
-Leuke authentieke pubs weg van de massa maar in hartje Londen. City of
-Westminster? Laat me weten waar je meer van wilt weten. Minimaal 4 deelnemers.
-laat [me](mailto:ans@nlgids.london) weten wat je in gedachten hebt dan ga ik er
-achter aan en maak ik een prijsopgave.
+Want to taste real British pub food and find out more about London's history?
+I will show you nice pubs away from the masses but still in central London. 
+Let me know where you are interested in and I design a tour that suits you.
+
 
 Minimum of 4 partipants.
 

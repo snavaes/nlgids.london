@@ -1,1 +1,1 @@
-PROMOTION! Guided walk in the [National Portrait Gallery](/guide#actie) in Dutch
+Promotion! Join me for the  [Ceremony of the Keys](/guide#actie)
