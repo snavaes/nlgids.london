@@ -1,8 +1,11 @@
 # Promotion
 
-<span class="lead">walks and talks</span>
+<span class="lead">Free morning walk Marylebone (English)</span>
 
-Occasionally I give tours in the National Portrait Gallery or walks you can join. 
-Keep an eye out for my walks. Want to be the first to know? send me an [email](mailto:ans@nlgids.london)
+Free Marylebone test walk. Join me for a walk in Marylebone on 12th of May at 10.00. 
+I am studying to become a Westminster guide and my final exam is a walk in 
+Marylebone. A lovely area that I enjoyed researching. 
+Send me an [email](mailto:ans@nlgids.london) if you want to be my guinea pig.
 
-<span class="price"></span><span class="duration"></span>
+
+<span class="price">Free</span><span class="duration">2 hours</span>

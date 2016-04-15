@@ -1,1 +1,1 @@
-Promotion! Join me for the  [Ceremony of the Keys](/guide#actie)
+Promotion! Join me for [a Morning walk in Marylebone](/guide#actie)

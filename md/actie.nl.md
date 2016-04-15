@@ -1,1 +1,1 @@
-Actie!  [Lunchwandeling Kings Crosss (Nederlands)](/guide#actie)
+Actie!  [Lunchwandeling Kings Cross (Nederlands)](/guide#actie)

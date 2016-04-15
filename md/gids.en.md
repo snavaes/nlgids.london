@@ -12,9 +12,9 @@ Subsequently, I went on to qualify as a (Dutch) tour guide in
 [The City of London](http://www.cityoflondonguides.com/find/ans-vaessen).
 
 I would love to share my knowledge of London with you.
-Not boring dates, but interesting stories about kings, queens, famous people
+Not boring dates but interesting stories about kings, queens, famous people
 and also everyday life.
 
-I also teamed up with a network a Dutch [guides all over the world](http://www.wereldstadgidsen).
+I also teamed up with a network of Dutch [guides all over the world](http://www.wereldstadgidsen).
 
 Contact [me](mailto:ans@nlgids.london) if you have questions or just wants some tips.
