@@ -1,15 +1,14 @@
-# Aanbieding!
+# Actie!
 
-<span class="lead">Nederlandse rondleiding in de National Portrait Gallery</span>
+<span class="lead">Lunchwandeling Kings Crosss (Nederlands)</span>
 
-Af en toe geef ik een rondleiding in de National Portrait Gallery.
-De eerst volgende is 25 maart.
+De meeste kennen het als doorreis station. Maar als je het mij vraagt is het 
+één van de meest bijzonder ontwikkelingen in Londen. Het kantoor van mijn man 
+verhuisd naar Kings Cross dus hoogste tijd om eens een kijkje te gaan nemen. 
+Je vind er een kanaal, een verborgen bosje, een omgebouwde graanschuur, 
+gashouders en een 'Skip garden'. Nieuwsgierig? Maak met mij een ommetje 
+op 29 April 11.45. 
+Mail me [me](mailto:ans@nlgids.london) als je mee wilt.
 
-Je kunt om 19.30 uur aansluiten. Ik vertel je het verhaal van Westminster.
-Meer dan 400 jaar geschiedenis aan de hand van 13 portretten.
 
-Rondleiding is in het Nederlands.
-Mail [me](mailto:ans@nlgids.london) als je deel wilt nemen.
-
-
-<span class="price">£5 p.p.</span><span class="duration">75 minuten</span>
+<span class="price">0,-</span><span class="duration">1 uur</span>

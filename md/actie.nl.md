@@ -1,1 +1,1 @@
-Actie! Ga met mij naar de sluiting van de Tower of London [Ceremony of the Keys](/guide#actie)
+Actie!  [Lunchwandeling Kings Crosss (Nederlands)](/guide#actie)
