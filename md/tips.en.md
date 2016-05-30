@@ -1,18 +1,12 @@
-# Spring in London
+# Summer in the city
 
-Spend Easter in London. Discover the city on a bicycle it is fun and you
-will see a lot in a short time. You can also join an Easter Egg Hunt in one
-of the many parks. Spring is the best time to visit London. As soon as
-the sun is out everybody will look for a spot in the sun.
+Where to go to cool down? Easy, go to one of the parks, London is greener then most big cities or visit one of the fountains like [Somerset
+House](http://www.citytrips4kids.nl/sommerset-house-londen/) or the Diana Memorial Fountain. I love the Rooftop Film Club to watch movies and the sunset at the same time. An amazing view.
 
-Two major sport events are 'the Boat race' (between Oxford and Cambridge)
-27 March and  the London Marathon 24 April.
+The biggest event in summer is of course Wimbledon. No tickets and not looking 
+for a day in the queue? Not to worry, there are lots of great places to watch tennis, like the roof terrace on One New Change.
 
-Most Museums have late openings on Thursdays or Fridays. But 11-14 May
-Museums are open all night. Sunday 8 May is the May Fayre and Puppet festival
-in Covent Garden.
-
-
+Or create your own wind and join me on a [cycle tour](https://nlgids.london/cycling). 
 
 Email [me](mailto:ans@nlgids.london) or check out
 [facebook](https://www.facebook.com/NLgidsLonden?ref=hl) and

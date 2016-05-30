@@ -11,7 +11,8 @@ met 7000 Engelse pubs, meer dan 18.000 restaurants en vele uitgaansgelegenheden
 in London kun je ook voor één van de [specials](/specials) kiezen.
 
 Ik ben een gekwalificeerde gids in
-[The City of London](http://www.cityoflondonguides.com/find/ans-vaessen).
+[The City of London](http://www.cityoflondonguides.com/find/ans-vaessen) en in 
+[The City of Westminster](http://www.westminsterguides.org.uk/).
 
 Daarnaast ben ik aangesloten bij een netwerk van Nederlandse [stadsgidsen wereldwijd](http://www.wereldstadgidsen).
 
