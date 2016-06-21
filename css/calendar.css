@@ -32,10 +32,12 @@ table td.past {
     color: black;
 }
 table td.next {
-    background: rgb(250, 255, 140);
+    background: white;
+    font-weight: bold;
 }
 table td.prev {
-    background: rgb(250, 255, 140);
+    background: white;
+    font-weight: bold;
 }
 
 div .color-box-busy {
