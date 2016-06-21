@@ -27,27 +27,15 @@ table td.busy {
     background-color: #d4d4d4 !important;
     color: black;
 }
-table td.busy td.past {
-    background-color: #d4d4d4 !important;
-    color: black;
-    font-weight: bold;
-}
 table td.past {
     background-color: #d4d4d4 !important;
     color: black;
 }
-table td.busy td.next {
-    background-color: #d4d4d4 !important;
-    color: black;
-    font-weight: bold;
-}
 table td.next {
     background: white;
-    font-weight: bold;
 }
 table td.prev {
     background: white;
-    font-weight: bold;
 }
 
 div .color-box-busy {
