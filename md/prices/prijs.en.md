@@ -19,7 +19,7 @@ Bespoke tours
 :   Contact [me](mailto:ans@nlgids.london) for a quote.
 
 
-Afternoon Tea Bus Tour 2 hours £50 p.p.
+Afternoon Tea Bus Tour 2 hours £70 p.p.
 
 :   includes short walk, tea, sandwiches and scones.
 

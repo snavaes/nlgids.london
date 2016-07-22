@@ -8,4 +8,4 @@ Een korte wandeling vooraf en dan de rest van West London bekijken vanaf een
 oldtimer dubbledekbus. Ondertussen krijg je thee, gebak, sandwiches en scones
 geserveerd. Als dat geen Engelse beleving is ;-)
 
-Vanaf <span class="price">£50 p.p.</span><span class="duration">2 uur</span>
+Vanaf <span class="price">£70 p.p.</span><span class="duration">2 uur</span>
