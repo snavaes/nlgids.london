@@ -1,14 +1,16 @@
-# Summer in the city
+# In London during the autumn?
 
-Where to go to cool down? Easy, go to one of the parks, London is greener then most big cities or visit one of the fountains like [Somerset
-House](http://www.citytrips4kids.nl/sommerset-house-londen/) or the Diana Memorial Fountain. I love the Rooftop Film Club to watch movies and the sunset at the same time. An amazing view.
+Excellent choice! It actually rains less in autumn than in summer and the
+temperature is still moderate. The parks looks beautiful in their autumn
+colours. In case of rain, you can always go to one of London's excellent museums
+which are often free admittance!
 
-The biggest event in summer is of course Wimbledon. No tickets and not looking
-for a day in the queue? Not to worry, there are lots of great places to watch tennis, like the roof terrace on One New Change.
+The first week of November there is &quot;Bonfire Night&quot;. A spectacle with
+fireworks and (of course) bonfires. If you visit London later in the season you
+will experience how Londoners prepare themselves for Christmas.
 
-Or create your own wind and join me on a [cycle tour](https://nlgids.london/cycling).
-
-Email [me](mailto:ans@nlgids.london) or check out
-[facebook](https://www.facebook.com/NLgidsLonden?ref=hl),
-[instagram](https://www.instagram.com/ans.vaessen/?hl=en) and
+More information or do you want to join me in search of the Christmas spirit?
+Email <a href="mailto:ans@nlgids.london">me</a> or check out
+[facebook](href="https://www.facebook.com/NLgidsLonden?ref=hl) and
 [twitter](https://twitter.com/NLgidsLonden).
+

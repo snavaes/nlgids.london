@@ -1,18 +1,13 @@
-# Zomer in Londen
-Waar vind je verkoeling in Londen in de zomer.  Dat is
-makkelijker dan je denkt.  De stad heeft enorm veel parken en is groener dan de
-meeste grote steden. Een bezoek aan de fonteinen in [Somerset
-House](http://www.citytrips4kids.nl/sommerset-house-londen/) of de Diana Memorial Fountain is natuurlijk ook een optie. Ik ben zelf groot fan van de Rooftop Film Club boven op een dak een film kijken en de zonsondergang.
 
-Het grote evenement in de zomer is natuurlijk Wimbledon 27 juni -10 juli.
-Geen kaartjes of geen zin om in de rij te staan? Geen nood er zijn prachtige
-plekken om tennis te kijken zoals op het dakterras van de One New Change.
+# In de herfstvakantie naar London?
 
-Je kunt natuurlijk ook je eigen wind creëren door met mij te
-gaan [fietsen](https://nlgids.london/cycling).
+Deze herfstvakantie naar London? Goede keus niet alleen is het najaar vaak heel erg zacht het regent ook minder dan in de zomer. De parken zijn prachtig in de herfstkleuren.
 
-Meer tips om verkoeling te zoeken of om met mij
-de stad te verkennen mail [me](mailto: ans@nlgids.london) of kijk op
+Begin November kun je hier ook het vuurwerk bewonderen. Op 5 november is het Bonfire Night  en rond die tijd is er overal vuurwerk in London. Maar ook de week erna is er nog vuurwerk want dan is de Lord Mayor Show. Voor meer over deze evenementen lees mijn blog dat binnenkort verschijnt.
+
+In de aanloop na kerst kun je natuurlijk ook de prachtige etalages en verlichte winkelstraten bezoeken.
+
+Meer tips of op zoek naar het kerstgevoel mail [me](mailto: ans@nlgids.london) of kijk op
 [facebook](https://www.facebook.com/NLgidsLonden?ref=hl),
 [instagram](https://www.instagram.com/ans.vaessen/?hl=en) en
 [twitter](https://twitter.com/NLgidsLonden).
