@@ -32,8 +32,6 @@ $("#formInvoice").submit(function(e){
     }
     PostForm("#formInvoice", "/api/auth/invoice");
 });
-
-
 /* Clear content on hide */
 $('.modal').on('hidden.bs.modal', function(){
     $("#formContact").trigger("reset");
@@ -162,9 +160,7 @@ function PostForm(id, action) {
             PostSuccess(id+"-success");
             $(id).trigger("reset");
         },
-        error: function() {
-            PostError(id+"-success")l
-        },
+        error: PostError(id+"-success"),
     });
 }
 
