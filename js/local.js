@@ -160,7 +160,9 @@ function PostForm(id, action) {
             PostSuccess(id+"-success");
             $(id).trigger("reset");
         },
-        error: PostError(id+"-success"),
+        error: function() {
+            PostError(id+"-success");
+        },
     });
 }
 
