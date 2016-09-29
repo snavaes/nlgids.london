@@ -1,7 +1,8 @@
 - Houses of Parliament
 - Westminster Abbey
-- Buckingham Palace
+- 10 Downing Street
 - Trafalgar Square
 - Covent Garden
 - St. Paul's Cathedral
 - London Eye
+
