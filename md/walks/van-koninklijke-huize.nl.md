@@ -12,4 +12,4 @@ Liefhebbers van Game of Thrones zullen overeenkomsten zien...
 Liever een gezicht bij mijn verhaal en gegarandeerd een droge tour. 
 Dan verhuizen we naar de National Portrait Gallery.
 
-Vanaf <span class="price">£50</span><span class="duration">1 &frac12; uur</span>
+Vanaf <span class="price">£60</span><span class="duration">1 &frac12; uur</span>
