@@ -1,17 +1,17 @@
 # Prices
 
-A one hour private mini tour from £50! Just enough to get a good feel of the
+A one hour private mini tour from £60! Just enough to get a good feel of the
 area .... and leave you wanting more.
 
 
-Walk 1½ hour £50 (up to 4 people)
-
-:    every additional person £5.
-
-
-Walk 2 hours £60 (up to 4 people)
+Walk 1½ hour £60 (up to 4 people)
 
 :    every additional person £6.
+
+
+Walk 2 hours £75 (up to 4 people)
+
+:    every additional person £7.
 
 
 Bespoke tours
